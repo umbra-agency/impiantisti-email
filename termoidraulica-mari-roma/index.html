@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  BOZZA UMBRA — Termoidraulica Mari
+  Roma (RM) · idraulicopontemilvio@gmail.com
+  Stile: Sole · Mestiere: Idraulica · Accento #1F7A8C / #0D4A58
+  ============================================================================
+  PER ATTIVARE I BOTTONI WHATSAPP: mettere il numero (39 + cellulare, senza spazi)
+  nella riga  window.WA_NUM = "";  qui sotto nel <head>. Se resta vuota, i bottoni
+  WhatsApp spariscono da soli e restano solo quelli email.
+
+  FOTO: sono di repertorio (Pexels / Unsplash, libere per uso commerciale),
+  scelte per il mestiere. Dietro ogni foto c'e' una grafica vettoriale generata
+  nei colori del sito: se una URL smette di rispondere il riquadro resta pieno.
+  Per sostituirle con le foto vere del cliente: cercare images.pexels.com /
+  images.unsplash.com e cambiare la src.
+
+  DA CONFERMARE COL CLIENTE PRIMA DI CONSIDERARLA DEFINITIVA:
+  indirizzo, orari, elenco dei comuni serviti, servizi realmente offerti,
+  numeri della sezione contatori, foto reali dei lavori, recensioni Google.
+  ============================================================================
+-->
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Termoidraulica Mari — Idraulico a Roma (RM)</title>
+<meta name="description" content="Termoidraulica Mari: impianti idraulici e sanitari a Roma e in provincia di Roma. Preventivo gratuito, sopralluogo senza impegno.">
+<meta name="theme-color" content="#FBFAF6">
+<meta property="og:title" content="Termoidraulica Mari — Idraulico a Roma (RM)">
+<meta property="og:description" content="Termoidraulica Mari: impianti idraulici e sanitari a Roma e in provincia di Roma. Preventivo gratuito, sopralluogo senza impegno.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22mg5912%22%20x1%3D%224%22%20y1%3D%224%22%20x2%3D%2244%22%20y2%3D%2244%22%3E%3Cstop%20stop-color%3D%22%231F7A8C%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230D4A58%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2224%22%20r%3D%2222.5%22%20fill%3D%22none%22%20stroke%3D%22url%28%23mg5912%29%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2224%22%20y%3D%2224%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20fill%3D%22url%28%23mg5912%29%22%20font-family%3D%22inherit%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20letter-spacing%3D%22-.5%22%3ETM%3C/text%3E%3C/svg%3E">
+<script>window.WA_NUM = "";</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font-family:var(--bdy);font-weight:400;
+  line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  font-size:16.5px;letter-spacing:-.005em}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:2px}
+::selection{background:var(--acc);color:var(--onacc)}
+
+:root{
+  --bg:#FBFAF6; --bg2:#EAF1F8; --surface:#FFFFFF; --surface2:#F4F8FC;
+  --line:#D9E2EA; --line2:#E8EEF4;
+  --txt:#111A2B; --muted:#586678; --muted2:#8894A4;
+  --acc:#1F7A8C; --acc2:#0D4A58; --onacc:#FFFFFF;
+  --wa:#25D366;
+  --r:22px; --rs:16px; --rb:100px;
+  --dsp:'Outfit', sans-serif; --bdy:'Inter', system-ui, sans-serif;
+  --max:1180px; --ease:cubic-bezier(.22,1,.36,1);
+  --pad:clamp(18px,5vw,34px);
+}
+
+h1,h2,h3,h4,.dsp{font-family:var(--dsp);font-weight:600;letter-spacing:-.035em;line-height:1.02}
+h1{font-size:clamp(2.5rem,8.4vw,4.8rem)}
+h2{font-size:clamp(1.85rem,5.2vw,3.05rem);line-height:1.06}
+h3{font-size:1.14rem;font-family:var(--bdy);font-weight:600;letter-spacing:-.015em;line-height:1.3}
+p{max-width:66ch}
+.lead{font-size:clamp(1.02rem,2.5vw,1.16rem);color:var(--muted);line-height:1.72}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.sec{padding:clamp(70px,11vw,140px) 0;position:relative}
+.eyebrow{display:inline-block;font-family:var(--bdy);font-size:.79rem;font-weight:600;
+  color:var(--acc);margin-bottom:14px;letter-spacing:.01em}
+
+/* ---------- progress ---------- */
+.prg{position:fixed;top:0;left:0;height:2px;width:0;z-index:120;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .1s linear}
+
+/* ---------- header ---------- */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:.4s var(--ease);
+  border-bottom:1px solid transparent}
+header.on{background:color-mix(in srgb,var(--bg) 86%, transparent);
+  backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);
+  border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;gap:20px;height:70px}
+.logo{display:flex;align-items:center;gap:11px;flex:none}
+.logo svg{width:36px;height:36px}
+.logo-w{display:flex;flex-direction:column;line-height:1.05}
+.logo-t{font-family:var(--dsp);font-size:1.16rem;font-weight:600;letter-spacing:-.02em}
+.logo-s{font-size:.68rem;color:var(--muted2);letter-spacing:.02em}
+.menu{display:flex;gap:26px;margin-left:auto;font-size:.9rem;color:var(--muted)}
+.menu a{position:relative;padding:4px 0;transition:color .25s}
+.menu a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;
+  background:var(--acc);transition:right .35s var(--ease)}
+.menu a:hover{color:var(--txt)}
+.menu a:hover::after{right:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:12px 20px;border-radius:var(--rb);font-size:.9rem;font-weight:600;
+  font-family:var(--bdy);border:1px solid transparent;cursor:pointer;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .25s,color .25s;
+  white-space:nowrap;letter-spacing:-.01em}
+.btn svg{width:17px;height:17px;flex:none}
+.btn-p{background:var(--acc);color:var(--onacc)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--acc)}
+.btn-g{border-color:var(--line);color:var(--txt);background:var(--surface)}
+.btn-g:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#04240F}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--wa)}
+.btn-lg{padding:15px 26px;font-size:.97rem}
+.nav .btn{padding:10px 17px;font-size:.85rem}
+.burger{display:none;margin-left:auto;width:42px;height:42px;border:1px solid var(--line);
+  border-radius:var(--rb);background:var(--surface);align-items:center;justify-content:center}
+.burger span{display:block;width:17px;height:1.5px;background:var(--txt);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:17px;
+  height:1.5px;background:var(--txt);transition:.3s var(--ease)}
+.burger span::before{top:-5.5px}.burger span::after{top:5.5px}
+.drawer{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;
+  flex-direction:column;justify-content:center;gap:6px;padding:0 var(--pad);
+  transform:translateY(-100%);transition:transform .5s var(--ease);visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
+.drawer a:not(.btn){font-family:var(--dsp);font-size:2rem;padding:11px 0;
+  border-bottom:1px solid var(--line2)}
+.drawer .btn{margin-top:22px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;
+  padding-top:100px;padding-bottom:70px;overflow:hidden}
+.hero-art{position:absolute;inset:0;z-index:0}
+.hero-art svg{width:100%;height:100%;object-fit:cover}
+
+/* --- foto: la grafica generativa resta sotto come fondo, la foto ci va sopra.
+   Se una URL non risponde l'immagine si toglie da sola e resta il fondo. --- */
+.ph{position:relative;overflow:hidden;background:var(--surface2);isolation:isolate}
+.ph>svg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph>img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;
+  filter:saturate(.95) contrast(1.04) brightness(1);
+  transition:transform .9s var(--ease),opacity .8s var(--ease)}
+.ph::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(150deg,#1F7A8C 0%,#0D4A58 100%);mix-blend-mode:soft-light;opacity:.4}
+.ph.q>img{opacity:0}
+.ph.q.on>img{opacity:1}
+.hero-veil{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,color-mix(in srgb,#FBFAF6 62%,transparent) 0%,color-mix(in srgb,#FBFAF6 84%,transparent) 50%,#FBFAF6 100%)}
+.hero-veil::after{content:"";position:absolute;inset:0;background:linear-gradient(96deg,color-mix(in srgb,#FBFAF6 80%,transparent) 0%,color-mix(in srgb,#FBFAF6 34%,transparent) 58%,transparent 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.badge{display:inline-flex;align-items:center;gap:9px;padding:8px 15px;
+  border:1px solid var(--line);border-radius:100px;font-size:.8rem;color:var(--muted);
+  background:color-mix(in srgb,var(--surface) 70%,transparent);backdrop-filter:blur(8px);
+  margin-bottom:22px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--acc);position:relative}
+.dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;
+  border:1px solid var(--acc);animation:pulse 2.4s var(--ease) infinite}
+@keyframes pulse{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.7);opacity:0}}
+.hero .lead{margin:22px 0 30px;max-width:56ch}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.hero-mini{display:flex;gap:9px;flex-wrap:wrap;margin-top:30px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:.81rem;color:var(--muted);
+  padding:7px 13px;border:1px solid var(--line2);border-radius:100px}
+.chip svg{width:13px;height:13px;color:var(--acc)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,64px);align-items:center}
+.hero-card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:var(--surface);box-shadow:0 40px 90px -50px rgba(0,0,0,.6)}
+.hero-card .ph{width:100%;aspect-ratio:4/3}
+.hero-card-b{padding:20px 22px 22px}
+.hero-card-b strong{display:block;font-family:var(--dsp);font-size:1.1rem;margin-bottom:6px}
+.hero-card-b span{font-size:.87rem;color:var(--muted);display:block}
+.hcrow{display:flex;justify-content:space-between;gap:16px;margin-top:18px;
+  padding-top:16px;border-top:1px solid var(--line2)}
+.hcrow .k{font-family:var(--dsp);font-size:1.45rem;color:var(--acc);line-height:1}
+.hcrow .l{font-size:.72rem;color:var(--muted2);margin-top:4px}
+.hero-strip{margin-top:clamp(34px,5vw,56px);border:1px solid var(--line);
+  border-radius:var(--r);overflow:hidden;height:clamp(180px,30vw,330px)}
+.hero-strip .ph{width:100%;height:100%}
+.scrollcue{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);z-index:3;
+  display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.7rem;
+  color:var(--muted2);letter-spacing:.06em}
+.scrollcue i{display:block;width:1px;height:34px;background:linear-gradient(var(--acc),transparent);
+  animation:cue 2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}
+  46%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- marquee ---------- */
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:17px 0;overflow:hidden;background:var(--bg2)}
+.mq-in{display:flex;gap:44px;width:max-content;animation:mq 34s linear infinite}
+.mq:hover .mq-in{animation-play-state:paused}
+.mq span{font-family:var(--dsp);font-size:1.02rem;color:var(--muted);
+  display:flex;align-items:center;gap:44px;white-space:nowrap}
+.mq span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--acc);flex:none}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- servizi ---------- */
+.sv-head{max-width:640px;margin-bottom:clamp(34px,5vw,58px)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.6vw,18px)}
+.card{grid-column:span 2;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);overflow:hidden;position:relative;
+  transition:transform .5s var(--ease),border-color .4s,box-shadow .5s var(--ease)}
+.card:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line));
+  box-shadow:0 30px 60px -40px rgba(0,0,0,.55)}
+.card .ph{width:100%;aspect-ratio:16/10}
+.card-b{padding:20px 21px 23px}
+.card .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:13px;
+  background:var(--surface2)}
+.card .ib svg{width:19px;height:19px}
+.card p{font-size:.9rem;color:var(--muted);margin-top:7px;line-height:1.6}
+.card.wide{grid-column:span 4}
+.card.wide .ph{aspect-ratio:21/7}
+
+.rows{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:20px;align-items:start;
+  padding:26px 0;border-bottom:1px solid var(--line);transition:padding .4s var(--ease)}
+.row:hover{padding-left:10px}
+.row .ib{width:44px;height:44px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);background:var(--surface2)}
+.row .ib svg{width:21px;height:21px}
+.row p{font-size:.92rem;color:var(--muted);margin-top:5px}
+.row .thumb{width:120px;height:78px;border-radius:var(--rs);overflow:hidden;
+  border:1px solid var(--line2);flex:none}
+.row .thumb .ph{width:100%;height:100%}
+
+.bands{display:flex;flex-direction:column;gap:clamp(12px,1.6vw,16px)}
+.band{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;
+  border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.band:nth-child(even) .band-art{order:-1}
+.band-art{min-height:190px}
+.band-art .ph{width:100%;height:100%}
+.band-b{padding:clamp(22px,3vw,34px)}
+.band-b .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:14px}
+.band-b .ib svg{width:19px;height:19px}
+.band-b p{font-size:.92rem;color:var(--muted);margin-top:8px}
+
+/* ---------- urgenze ---------- */
+.urg{margin-top:clamp(20px,3vw,30px);border:1px solid color-mix(in srgb,var(--acc) 40%,var(--line));
+  border-radius:var(--r);background:linear-gradient(105deg,
+    color-mix(in srgb,var(--acc) 13%,var(--surface)),var(--surface));
+  padding:clamp(22px,3vw,30px);display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.urg .ib{width:46px;height:46px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;background:var(--acc);color:var(--onacc);flex:none}
+.urg .ib svg{width:23px;height:23px}
+.urg div.t{flex:1;min-width:240px}
+.urg strong{font-family:var(--dsp);font-size:1.15rem;display:block;margin-bottom:4px}
+.urg p{font-size:.9rem;color:var(--muted)}
+
+/* ---------- metodo ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(16px,2.4vw,28px);position:relative}
+.steps::before{content:"";position:absolute;top:19px;left:8%;right:8%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--line),var(--line),transparent)}
+.step{position:relative}
+.step .n{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  background:var(--bg);display:flex;align-items:center;justify-content:center;
+  font-family:var(--dsp);font-size:.95rem;color:var(--acc);margin-bottom:15px;position:relative;z-index:1}
+.step h3{margin-bottom:5px}
+.step p{font-size:.89rem;color:var(--muted)}
+
+/* ---------- numeri ---------- */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,22px)}
+.num{padding:clamp(20px,2.6vw,28px);border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface)}
+.num .v{font-family:var(--dsp);font-size:clamp(2rem,4.6vw,2.9rem);line-height:1;
+  color:var(--acc);letter-spacing:-.04em}
+.num .l{font-size:.81rem;color:var(--muted);margin-top:10px}
+
+/* ---------- prima/dopo ---------- */
+.ba{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);
+  aspect-ratio:16/9;cursor:ew-resize;user-select:none;touch-action:pan-y}
+.ba .ph{position:absolute;inset:0;width:100%;height:100%}
+/* Prima/Dopo credibile: stessa identica inquadratura, due stati.
+   Sotto lo scatto "prima" (spento, ingiallito, contrasto piatto),
+   sopra quello "dopo" (pulito). Cambia solo il trattamento, non la scena. */
+.ba .prima>img{filter:saturate(.28) contrast(.84) brightness(.68) sepia(.32) blur(.4px)}
+.ba .prima::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
+  background:radial-gradient(120% 100% at 50% 40%,transparent 30%,rgba(28,20,10,.55) 100%)}
+.ba .dopo>img{filter:saturate(1.06) contrast(1.08) brightness(1.04)}
+.ba-lb b{font-weight:600}
+.ba-top{position:absolute;inset:0;clip-path:inset(0 50% 0 0);will-change:clip-path}
+.ba-h{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--acc);z-index:3;
+  will-change:left}
+.ba-h::after{content:"";position:absolute;top:50%;left:50%;width:42px;height:42px;
+  transform:translate(-50%,-50%);border-radius:50%;background:var(--acc);
+  box-shadow:0 6px 22px -6px rgba(0,0,0,.6)}
+.ba-lb{position:absolute;bottom:14px;padding:6px 12px;border-radius:100px;font-size:.75rem;
+  background:color-mix(in srgb,var(--bg) 75%,transparent);backdrop-filter:blur(8px);
+  border:1px solid var(--line);z-index:4}
+.ba-lb.l{left:14px}.ba-lb.r{right:14px}
+
+/* ---------- galleria ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.4vw,15px)}
+.gi{position:relative;border-radius:var(--rs);overflow:hidden;border:1px solid var(--line2);
+  cursor:zoom-in;background:var(--surface)}
+.gi .ph{width:100%;height:100%;aspect-ratio:4/3}
+.gi:hover .ph>img{transform:scale(1.06)}
+.gi.w2{grid-column:span 2}
+.gi.h2{grid-row:span 2}
+.gi.h2 .ph{aspect-ratio:4/6}
+.gi figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;
+  font-size:.79rem;color:#fff;
+  background:linear-gradient(transparent,rgba(0,0,0,.78));opacity:0;transition:opacity .4s}
+.gi:hover figcaption{opacity:1}
+.rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-bottom:12px;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{height:4px}
+.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.rail .gi{flex:0 0 clamp(240px,38vw,380px);scroll-snap-align:start}
+.note{font-size:.79rem;color:var(--muted2);margin-top:16px}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;background:color-mix(in srgb,var(--bg) 94%,#000);z-index:200;
+  display:none;align-items:center;justify-content:center;padding:22px}
+.lb.on{display:flex}
+.lb figure{max-width:960px;width:100%}
+.lb .ph{width:100%;border-radius:var(--r);aspect-ratio:4/3}
+.lb figcaption{text-align:center;font-size:.87rem;color:var(--muted);margin-top:14px}
+.lb-x{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line);background:var(--surface);color:var(--txt);
+  display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer}
+
+/* ---------- zone ---------- */
+.zone{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,5vw,60px);align-items:center}
+.zmap{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);
+  padding:16px;overflow:hidden}
+.zmap svg{width:100%;height:auto}
+.zn{animation:zn 3.4s var(--ease) infinite}
+.zn:nth-child(2){animation-delay:.4s}.zn:nth-child(3){animation-delay:.8s}
+.zn:nth-child(4){animation-delay:1.2s}.zn:nth-child(5){animation-delay:1.6s}
+.zn:nth-child(6){animation-delay:2s}.zn:nth-child(7){animation-delay:2.4s}
+@keyframes zn{0%,100%{opacity:.35}50%{opacity:1}}
+.zones{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.zones a{padding:9px 15px;border-radius:100px;font-size:.83rem;color:var(--muted);
+  border:1px solid var(--line);transition:.3s var(--ease)}
+.zones a:hover{color:var(--txt);border-color:var(--acc);transform:translateY(-2px)}
+.zones a.hi{background:var(--acc);color:var(--onacc);border-color:var(--acc);font-weight:600}
+
+/* ---------- recensioni ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,20px)}
+.rev{border:1px dashed var(--line);border-radius:var(--r);padding:clamp(20px,2.6vw,26px);
+  background:var(--surface2)}
+.stars{display:flex;gap:3px;margin-bottom:13px;color:var(--muted2)}
+.stars svg{width:15px;height:15px}
+.rev p{font-size:.9rem;color:var(--muted2);font-style:italic}
+.rev .who{display:flex;align-items:center;gap:11px;margin-top:16px;padding-top:14px;
+  border-top:1px solid var(--line2)}
+.rev .av{width:34px;height:34px;border-radius:50%;border:1px dashed var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--muted2);font-size:.9rem}
+.rev .who b{font-size:.86rem;display:block}
+.rev .who span{font-size:.76rem;color:var(--muted2)}
+
+/* ---------- faq ---------- */
+.faq{max-width:820px;margin:0 auto}
+.q{border-bottom:1px solid var(--line)}
+.q-h{width:100%;display:flex;align-items:center;gap:16px;padding:21px 0;background:none;
+  border:0;color:inherit;font-family:var(--bdy);font-size:1.02rem;font-weight:500;
+  text-align:left;cursor:pointer;letter-spacing:-.01em}
+.q-h i{margin-left:auto;width:20px;height:20px;position:relative;flex:none}
+.q-h i::before,.q-h i::after{content:"";position:absolute;top:9.5px;left:2px;width:16px;
+  height:1.5px;background:var(--acc);transition:transform .4s var(--ease)}
+.q-h i::after{transform:rotate(90deg)}
+.q.open .q-h i::after{transform:rotate(0)}
+.q-a{max-height:0;overflow:hidden;transition:max-height .5s var(--ease)}
+.q-a p{padding-bottom:22px;font-size:.94rem;color:var(--muted)}
+
+/* ---------- cta ---------- */
+.cta{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--acc) 12%,var(--surface)),var(--surface) 62%)}
+.cta-in{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,4vw,52px);
+  padding:clamp(30px,5vw,62px)}
+.cta-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.info{display:flex;flex-direction:column;gap:18px;justify-content:center}
+.irow{display:flex;gap:14px;align-items:flex-start}
+.irow .ii{width:38px;height:38px;border-radius:var(--rs);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--acc);flex:none}
+.irow .ii svg{width:18px;height:18px}
+.irow b{display:block;font-size:.92rem;margin-bottom:2px}
+.irow span{font-size:.86rem;color:var(--muted);word-break:break-word}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:clamp(46px,6vw,72px) 0 30px;background:var(--bg2)}
+.f-top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:clamp(26px,4vw,52px);
+  padding-bottom:36px;border-bottom:1px solid var(--line2)}
+.f-top p{font-size:.88rem;color:var(--muted);margin-top:14px;max-width:44ch}
+.f-col h4{font-family:var(--bdy);font-size:.8rem;font-weight:600;color:var(--muted2);
+  margin-bottom:14px}
+.f-col a,.f-col span{display:block;font-size:.88rem;color:var(--muted);padding:4px 0}
+.f-col a:hover{color:var(--acc)}
+.f-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding-top:22px;font-size:.79rem;color:var(--muted2)}
+.f-bot a{color:var(--acc)}
+
+/* ---------- fab ---------- */
+.fab{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;
+  background:var(--acc);color:var(--onacc);display:flex;align-items:center;justify-content:center;
+  z-index:90;box-shadow:0 14px 34px -12px rgba(0,0,0,.6);
+  opacity:0;visibility:hidden;transform:translateY(16px) scale(.9);
+  transition:.45s var(--ease)}
+.fab.on{opacity:1;visibility:visible;transform:none}
+.fab svg{width:26px;height:26px}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--acc);
+  animation:pulse 2.6s var(--ease) infinite}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transition:opacity .9s var(--ease),transform .9s var(--ease),
+  filter .9s var(--ease),clip-path 1s var(--ease)}
+body.rev-rise .rv{transform:translateY(28px)}
+body.rev-blur .rv{filter:blur(9px);transform:scale(.985)}
+body.rev-wipe .rv{clip-path:inset(0 0 100% 0);opacity:1}
+body.rev-slab .rv{transform:translateY(14px) scaleY(.97);transform-origin:bottom}
+.rv.rv.in{opacity:1;transform:none;filter:none;clip-path:inset(0 0 0 0)}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+.d4{transition-delay:.32s}.d5{transition-delay:.4s}.d6{transition-delay:.48s}
+.d7{transition-delay:.56s}.d8{transition-delay:.64s}
+
+/* ---------- responsive ---------- */
+@media (max-width:1000px){
+  .hero-grid,.zone,.cta-in{grid-template-columns:1fr}
+  .hero-card{max-width:520px}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .card.wide{grid-column:span 2}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .steps::before{display:none}
+  .nums{grid-template-columns:repeat(2,1fr)}
+  .revs{grid-template-columns:1fr}
+  .f-top{grid-template-columns:1fr 1fr}
+  .band{grid-template-columns:1fr}
+  .band:nth-child(even) .band-art{order:0}
+}
+@media (max-width:900px){
+  .menu,.nav .btn-txt{display:none}
+  .burger{display:flex}
+  .nav .btn{padding:10px 14px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .nav{height:62px}
+  .hero{padding-top:88px;min-height:96svh}
+  .grid{grid-template-columns:1fr}
+  .card,.card.wide{grid-column:span 1}
+  .gal{grid-template-columns:repeat(2,1fr)}
+  .gi.h2{grid-row:span 1}
+  .gi.h2 .ph{aspect-ratio:4/3}
+  .row{grid-template-columns:44px 1fr;gap:14px}
+  .row .thumb{display:none}
+  .f-top{grid-template-columns:1fr}
+  .lead{max-width:none}
+  .scrollcue{display:none}
+  .ba{aspect-ratio:4/3}
+}
+@media (hover:none){
+  .gi figcaption{opacity:1;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;scroll-behavior:auto !important}
+  .rv{opacity:1 !important;transform:none !important;filter:none !important;clip-path:none !important}
+}
+</style>
+</head>
+<body class="rev-rise">
+<div class="prg" id="prg"></div>
+<header id="hd"><div class="wrap nav"><a href="#top" class="logo" aria-label="Termoidraulica Mari"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg5912" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#1F7A8C"/><stop offset="1" stop-color="#0D4A58"/></linearGradient></defs><circle cx="24" cy="24" r="22.5" fill="none" stroke="url(#mg5912)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg5912)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">TM</text></svg><span class="logo-w"><span class="logo-t">Termoidraulica Mari</span><span class="logo-s">Impianti idraulici e sanitari</span></span></a>
+<nav class="menu"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a></nav>
+<a href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Roma%0AGrazie." class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span class="btn-txt">Scrivici</span></a>
+<a data-wa="Ciao Termoidraulica Mari, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a>
+<button class="burger" id="bg" aria-label="Apri il menu"><span></span></button>
+</div></header>
+<div class="drawer" id="dw"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a>
+<a href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Roma%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici una mail</a></div>
+<section class="hero" id="top">
+<div class="hero-art"><div class="ph q "><svg class="art" viewBox="0 0 1400 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1400" height="900" fill="#0D4A58" opacity=".55"/><rect width="1400" height="900" fill="#FFFFFF" opacity=".82"/><path d="M473 291 L846 291 L846 469 L1059 469 L1059 226" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="846" cy="291" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="846" cy="469" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><path d="M619 401 L1018 401 L1018 206 L1018 359 L1300 359" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="1018" cy="401" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.60"/><path d="M244 655 L244 449 L244 714 L716 714 L716 591 L716 861 L1127 861 L1127 656" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="244" cy="449" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><circle cx="716" cy="714" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><circle cx="716" cy="591" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><circle cx="716" cy="861" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><path d="M96 743 L500 743 L849 743 L849 598 L1085 598 L1299 598" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="849" cy="743" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="849" cy="598" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M-53 600 L-53 400 L212 400 L448 400 L602 400" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="212" cy="400" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M372 657 L372 798 L829 798 L1249 798 L1719 798" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="372" cy="798" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="1249" cy="798" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M482 116 L728 116 L1111 116 L1111 -136 L1111 -386 L1111 -216" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="728" cy="116" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="1111" cy="116" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="1111" cy="-136" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="1111" cy="-386" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="894" cy="50" r="112" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M782 50 H1006 M894 -62 V162" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="1393" cy="581" r="71" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M1322 581 H1464 M1393 510 V652" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Lavoro di idraulico a Roma" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div><div class="hero-veil"></div>
+<div class="wrap"><div class="hero-grid"><div><div class="badge rv d1"><span class="dot"></span> Roma e provincia · Preventivo gratuito</div><h1 class="rv d2">Il bagno nuovo<br><em>senza sorprese in corso d&#x27;opera.</em></h1><p class="lead rv d3">Termoidraulica Mari lavora su impianti idrico-sanitari a Roma e dintorni: rifacimenti completi, riparazioni, sostituzione sanitari e ricerca perdite. Preventivo scritto prima di iniziare, cantiere lasciato pulito.</p><div class="hero-btns rv d4"><a href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Roma%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Chiedi un preventivo</a><a data-wa="Ciao Termoidraulica Mari, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a><a href="#lavori" class="btn btn-g btn-lg">Guarda i lavori</a></div><div class="hero-mini rv d5"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Sopralluogo senza impegno</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Preventivo scritto</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cantiere lasciato pulito</span></div></div><div class="hero-card rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="675" fill="#0D4A58" opacity=".55"/><rect width="900" height="675" fill="#FFFFFF" opacity=".82"/><path d="M185 398 L379 398 L571 398 L801 398 L1076 398" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="571" cy="398" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><circle cx="801" cy="398" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><path d="M267 123 L365 123 L365 192 L479 192 L479 10 L479 184 L479 -10" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="365" cy="123" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><circle cx="479" cy="192" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><circle cx="479" cy="184" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><path d="M77 479 L77 336 L217 336 L430 336 L646 336 L646 171" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="217" cy="336" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><path d="M96 549 L300 549 L300 452 L300 304 L597 304" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="300" cy="549" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="300" cy="452" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M408 257 L509 257 L509 124 L776 124 L901 124 L1067 124" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="509" cy="257" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="509" cy="124" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="776" cy="124" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="901" cy="124" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M287 550 L477 550 L477 373 L770 373 L770 478 L981 478" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="477" cy="550" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><path d="M443 505 L443 386 L443 478 L443 623 L699 623 L989 623" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="443" cy="386" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="443" cy="623" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="759" cy="439" r="83" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M676 439 H842 M759 356 V522" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="554" cy="260" r="60" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M494 260 H614 M554 200 V320" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6585753/pexels-photo-6585753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Collettore ispezionabile a impianto finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="hero-card-b"><strong>Collettore ispezionabile a impianto finito</strong>
+<span>Demolizione, nuovi scarichi, sanitari e rubinetteria. Un solo interlocutore dall&#x27;inizio alla fine.</span>
+<div class="hcrow"><div><div class="k" data-count="24" data-suffix="h">0</div>
+<div class="l">Tempo medio di risposta</div></div>
+<div style="text-align:right"><div class="k">0€</div>
+<div class="l">Costo del sopralluogo</div></div></div></div></div></div></div>
+<div class="scrollcue"><span>Scorri</span><i></i></div></section>
+<div class="mq"><div class="mq-in"><span>Rifacimento bagni</span><span>Ricerca perdite</span><span>Sostituzione sanitari</span><span>Scarichi e colonne</span><span>Autoclave e pressione</span><span>Addolcitori</span><span>Rubinetteria</span><span>Allacci e contatori</span><span>Rifacimento bagni</span><span>Ricerca perdite</span><span>Sostituzione sanitari</span><span>Scarichi e colonne</span><span>Autoclave e pressione</span><span>Addolcitori</span><span>Rubinetteria</span><span>Allacci e contatori</span></div></div>
+<section class="sec" id="servizi"><div class="wrap"><div class="sv-head rv"><span class="eyebrow">Servizi</span>
+<h2>Cosa facciamo, detto senza giri di parole.</h2></div><div class="grid"><article class="card rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M302 461 L302 629 L302 497 L582 497 L582 631" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="302" cy="629" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><path d="M54 381 L263 381 L555 381 L555 216 L668 216 L668 341 L955 341 L1221 341" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="668" cy="341" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><path d="M21 381 L275 381 L275 543 L397 543 L397 689 L397 777 L578 777" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="397" cy="543" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.60"/><circle cx="397" cy="689" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.60"/><path d="M322 292 L546 292 L824 292 L1058 292" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M374 53 L532 53 L532 -89 L645 -89 L645 -217 L645 -318 L872 -318" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="532" cy="53" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="532" cy="-89" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="645" cy="-89" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M-48 81 L82 81 L82 -11 L290 -11 L290 -111 L290 -15 L290 -75 L290 58" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="82" cy="81" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="82" cy="-11" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="290" cy="-11" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M151 369 L371 369 L371 309 L371 429 L476 429 L476 551" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="371" cy="369" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="371" cy="309" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="638" cy="501" r="72" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M566 501 H710 M638 429 V573" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="780" cy="532" r="41" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M739 532 H821 M780 491 V573" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="559" cy="294" r="54" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M505 294 H613 M559 240 V348" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="589" cy="103" r="62" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M527 103 H651 M589 41 V165" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Rifacimento completo del bagno" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM7 13V6a2 2 0 0 1 4 0M9 6h2"/></svg></div><h3>Rifacimento completo del bagno</h3><p>Demolizione, nuovi scarichi, sanitari e rubinetteria. Un solo interlocutore dall&#x27;inizio alla fine.</p></div></article><article class="card rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M104 232 L104 324 L303 324 L575 324 L789 324 L789 170 L906 170" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="575" cy="324" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="789" cy="324" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><path d="M116 373 L116 470 L116 609 L215 609 L215 702" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="116" cy="470" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><circle cx="116" cy="609" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><circle cx="215" cy="609" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><path d="M-83 156 L89 156 L89 236 L89 125 L89 -21 L236 -21 L236 -142" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="89" cy="236" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><circle cx="89" cy="125" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><circle cx="89" cy="-21" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><path d="M207 401 L370 401 L370 519 L370 575 L370 426 L370 489 L601 489 L709 489" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="370" cy="401" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="370" cy="575" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="601" cy="489" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M334 221 L620 221 L836 221 L1119 221" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="836" cy="221" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M119 51 L119 -5 L221 -5 L221 -130 L404 -130 L404 30 L508 30 L508 -89" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="221" cy="-130" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="404" cy="-130" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><path d="M169 479 L169 629 L169 568 L169 467 L169 607" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="169" cy="629" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="806" cy="33" r="73" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M733 33 H879 M806 -40 V106" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="236" cy="108" r="63" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M173 108 H299 M236 45 V171" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="750" cy="257" r="69" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M681 257 H819 M750 188 V326" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="787" cy="335" r="77" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M710 335 H864 M787 258 V412" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/12142829/pexels-photo-12142829.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Ricerca perdite" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5S6 10 6 14a6 6 0 0 0 12 0c0-4-6-10.5-6-10.5zM9.5 15a2.5 2.5 0 0 0 2.5 2.5"/></svg></div><h3>Ricerca perdite</h3><p>Individuazione del punto esatto prima di rompere, con videoispezione dove serve.</p></div></article><article class="card rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M147 184 L147 286 L325 286 L482 286 L723 286" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="482" cy="286" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><path d="M135 352 L336 352 L336 466 L507 466 L507 590" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M-26 473 L248 473 L354 473 L354 371 L499 371 L607 371 L729 371 L939 371" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="354" cy="371" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><circle cx="499" cy="371" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><circle cx="729" cy="371" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><path d="M147 501 L147 375 L313 375 L424 375 L619 375 L619 228 L714 228 L932 228" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="313" cy="375" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M351 231 L574 231 L574 322 L820 322 L820 202 L1063 202" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="89" cy="13" r="71" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M18 13 H160 M89 -58 V84" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="846" cy="347" r="82" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M764 347 H928 M846 265 V429" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="642" cy="5" r="69" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M573 5 H711 M642 -64 V74" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/33388390/pexels-photo-33388390.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Sostituzione sanitari" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h10M8 4v5a4 4 0 0 0 8 0V4M12 13v7M9 20h6"/></svg></div><h3>Sostituzione sanitari</h3><p>WC, lavabi, piatti doccia e cassette: sostituzione in giornata quando l&#x27;impianto lo permette.</p></div></article><article class="card wide rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M373 124 L503 124 L699 124 L699 251 L880 251 L1105 251" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="503" cy="124" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><path d="M370 458 L538 458 L681 458 L794 458 L926 458" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="538" cy="458" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="681" cy="458" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="794" cy="458" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><path d="M318 211 L318 103 L444 103 L731 103 L875 103 L875 245 L875 103" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="318" cy="103" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><circle cx="875" cy="103" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><path d="M415 152 L684 152 L684 307 L684 456 L684 566 L807 566 L1094 566" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="684" cy="307" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="684" cy="566" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M-5 43 L126 43 L241 43 L241 159 L407 159 L407 317 L637 317 L637 412" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="241" cy="159" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="407" cy="317" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="637" cy="317" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="705" cy="413" r="40" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M665 413 H745 M705 373 V453" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="156" cy="340" r="51" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M105 340 H207 M156 289 V391" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="638" cy="102" r="66" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M572 102 H704 M638 36 V168" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="893" cy="52" r="76" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M817 52 H969 M893 -24 V128" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/35493890/pexels-photo-35493890.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Scarichi e colonne di scarico" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14M8 5v5a4 4 0 0 0 8 0M12 14v6M9.5 17.5 12 20l2.5-2.5"/></svg></div><h3>Scarichi e colonne di scarico</h3><p>Rifacimento tratti ammalorati, sifoni, pozzetti e collegamenti alla fognatura.</p></div></article><article class="card rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M442 33 L606 33 L606 155 L606 -13 L868 -13 L868 -154 L1074 -154" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="606" cy="33" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.95"/><circle cx="606" cy="-13" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.95"/><circle cx="868" cy="-13" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.95"/><path d="M201 427 L429 427 L429 563 L643 563 L803 563 L969 563" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="429" cy="427" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><circle cx="643" cy="563" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><path d="M371 515 L465 515 L465 658 L724 658 L724 498 L724 563" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="465" cy="658" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><path d="M33 62 L215 62 L215 140 L215 31 L427 31 L631 31 L846 31" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="215" cy="62" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="215" cy="31" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="631" cy="31" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M-64 224 L55 224 L169 224 L169 126 L169 241 L169 356 L408 356 L634 356" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="55" cy="224" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="169" cy="126" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="169" cy="241" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="169" cy="356" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="671" cy="261" r="82" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M589 261 H753 M671 179 V343" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="113" cy="503" r="43" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M70 503 H156 M113 460 V546" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7546320/pexels-photo-7546320.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Impianto idrico nuovo" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18M3 15h18M7 9V4M12 9V4M17 9V4M7 15v5M12 15v5M17 15v5"/></svg></div><h3>Impianto idrico nuovo</h3><p>Distribuzione in multistrato o pex, collettori ispezionabili, collaudo a pressione.</p></div></article><article class="card rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M-57 423 L-57 323 L-57 447 L76 447 L304 447 L580 447 L580 390 L819 390" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="-57" cy="447" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><circle cx="580" cy="390" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><path d="M-90 369 L115 369 L115 466 L115 378 L115 226 L351 226" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M67 139 L254 139 L400 139 L589 139 L770 139" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="400" cy="139" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><path d="M104 339 L104 464 L249 464 L375 464 L527 464 L527 358 L749 358 L749 290" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="249" cy="464" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="375" cy="464" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="527" cy="464" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M366 513 L366 446 L366 378 L515 378 L817 378 L817 489" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="515" cy="378" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M191 485 L191 648 L191 713 L354 713 L354 789 L482 789" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="191" cy="648" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="354" cy="713" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="676" cy="380" r="39" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M637 380 H715 M676 341 V419" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="540" cy="153" r="39" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M501 153 H579 M540 114 V192" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="689" cy="284" r="85" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M604 284 H774 M689 199 V369" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/35290675/pexels-photo-35290675.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Autoclave e pressione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 7v2l1.8 1M4 20h16M7 14v6M17 14v6"/></svg></div><h3>Autoclave e pressione</h3><p>Pompe, vasi di espansione e riduttori per case dove l&#x27;acqua arriva debole.</p></div></article><article class="card rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M-57 54 L-57 127 L226 127 L226 -25 L503 -25 L503 32 L503 -120 L503 -50" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="226" cy="127" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><circle cx="503" cy="-120" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><path d="M99 352 L99 421 L201 421 L393 421 L647 421 L931 421 L1070 421" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="99" cy="421" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><circle cx="647" cy="421" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><path d="M-108 43 L103 43 L237 43 L509 43 L509 -86" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M71 88 L71 146 L71 227 L302 227 L302 65 L302 9 L302 119 L302 -31" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="71" cy="146" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="302" cy="65" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="302" cy="9" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="302" cy="119" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M226 245 L226 116 L489 116 L708 116 L930 116 L930 228 L1188 228" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="708" cy="116" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M236 177 L236 118 L236 245 L236 109 L236 -16 L427 -16" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="236" cy="118" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="236" cy="-16" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M48 194 L320 194 L600 194 L780 194 L780 333" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="600" cy="194" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="232" cy="521" r="59" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M173 521 H291 M232 462 V580" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="80" cy="468" r="70" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M10 468 H150 M80 398 V538" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/10827349/pexels-photo-10827349.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Addolcitori e filtri" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16l-6 7v6l-4 2v-8z"/></svg></div><h3>Addolcitori e filtri</h3><p>Trattamento acqua contro il calcare, con manutenzione programmata.</p></div></article><article class="card rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0D4A58" opacity=".55"/><rect width="900" height="560" fill="#FFFFFF" opacity=".82"/><path d="M239 450 L521 450 L521 354 L752 354 L752 199 L974 199 L974 101 L1065 101" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="521" cy="450" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><circle cx="974" cy="199" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><path d="M218 450 L475 450 L627 450 L627 574 L627 726" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="475" cy="450" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.60"/><circle cx="627" cy="450" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.60"/><path d="M376 232 L376 357 L376 471 L376 324 L376 402" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="376" cy="357" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><circle cx="376" cy="471" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><path d="M26 52 L26 114 L268 114 L268 0 L268 94 L268 -74" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="26" cy="114" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="268" cy="114" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="268" cy="0" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="268" cy="94" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M319 403 L319 501 L319 413 L546 413 L546 472 L546 325 L546 207 L546 282" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="319" cy="413" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="546" cy="413" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="546" cy="325" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="120" cy="96" r="56" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M64 96 H176 M120 40 V152" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="742" cy="265" r="43" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M699 265 H785 M742 222 V308" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="559" cy="37" r="51" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M508 37 H610 M559 -14 V88" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/16509869/pexels-photo-16509869.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Piccole riparazioni" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4a4.5 4.5 0 1 0 4.2 6.1L21 12.4l-2.1 2.1-1.4-1.4-1.4 1.4 1.4 1.4-2 2-1.4-1.4-1.4 1.4 1.4 1.4L11 21.4 4.6 15l6-6A4.5 4.5 0 0 1 14.5 4z"/></svg></div><h3>Piccole riparazioni</h3><p>Rubinetti che gocciolano, cassette che perdono, sifoni intasati: interventi rapidi.</p></div></article></div><div class="urg rv"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20zM12 9v5M12 17h.01"/></svg></div>
+<div class="t"><strong>Perdita in corso?</strong><p>Chiudete il rubinetto generale e scriveteci subito: una foto del punto bagnato ci fa capire in trenta secondi cosa serve portare.</p></div>
+<a href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20di%20intervento&amp;body=Buongiorno%2C%0Aavrei%20bisogno%20di%20un%20intervento.%0ASituazione%3A%0A%0A%0AZona%3A%20Roma" class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici ora</a>
+<a data-wa="Ciao Termoidraulica Mari, avrei bisogno di un intervento." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a></div></div></section>
+<section class="sec" id="metodo" style="background:var(--bg2)">
+<div class="wrap"><div class="sv-head rv"><h2>Quattro passaggi, nessuna sorpresa.</h2></div>
+<div class="steps"><div class="step rv d1"><div class="n">1</div>
+<h3>Ci scrivete</h3><p>Due righe e una foto. Vi rispondiamo con le domande giuste.</p></div><div class="step rv d2"><div class="n">2</div>
+<h3>Sopralluogo</h3><p>Veniamo a vedere. Gratuito e senza impegno.</p></div><div class="step rv d3"><div class="n">3</div>
+<h3>Preventivo scritto</h3><p>Voci separate, tempi indicati. Nessuna sorpresa dopo.</p></div><div class="step rv d4"><div class="n">4</div>
+<h3>Lavoro e collaudo</h3><p>Prova in pressione, pulizia del cantiere, garanzia sull&#x27;intervento.</p></div></div></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap"><div class="nums"><div class="num rv d1"><div class="v"><span data-count="0" data-suffix="€">0</span></div><div class="l">Costo del sopralluogo</div></div><div class="num rv d2"><div class="v"><span data-count="24" data-suffix="h">0</span></div><div class="l">Tempo medio di risposta</div></div><div class="num rv d3"><div class="v"><span data-count="10" data-suffix="+">0</span></div><div class="l">Anni sui cantieri</div></div><div class="num rv d4"><div class="v"><span data-count="100" data-suffix="%">0</span></div><div class="l">Preventivi messi per iscritto</div></div></div><p class="note rv">Numeri indicativi da confermare con il cliente prima della pubblicazione definitiva.</p></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap">
+<div class="sv-head rv"><h2>La differenza si vede a lavoro finito.</h2></div>
+<div class="ba rv"><div class="ph q prima"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#0D4A58" opacity=".55"/><rect width="1200" height="675" fill="#FFFFFF" opacity=".82"/><path d="M367 354 L367 196 L367 307 L367 191 L757 191 L909 191 L1311 191 L1311 353" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="367" cy="196" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="367" cy="307" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="367" cy="191" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="757" cy="191" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><path d="M211 282 L211 384 L211 240 L211 74 L346 74 L608 74 L876 74" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="211" cy="384" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="211" cy="74" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="608" cy="74" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><path d="M4 390 L251 390 L390 390 L390 229 L541 229" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="251" cy="390" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="390" cy="390" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><path d="M301 160 L687 160 L687 333 L687 245 L979 245 L1132 245 L1336 245 L1686 245" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="687" cy="160" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="687" cy="333" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="687" cy="245" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="1132" cy="245" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="1336" cy="245" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M33 199 L33 332 L410 332 L562 332 L773 332 L1042 332 L1042 415 L1042 339" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="1042" cy="415" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="1129" cy="516" r="80" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M1049 516 H1209 M1129 436 V596" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="83" cy="549" r="86" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M-3 549 H169 M83 463 V635" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="743" cy="513" r="73" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M670 513 H816 M743 440 V586" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="180" cy="439" r="54" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M126 439 H234 M180 385 V493" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/29274530/pexels-photo-29274530.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Situazione prima dell&#x27;intervento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="ba-top"><div class="ph q dopo"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#0D4A58" opacity=".55"/><rect width="1200" height="675" fill="#FFFFFF" opacity=".82"/><path d="M367 354 L367 196 L367 307 L367 191 L757 191 L909 191 L1311 191 L1311 353" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="367" cy="196" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="367" cy="307" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="367" cy="191" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="757" cy="191" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><path d="M211 282 L211 384 L211 240 L211 74 L346 74 L608 74 L876 74" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="211" cy="384" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="211" cy="74" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="608" cy="74" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><path d="M4 390 L251 390 L390 390 L390 229 L541 229" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="251" cy="390" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="390" cy="390" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><path d="M301 160 L687 160 L687 333 L687 245 L979 245 L1132 245 L1336 245 L1686 245" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="687" cy="160" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="687" cy="333" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="687" cy="245" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="1132" cy="245" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="1336" cy="245" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M33 199 L33 332 L410 332 L562 332 L773 332 L1042 332 L1042 415 L1042 339" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="1042" cy="415" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="1129" cy="516" r="80" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M1049 516 H1209 M1129 436 V596" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="83" cy="549" r="86" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M-3 549 H169 M83 463 V635" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="743" cy="513" r="73" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M670 513 H816 M743 440 V586" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="180" cy="439" r="54" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M126 439 H234 M180 385 V493" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/29274530/pexels-photo-29274530.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Lo stesso punto a lavoro finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div>
+<div class="ba-h"></div>
+<span class="ba-lb l"><b>Dopo</b></span><span class="ba-lb r"><b>Prima</b></span></div>
+<p class="note rv">Dimostrativo: è la stessa immagine in due stati, per far vedere come funziona il cursore.
+Al suo posto andranno due foto vere dello stesso punto, prima e dopo il vostro lavoro.</p>
+</div></section>
+<section class="sec" id="lavori" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Un'idea di come lavoriamo.</h2></div>
+<div class="rail"><figure class="gi rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M256 642 L256 792 L492 792 L492 899 L492 987" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="256" cy="792" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><path d="M187 63 L456 63 L456 -143 L751 -143 L940 -143 L1052 -143" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="456" cy="63" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><circle cx="456" cy="-143" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><circle cx="940" cy="-143" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><path d="M101 565 L301 565 L301 685 L437 685 L595 685 L816 685 L816 781 L1071 781" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="301" cy="565" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="301" cy="685" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="816" cy="685" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><path d="M261 122 L261 211 L261 402 L261 322 L261 447 L261 324 L544 324" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="261" cy="402" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="261" cy="447" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M15 42 L15 212 L15 345 L220 345 L451 345" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="15" cy="212" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="220" cy="345" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M180 644 L180 774 L180 955 L274 955 L274 1136 L434 1136" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="180" cy="774" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="180" cy="955" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="262" cy="688" r="60" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M202 688 H322 M262 628 V748" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="622" cy="57" r="102" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M520 57 H724 M622 -45 V159" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/8134810/pexels-photo-8134810.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Collettore ispezionabile a impianto finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Collettore ispezionabile a impianto finito</figcaption></figure><figure class="gi rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M-66 89 L111 89 L380 89 L380 237 L380 145" stroke="#1F7A8C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="111" cy="89" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><circle cx="380" cy="237" r="20" fill="none" stroke="#1F7A8C" stroke-width="4.3" opacity="0.95"/><path d="M269 419 L269 612 L508 612 L508 732 L508 524" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="508" cy="612" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><circle cx="508" cy="732" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><path d="M224 333 L224 262 L417 262 L417 64 L571 64 L571 -130 L749 -130" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="224" cy="262" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="417" cy="262" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="571" cy="64" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><path d="M191 547 L191 394 L453 394 L453 189 L575 189 L575 358" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="191" cy="394" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="453" cy="189" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><path d="M-107 175 L-14 175 L-14 24 L108 24 L108 176" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="108" cy="24" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="295" cy="345" r="111" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M184 345 H406 M295 234 V456" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="188" cy="549" r="99" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M89 549 H287 M188 450 V648" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="253" cy="500" r="62" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M191 500 H315 M253 438 V562" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="671" cy="501" r="83" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M588 501 H754 M671 418 V584" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7587289/pexels-photo-7587289.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Nuovo scarico prima della chiusura" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Nuovo scarico prima della chiusura</figcaption></figure><figure class="gi rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M169 75 L334 75 L334 -71 L557 -71 L557 -202 L557 -379 L557 -180" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="334" cy="75" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><circle cx="557" cy="-202" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><circle cx="557" cy="-379" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><path d="M326 404 L326 194 L630 194 L630 311 L766 311 L766 107 L902 107 L902 -26" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="326" cy="194" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><circle cx="766" cy="107" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.60"/><path d="M144 511 L144 355 L144 442 L415 442 L677 442 L677 339" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="415" cy="442" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><path d="M139 127 L348 127 L348 324 L348 433 L348 299" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M202 442 L433 442 L433 280 L542 280 L841 280" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M-40 158 L73 158 L306 158 L456 158 L456 31 L456 151 L654 151 L798 151" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="306" cy="158" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M377 304 L377 98 L377 228 L614 228 L897 228 L1008 228 L1247 228" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="377" cy="228" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="1008" cy="228" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="408" cy="368" r="107" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M301 368 H515 M408 261 V475" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="456" cy="570" r="106" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M350 570 H562 M456 464 V676" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="27" cy="137" r="104" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M-77 137 H131 M27 33 V241" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="818" cy="104" r="79" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M739 104 H897 M818 25 V183" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7018243/pexels-photo-7018243.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Bagno completato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Bagno completato</figcaption></figure><figure class="gi rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M400 208 L400 61 L532 61 L532 265 L532 146" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="400" cy="61" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><circle cx="532" cy="61" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><path d="M29 505 L29 588 L310 588 L310 786 L478 786 L478 706" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="29" cy="588" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="310" cy="588" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><circle cx="310" cy="786" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><path d="M-6 634 L-6 469 L-6 576 L116 576 L405 576 L673 576 L919 576" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-6" cy="576" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.60"/><circle cx="673" cy="576" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.60"/><path d="M0 470 L288 470 L579 470 L579 576 L825 576" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M304 177 L403 177 L676 177 L858 177 L1152 177" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M194 636 L194 839 L309 839 L534 839 L534 635 L685 635" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="309" cy="839" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="534" cy="839" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="534" cy="635" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="384" cy="518" r="91" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M293 518 H475 M384 427 V609" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="649" cy="375" r="103" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M546 375 H752 M649 272 V478" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/33388391/pexels-photo-33388391.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Prova di tenuta in pressione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Prova di tenuta in pressione</figcaption></figure><figure class="gi rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M-42 620 L67 620 L221 620 L221 809 L221 958 L521 958" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M359 138 L612 138 L828 138 L828 -70 L1121 -70" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="828" cy="138" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><path d="M300 290 L506 290 L649 290 L649 205 L851 205" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M340 396 L601 396 L601 539 L854 539 L1008 539 L1008 348 L1125 348" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="601" cy="396" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="601" cy="539" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="854" cy="539" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M-101 517 L84 517 L287 517 L287 310 L287 141 L586 141 L836 141 L836 282" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="287" cy="517" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="287" cy="141" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M59 220 L59 81 L294 81 L294 -85 L561 -85 L561 88 L561 213" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="59" cy="81" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="294" cy="81" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="294" cy="-85" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="561" cy="-85" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="561" cy="88" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><path d="M-60 618 L46 618 L230 618 L410 618 L529 618 L529 781 L529 948" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="46" cy="618" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="286" cy="519" r="69" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M217 519 H355 M286 450 V588" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="846" cy="307" r="101" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M745 307 H947 M846 206 V408" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="100" cy="533" r="95" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M5 533 H195 M100 438 V628" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="883" cy="219" r="97" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M786 219 H980 M883 122 V316" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/14598653/pexels-photo-14598653.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Sostituzione miscelatore" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Sostituzione miscelatore</figcaption></figure><figure class="gi rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M-50 610 L50 610 L271 610 L271 703 L271 850" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="271" cy="610" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.95"/><path d="M-9 390 L123 390 L123 584 L123 754 L257 754 L257 632 L484 632 L596 632" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="123" cy="754" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><path d="M284 456 L284 552 L284 640 L506 640 L506 827 L506 1018" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="284" cy="552" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><circle cx="284" cy="640" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><circle cx="506" cy="640" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><path d="M250 594 L440 594 L736 594 L736 438 L736 347 L736 271" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="440" cy="594" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><circle cx="736" cy="347" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M378 96 L378 13 L470 13 L587 13 L717 13 L1022 13 L1199 13" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="587" cy="13" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="717" cy="13" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M353 46 L532 46 L532 129 L696 129 L839 129 L839 241 L839 35 L1114 35" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="696" cy="129" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="839" cy="241" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="839" cy="35" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="518" cy="533" r="64" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M454 533 H582 M518 469 V597" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="792" cy="609" r="110" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M682 609 H902 M792 499 V719" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="357" cy="103" r="107" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M250 103 H464 M357 -4 V210" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="363" cy="533" r="85" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M278 533 H448 M363 448 V618" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/36777927/pexels-photo-36777927.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Distribuzione in multistrato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Distribuzione in multistrato</figcaption></figure><figure class="gi rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M-53 622 L88 622 L212 622 L477 622 L663 622 L663 465 L663 542 L818 542" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="663" cy="622" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><circle cx="663" cy="465" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><path d="M212 318 L307 318 L561 318 L561 176 L561 60" stroke="#1F7A8C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="307" cy="318" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><circle cx="561" cy="176" r="16" fill="none" stroke="#1F7A8C" stroke-width="2.9" opacity="0.60"/><path d="M319 177 L319 374 L495 374 L770 374 L770 199 L770 343 L770 469 L1043 469" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="319" cy="374" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="770" cy="374" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="770" cy="199" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><circle cx="770" cy="469" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.60"/><path d="M324 335 L324 541 L324 654 L324 497 L467 497 L747 497 L987 497 L987 680" stroke="#0D4A58" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="324" cy="541" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><circle cx="747" cy="497" r="16" fill="none" stroke="#0D4A58" stroke-width="2.9" opacity="0.30"/><path d="M153 342 L153 514 L435 514 L663 514 L762 514 L762 362 L762 184" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="435" cy="514" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="762" cy="514" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="762" cy="362" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M-79 602 L179 602 L429 602 L536 602 L762 602 L1049 602" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="179" cy="602" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="429" cy="602" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="762" cy="602" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="259" cy="625" r="61" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M198 625 H320 M259 564 V686" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="207" cy="83" r="57" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M150 83 H264 M207 26 V140" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7045299/pexels-photo-7045299.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Piatto doccia filo pavimento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Piatto doccia filo pavimento</figcaption></figure><figure class="gi rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M226 386 L402 386 L671 386 L869 386 L962 386 L1186 386" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="402" cy="386" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.95"/><circle cx="869" cy="386" r="23" fill="none" stroke="#1F7A8C" stroke-width="5.4" opacity="0.95"/><path d="M392 405 L392 540 L541 540 L754 540 L754 697" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="392" cy="540" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.60"/><path d="M387 66 L481 66 L653 66 L653 -72 L749 -72 L934 -72 L1033 -72" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="749" cy="-72" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.60"/><path d="M434 219 L434 392 L434 315 L434 498 L434 349 L434 441 L590 441" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="434" cy="315" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="434" cy="498" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="434" cy="349" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><circle cx="434" cy="441" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M279 436 L279 355 L279 160 L414 160 L582 160 L742 160 L862 160" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="279" cy="355" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="582" cy="160" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M-76 439 L16 439 L16 549 L186 549 L186 754 L307 754 L457 754" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="16" cy="439" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="186" cy="549" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="186" cy="754" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><circle cx="189" cy="257" r="99" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M90 257 H288 M189 158 V356" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="858" cy="324" r="73" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M785 324 H931 M858 251 V397" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="199" cy="350" r="79" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M120 350 H278 M199 271 V429" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/32998547/pexels-photo-32998547.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Punto acqua per lavatrice" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Punto acqua per lavatrice</figcaption></figure><figure class="gi rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0D4A58" opacity=".55"/><rect width="900" height="700" fill="#FFFFFF" opacity=".82"/><path d="M376 145 L376 289 L608 289 L720 289 L720 107 L720 276" stroke="#1F7A8C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="376" cy="289" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><circle cx="720" cy="289" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><circle cx="720" cy="107" r="13" fill="none" stroke="#1F7A8C" stroke-width="1.8" opacity="0.95"/><path d="M98 404 L98 494 L98 584 L98 394 L98 295 L98 479" stroke="#1F7A8C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M358 57 L569 57 L814 57 L814 207 L814 348" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="814" cy="207" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.60"/><path d="M295 502 L295 418 L530 418 L702 418 L702 585" stroke="#0D4A58" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="530" cy="418" r="20" fill="none" stroke="#0D4A58" stroke-width="4.3" opacity="0.30"/><path d="M147 612 L423 612 L695 612 L903 612 L903 521" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="423" cy="612" r="13" fill="none" stroke="#0D4A58" stroke-width="1.8" opacity="0.30"/><path d="M225 249 L421 249 L683 249 L683 123 L683 -82 L683 -2 L683 163" stroke="#0D4A58" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="683" cy="249" r="23" fill="none" stroke="#0D4A58" stroke-width="5.4" opacity="0.30"/><path d="M364 442 L364 615 L364 506 L364 310 L364 177" stroke="#0D4A58" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="28" cy="526" r="94" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M-66 526 H122 M28 432 V620" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><circle cx="798" cy="165" r="90" fill="none" stroke="#1F7A8C" stroke-width="5" opacity=".7"/><path d="M708 165 H888 M798 75 V255" stroke="#1F7A8C" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/8488035/pexels-photo-8488035.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Cantiere lasciato pulito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Cantiere lasciato pulito</figcaption></figure></div>
+<p class="note rv">Foto di repertorio, scelte per il vostro mestiere: al loro posto andranno le foto reali dei vostri lavori.</p>
+</div></section>
+<section class="sec" id="zone"><div class="wrap"><div class="zone">
+<div class="zmap rv"><svg viewBox="0 0 300 280" aria-hidden="true">
+<defs><radialGradient id="pl"><stop offset="0" stop-color="#1F7A8C" stop-opacity=".5"/>
+<stop offset="1" stop-color="#1F7A8C" stop-opacity="0"/></radialGradient>
+<linearGradient id="lnn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1F7A8C" stop-opacity=".65"/>
+<stop offset="1" stop-color="#0D4A58" stop-opacity=".08"/></linearGradient></defs>
+<g stroke="rgba(0,0,0,.10)" stroke-width="1" opacity=".55">
+<path d="M0 40h300M0 90h300M0 140h300M0 190h300M0 240h300"/>
+<path d="M40 0v280M90 0v280M140 0v280M190 0v280M240 0v280"/></g>
+<circle cx="150" cy="132" r="86" fill="url(#pl)"/>
+<circle cx="150" cy="132" r="86" fill="none" stroke="#1F7A8C" stroke-opacity=".28" stroke-dasharray="4 6"/>
+<circle cx="150" cy="132" r="120" fill="none" stroke="#1F7A8C" stroke-opacity=".13" stroke-dasharray="2 8"/>
+<g stroke="url(#lnn)" stroke-width="1.2" fill="none">
+<path d="M150 132 84 96M150 132 96 178M150 132 214 104M150 132 208 186M150 132 150 54M150 132 62 140M150 132 236 148"/></g>
+<g fill="#1F7A8C"><circle class="zn" cx="84" cy="96" r="3.6"/><circle class="zn" cx="96" cy="178" r="3.6"/><circle class="zn" cx="214" cy="104" r="3.6"/><circle class="zn" cx="208" cy="186" r="3.6"/><circle class="zn" cx="150" cy="54" r="3.6"/><circle class="zn" cx="62" cy="140" r="3.6"/><circle class="zn" cx="236" cy="148" r="3.6"/></g>
+<circle cx="150" cy="132" r="9" fill="#1F7A8C"/>
+<circle cx="150" cy="132" r="9" fill="none" stroke="#1F7A8C" opacity=".5">
+<animate attributeName="r" values="9;30" dur="2.8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".5;0" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="150" y="158" text-anchor="middle" fill="#111A2B" font-family="Outfit,sans-serif"
+ font-size="13" font-weight="600">Roma</text></svg></div>
+<div class="rv d1"><h2>Da Roma a tutta la provincia.</h2>
+<p class="lead" style="margin-top:18px">Base a Roma, interventi in provincia di Roma e nei comuni
+limitrofi. Se il vostro paese non è in elenco, chiedete comunque: quasi sempre si arriva.</p>
+<div class="zones"><a href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20informazioni&amp;body=Buongiorno%2C%0Ascrivo%20da%20Roma.%0A%0A" class="hi">Roma</a>
+<a href="#contatti">Roma</a><a href="#contatti">Comuni limitrofi</a></div>
+<p class="note">Qui va l'elenco dei comuni serviti davvero: mandateceli e li inseriamo.</p>
+</div></div></div></section>
+<section class="sec" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Le parole dei clienti valgono più delle nostre.</h2></div>
+<div class="revs"><div class="rev rv d1"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d2"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d3"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div></div>
+<p class="note rv">Sezione pronta: appena arrivano le prime recensioni Google le inseriamo qui. Nessun testo inventato.</p>
+</div></section>
+<section class="sec" id="faq"><div class="wrap"><div class="faq">
+<div class="sv-head rv" style="margin-bottom:26px"><h2>Quello che ci chiedono più spesso.</h2></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Quanto costa rifare un bagno?</span><i></i></button><div class="q-a"><p>Dipende da metratura, scarichi esistenti e finiture scelte. Dopo il sopralluogo vi diamo un preventivo scritto con le voci separate, così vedete dove si può risparmiare.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Fate interventi urgenti?</span><i></i></button><div class="q-a"><p>Sì, per perdite e allagamenti cerchiamo di arrivare in giornata. Scriveteci indicando zona e cosa sta succedendo.</p></div></div><div class="q rv d3"><button class="q-h" aria-expanded="false">
+<span>Il sopralluogo è gratuito?</span><i></i></button><div class="q-a"><p>Sì, sopralluogo e preventivo sono gratuiti e senza impegno.</p></div></div><div class="q rv d4"><button class="q-h" aria-expanded="false">
+<span>Quanto dura il cantiere di un bagno?</span><i></i></button><div class="q-a"><p>In genere una o due settimane, a seconda di demolizioni e tempi di posa delle piastrelle. Ve lo indichiamo nel preventivo.</p></div></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Rilasciate documentazione?</span><i></i></button><div class="q-a"><p>Sì, a fine lavori consegniamo la dichiarazione di conformità dove prevista, insieme alle schede dei materiali.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Lavorate anche su condomini?</span><i></i></button><div class="q-a"><p>Sì, comprese colonne di scarico e interventi su parti comuni, coordinandoci con l&#x27;amministratore.</p></div></div></div></div></section>
+<section class="sec" id="contatti" style="padding-top:0"><div class="wrap">
+<div class="cta rv"><div class="cta-in"><div>
+<span class="eyebrow">Contatti</span>
+<h2>Raccontateci il lavoro.<br>Il preventivo è gratis.</h2>
+<p class="lead" style="margin-top:16px">Due righe bastano per partire. Se avete una foto della situazione,
+allegatela: si capisce subito di cosa c'è bisogno.</p>
+<div class="cta-btns"><a href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Roma%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> idraulicopontemilvio@gmail.com</a>
+<a data-wa="Ciao Termoidraulica Mari, vorrei un preventivo gratuito." href="#" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a></div>
+</div><div class="info">
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+<div><b>Termoidraulica Mari</b><span>Roma (RM) — indirizzo da confermare</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div><div><b>Email</b><span>idraulicopontemilvio@gmail.com</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+<div><b>Orari</b><span>Da confermare · Si risponde anche fuori orario</span></div></div>
+</div></div></div></div></section>
+<footer><div class="wrap"><div class="f-top"><div><a href="#top" class="logo" aria-label="Termoidraulica Mari"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg5912" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#1F7A8C"/><stop offset="1" stop-color="#0D4A58"/></linearGradient></defs><circle cx="24" cy="24" r="22.5" fill="none" stroke="url(#mg5912)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg5912)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">TM</text></svg><span class="logo-w"><span class="logo-t">Termoidraulica Mari</span><span class="logo-s">Impianti idraulici e sanitari</span></span></a>
+<p>Impianti idraulici e sanitari a Roma e in provincia di Roma.</p></div>
+<div class="f-col"><h4>Servizi</h4><a href="#servizi">Rifacimento completo del bagno</a><a href="#servizi">Ricerca perdite</a><a href="#servizi">Sostituzione sanitari</a><a href="#servizi">Scarichi e colonne di scarico</a><a href="#servizi">Impianto idrico nuovo</a><a href="#servizi">Autoclave e pressione</a></div>
+<div class="f-col"><h4>Contatti</h4><a href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Roma%0AGrazie.">idraulicopontemilvio@gmail.com</a>
+<span>Roma (RM)</span><span>Orari da confermare</span></div></div>
+<div class="f-bot"><span>© <span id="yy">2026</span> Termoidraulica Mari — Roma (RM)</span>
+<span>Bozza realizzata da <a href="#top">Umbra</a></span></div></div></footer>
+<a class="fab" id="fab" href="mailto:idraulicopontemilvio@gmail.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Roma%0AGrazie." aria-label="Scrivici una mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+<div class="lb" id="lb"><button class="lb-x" aria-label="Chiudi">×</button>
+<figure><div class="lb-art"></div><figcaption></figcaption></figure></div>
+<script>
+(function(){
+  var RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* header + progress + fab */
+  var hd=document.getElementById('hd'), prg=document.getElementById('prg'),
+      fab=document.getElementById('fab'), tick=false;
+  function onScroll(){
+    var y=scrollY, h=document.body.scrollHeight-innerHeight;
+    hd.classList.toggle('on', y>24);
+    prg.style.width=(h>0? (y/h*100):0)+'%';
+    if(fab) fab.classList.toggle('on', y>620);
+    tick=false;
+  }
+  addEventListener('scroll',function(){ if(!tick){requestAnimationFrame(onScroll);tick=true;} },{passive:true});
+  onScroll();
+
+  /* drawer */
+  var bg=document.getElementById('bg'), dw=document.getElementById('dw');
+  if(bg) bg.onclick=function(){ dw.classList.toggle('open'); document.body.style.overflow=dw.classList.contains('open')?'hidden':''; };
+  if(dw) dw.querySelectorAll('a').forEach(function(a){ a.onclick=function(){ dw.classList.remove('open'); document.body.style.overflow=''; }; });
+
+  /* reveal */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.14, rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+  /* hero parallax legato allo scroll */
+  var art=document.querySelector('.hero-art');
+  if(art && !RM){
+    addEventListener('scroll',function(){
+      var y=scrollY;
+      if(y<innerHeight*1.2){
+        art.style.transform='translate3d(0,'+(y*.22)+'px,0) scale('+(1+y/innerHeight*.09)+')';
+        art.style.opacity=Math.max(0,1-y/innerHeight*.75);
+      }
+    },{passive:true});
+  }
+
+  /* contatori */
+  var co=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      co.unobserve(e.target);
+      var el=e.target, to=parseFloat(el.dataset.count)||0, sfx=el.dataset.suffix||'', t0=null, D=1500;
+      if(RM){ el.textContent=to+sfx; return; }
+      requestAnimationFrame(function step(t){
+        if(!t0)t0=t;
+        var p=Math.min(1,(t-t0)/D), e2=1-Math.pow(1-p,3);
+        el.textContent=Math.round(to*e2)+sfx;
+        if(p<1) requestAnimationFrame(step);
+      });
+    });
+  },{threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(function(el){ co.observe(el); });
+
+  /* faq */
+  document.querySelectorAll('.q-h').forEach(function(b){
+    b.onclick=function(){
+      var q=b.parentElement, a=q.querySelector('.q-a'), open=q.classList.contains('open');
+      document.querySelectorAll('.q.open').forEach(function(o){
+        o.classList.remove('open'); o.querySelector('.q-a').style.maxHeight=null;
+        o.querySelector('.q-h').setAttribute('aria-expanded','false');
+      });
+      if(!open){ q.classList.add('open'); a.style.maxHeight=a.scrollHeight+'px';
+        b.setAttribute('aria-expanded','true'); }
+    };
+  });
+
+  /* prima/dopo */
+  var ba=document.querySelector('.ba');
+  if(ba){
+    var top=ba.querySelector('.ba-top'), hnd=ba.querySelector('.ba-h'), drag=false, played=false;
+    function set(p){ p=Math.max(2,Math.min(98,p));
+      top.style.clipPath='inset(0 '+(100-p)+'% 0 0)'; hnd.style.left=p+'%'; }
+    function fromEvt(e){ var r=ba.getBoundingClientRect(),
+      x=(e.touches?e.touches[0].clientX:e.clientX)-r.left; set(x/r.width*100); }
+    ba.addEventListener('pointerdown',function(e){drag=true;ba.setPointerCapture(e.pointerId);fromEvt(e);});
+    ba.addEventListener('pointermove',function(e){ if(drag) fromEvt(e); });
+    ba.addEventListener('pointerup',function(){drag=false;});
+    ba.addEventListener('pointercancel',function(){drag=false;});
+    new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting||played||RM) return; played=true;
+        var t0=null;
+        requestAnimationFrame(function s(t){ if(!t0)t0=t;
+          var p=Math.min(1,(t-t0)/1900), e2=1-Math.pow(1-p,3);
+          set(50+Math.sin(e2*Math.PI*1.5)*40);
+          if(p<1) requestAnimationFrame(s); else set(50);
+        });
+      });
+    },{threshold:.45}).observe(ba);
+  }
+
+  /* lightbox */
+  var lb=document.getElementById('lb');
+  if(lb){
+    var lba=lb.querySelector('.lb-art'), lbc=lb.querySelector('figcaption');
+    document.querySelectorAll('.gi').forEach(function(g){
+      g.onclick=function(){
+        lba.innerHTML=g.querySelector('.ph').outerHTML;
+        lbc.textContent=g.querySelector('figcaption').textContent;
+        lb.classList.add('on'); document.body.style.overflow='hidden';
+      };
+    });
+    function close(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+    lb.onclick=close;
+    addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  }
+
+  /* foto gia' in cache: onload puo' non scattare, le sblocco a mano */
+  document.querySelectorAll('.ph.q>img').forEach(function(i){
+    if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+  });
+  addEventListener('load', function(){
+    document.querySelectorAll('.ph.q>img').forEach(function(i){
+      if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+    });
+  });
+
+  /* anno */
+  var yy=document.getElementById('yy'); if(yy) yy.textContent=new Date().getFullYear();
+
+  /* WhatsApp: i bottoni compaiono solo se WA e' valorizzato in testa al file */
+  if(!window.WA_NUM){
+    document.querySelectorAll('[data-wa]').forEach(function(el){ el.remove(); });
+  } else {
+    document.querySelectorAll('[data-wa]').forEach(function(el){
+      el.href='https://wa.me/'+window.WA_NUM+'?text='+encodeURIComponent(el.dataset.wa);
+    });
+  }
+})();
+</script>
+</body>
+</html>
