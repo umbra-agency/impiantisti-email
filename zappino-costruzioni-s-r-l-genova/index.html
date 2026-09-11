@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  BOZZA UMBRA — Zappino Costruzioni srl
+  Genova (GE) · casa_zappino@hotmail.it
+  Stile: Calce · Mestiere: Impianti e ristrutturazioni · Accento #FFC400 / #B08400
+  ============================================================================
+  PER ATTIVARE I BOTTONI WHATSAPP: mettere il numero (39 + cellulare, senza spazi)
+  nella riga  window.WA_NUM = "";  qui sotto nel <head>. Se resta vuota, i bottoni
+  WhatsApp spariscono da soli e restano solo quelli email.
+
+  FOTO: sono di repertorio (Pexels / Unsplash, libere per uso commerciale),
+  scelte per il mestiere. Dietro ogni foto c'e' una grafica vettoriale generata
+  nei colori del sito: se una URL smette di rispondere il riquadro resta pieno.
+  Per sostituirle con le foto vere del cliente: cercare images.pexels.com /
+  images.unsplash.com e cambiare la src.
+
+  DA CONFERMARE COL CLIENTE PRIMA DI CONSIDERARLA DEFINITIVA:
+  indirizzo, orari, elenco dei comuni serviti, servizi realmente offerti,
+  numeri della sezione contatori, foto reali dei lavori, recensioni Google.
+  ============================================================================
+-->
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zappino Costruzioni srl — Impiantistica a Genova (GE)</title>
+<meta name="description" content="Zappino Costruzioni srl: impianti e ristrutturazioni a Genova e in provincia di Genova. Preventivo gratuito, sopralluogo senza impegno.">
+<meta name="theme-color" content="#F1F0EC">
+<meta property="og:title" content="Zappino Costruzioni srl — Impiantistica a Genova (GE)">
+<meta property="og:description" content="Zappino Costruzioni srl: impianti e ristrutturazioni a Genova e in provincia di Genova. Preventivo gratuito, sopralluogo senza impegno.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22mg51682%22%20x1%3D%224%22%20y1%3D%224%22%20x2%3D%2244%22%20y2%3D%2244%22%3E%3Cstop%20stop-color%3D%22%23FFC400%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23B08400%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d%3D%22M24%202%2045%209v16c0%2011-9%2018-21%2021C12%2043%203%2036%203%2025V9z%22%20fill%3D%22none%22%20stroke%3D%22url%28%23mg51682%29%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2224%22%20y%3D%2224%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20fill%3D%22url%28%23mg51682%29%22%20font-family%3D%22inherit%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20letter-spacing%3D%22-.5%22%3EZC%3C/text%3E%3C/svg%3E">
+<script>window.WA_NUM = "";</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font-family:var(--bdy);font-weight:400;
+  line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  font-size:16.5px;letter-spacing:-.005em}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:2px}
+::selection{background:var(--acc);color:var(--onacc)}
+
+:root{
+  --bg:#F1F0EC; --bg2:#E6E5DF; --surface:#FFFFFF; --surface2:#F7F6F3;
+  --line:#D7D5CC; --line2:#E6E4DC;
+  --txt:#16181A; --muted:#5F625E; --muted2:#8B8D87;
+  --acc:#FFC400; --acc2:#B08400; --onacc:#FFFFFF;
+  --wa:#25D366;
+  --r:4px; --rs:3px; --rb:2px;
+  --dsp:'Fraunces', Georgia, serif; --bdy:'Inter', system-ui, sans-serif;
+  --max:1180px; --ease:cubic-bezier(.22,1,.36,1);
+  --pad:clamp(18px,5vw,34px);
+}
+
+h1,h2,h3,h4,.dsp{font-family:var(--dsp);font-weight:600;letter-spacing:-.028em;line-height:1.02}
+h1{font-size:clamp(2.5rem,8.4vw,4.8rem)}
+h2{font-size:clamp(1.85rem,5.2vw,3.05rem);line-height:1.06}
+h3{font-size:1.14rem;font-family:var(--bdy);font-weight:600;letter-spacing:-.015em;line-height:1.3}
+p{max-width:66ch}
+.lead{font-size:clamp(1.02rem,2.5vw,1.16rem);color:var(--muted);line-height:1.72}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.sec{padding:clamp(70px,11vw,140px) 0;position:relative}
+.eyebrow{display:inline-block;font-family:var(--bdy);font-size:.79rem;font-weight:600;
+  color:var(--acc);margin-bottom:14px;letter-spacing:.01em}
+
+/* ---------- progress ---------- */
+.prg{position:fixed;top:0;left:0;height:2px;width:0;z-index:120;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .1s linear}
+
+/* ---------- header ---------- */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:.4s var(--ease);
+  border-bottom:1px solid transparent}
+header.on{background:color-mix(in srgb,var(--bg) 86%, transparent);
+  backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);
+  border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;gap:20px;height:70px}
+.logo{display:flex;align-items:center;gap:11px;flex:none}
+.logo svg{width:36px;height:36px}
+.logo-w{display:flex;flex-direction:column;line-height:1.05}
+.logo-t{font-family:var(--dsp);font-size:1.16rem;font-weight:600;letter-spacing:-.02em}
+.logo-s{font-size:.68rem;color:var(--muted2);letter-spacing:.02em}
+.menu{display:flex;gap:26px;margin-left:auto;font-size:.9rem;color:var(--muted)}
+.menu a{position:relative;padding:4px 0;transition:color .25s}
+.menu a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;
+  background:var(--acc);transition:right .35s var(--ease)}
+.menu a:hover{color:var(--txt)}
+.menu a:hover::after{right:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:12px 20px;border-radius:var(--rb);font-size:.9rem;font-weight:600;
+  font-family:var(--bdy);border:1px solid transparent;cursor:pointer;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .25s,color .25s;
+  white-space:nowrap;letter-spacing:-.01em}
+.btn svg{width:17px;height:17px;flex:none}
+.btn-p{background:var(--acc);color:var(--onacc)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--acc)}
+.btn-g{border-color:var(--line);color:var(--txt);background:var(--surface)}
+.btn-g:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#04240F}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--wa)}
+.btn-lg{padding:15px 26px;font-size:.97rem}
+.nav .btn{padding:10px 17px;font-size:.85rem}
+.burger{display:none;margin-left:auto;width:42px;height:42px;border:1px solid var(--line);
+  border-radius:var(--rb);background:var(--surface);align-items:center;justify-content:center}
+.burger span{display:block;width:17px;height:1.5px;background:var(--txt);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:17px;
+  height:1.5px;background:var(--txt);transition:.3s var(--ease)}
+.burger span::before{top:-5.5px}.burger span::after{top:5.5px}
+.drawer{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;
+  flex-direction:column;justify-content:center;gap:6px;padding:0 var(--pad);
+  transform:translateY(-100%);transition:transform .5s var(--ease);visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
+.drawer a:not(.btn){font-family:var(--dsp);font-size:2rem;padding:11px 0;
+  border-bottom:1px solid var(--line2)}
+.drawer .btn{margin-top:22px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;
+  padding-top:100px;padding-bottom:70px;overflow:hidden}
+.hero-art{position:absolute;inset:0;z-index:0}
+.hero-art svg{width:100%;height:100%;object-fit:cover}
+
+/* --- foto: la grafica generativa resta sotto come fondo, la foto ci va sopra.
+   Se una URL non risponde l'immagine si toglie da sola e resta il fondo. --- */
+.ph{position:relative;overflow:hidden;background:var(--surface2);isolation:isolate}
+.ph>svg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph>img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;
+  filter:saturate(.95) contrast(1.04) brightness(1);
+  transition:transform .9s var(--ease),opacity .8s var(--ease)}
+.ph::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(150deg,#FFC400 0%,#B08400 100%);mix-blend-mode:soft-light;opacity:.4}
+.ph.q>img{opacity:0}
+.ph.q.on>img{opacity:1}
+.hero-veil{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,color-mix(in srgb,#F1F0EC 62%,transparent) 0%,color-mix(in srgb,#F1F0EC 84%,transparent) 50%,#F1F0EC 100%)}
+.hero-veil::after{content:"";position:absolute;inset:0;background:linear-gradient(96deg,color-mix(in srgb,#F1F0EC 80%,transparent) 0%,color-mix(in srgb,#F1F0EC 34%,transparent) 58%,transparent 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.badge{display:inline-flex;align-items:center;gap:9px;padding:8px 15px;
+  border:1px solid var(--line);border-radius:100px;font-size:.8rem;color:var(--muted);
+  background:color-mix(in srgb,var(--surface) 70%,transparent);backdrop-filter:blur(8px);
+  margin-bottom:22px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--acc);position:relative}
+.dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;
+  border:1px solid var(--acc);animation:pulse 2.4s var(--ease) infinite}
+@keyframes pulse{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.7);opacity:0}}
+.hero .lead{margin:22px 0 30px;max-width:56ch}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.hero-mini{display:flex;gap:9px;flex-wrap:wrap;margin-top:30px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:.81rem;color:var(--muted);
+  padding:7px 13px;border:1px solid var(--line2);border-radius:100px}
+.chip svg{width:13px;height:13px;color:var(--acc)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,64px);align-items:center}
+.hero-card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:var(--surface);box-shadow:0 40px 90px -50px rgba(0,0,0,.6)}
+.hero-card .ph{width:100%;aspect-ratio:4/3}
+.hero-card-b{padding:20px 22px 22px}
+.hero-card-b strong{display:block;font-family:var(--dsp);font-size:1.1rem;margin-bottom:6px}
+.hero-card-b span{font-size:.87rem;color:var(--muted);display:block}
+.hcrow{display:flex;justify-content:space-between;gap:16px;margin-top:18px;
+  padding-top:16px;border-top:1px solid var(--line2)}
+.hcrow .k{font-family:var(--dsp);font-size:1.45rem;color:var(--acc);line-height:1}
+.hcrow .l{font-size:.72rem;color:var(--muted2);margin-top:4px}
+.hero-strip{margin-top:clamp(34px,5vw,56px);border:1px solid var(--line);
+  border-radius:var(--r);overflow:hidden;height:clamp(180px,30vw,330px)}
+.hero-strip .ph{width:100%;height:100%}
+.scrollcue{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);z-index:3;
+  display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.7rem;
+  color:var(--muted2);letter-spacing:.06em}
+.scrollcue i{display:block;width:1px;height:34px;background:linear-gradient(var(--acc),transparent);
+  animation:cue 2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}
+  46%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- marquee ---------- */
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:17px 0;overflow:hidden;background:var(--bg2)}
+.mq-in{display:flex;gap:44px;width:max-content;animation:mq 34s linear infinite}
+.mq:hover .mq-in{animation-play-state:paused}
+.mq span{font-family:var(--dsp);font-size:1.02rem;color:var(--muted);
+  display:flex;align-items:center;gap:44px;white-space:nowrap}
+.mq span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--acc);flex:none}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- servizi ---------- */
+.sv-head{max-width:640px;margin-bottom:clamp(34px,5vw,58px)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.6vw,18px)}
+.card{grid-column:span 2;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);overflow:hidden;position:relative;
+  transition:transform .5s var(--ease),border-color .4s,box-shadow .5s var(--ease)}
+.card:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line));
+  box-shadow:0 30px 60px -40px rgba(0,0,0,.55)}
+.card .ph{width:100%;aspect-ratio:16/10}
+.card-b{padding:20px 21px 23px}
+.card .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:13px;
+  background:var(--surface2)}
+.card .ib svg{width:19px;height:19px}
+.card p{font-size:.9rem;color:var(--muted);margin-top:7px;line-height:1.6}
+.card.wide{grid-column:span 4}
+.card.wide .ph{aspect-ratio:21/7}
+
+.rows{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:20px;align-items:start;
+  padding:26px 0;border-bottom:1px solid var(--line);transition:padding .4s var(--ease)}
+.row:hover{padding-left:10px}
+.row .ib{width:44px;height:44px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);background:var(--surface2)}
+.row .ib svg{width:21px;height:21px}
+.row p{font-size:.92rem;color:var(--muted);margin-top:5px}
+.row .thumb{width:120px;height:78px;border-radius:var(--rs);overflow:hidden;
+  border:1px solid var(--line2);flex:none}
+.row .thumb .ph{width:100%;height:100%}
+
+.bands{display:flex;flex-direction:column;gap:clamp(12px,1.6vw,16px)}
+.band{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;
+  border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.band:nth-child(even) .band-art{order:-1}
+.band-art{min-height:190px}
+.band-art .ph{width:100%;height:100%}
+.band-b{padding:clamp(22px,3vw,34px)}
+.band-b .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:14px}
+.band-b .ib svg{width:19px;height:19px}
+.band-b p{font-size:.92rem;color:var(--muted);margin-top:8px}
+
+/* ---------- urgenze ---------- */
+.urg{margin-top:clamp(20px,3vw,30px);border:1px solid color-mix(in srgb,var(--acc) 40%,var(--line));
+  border-radius:var(--r);background:linear-gradient(105deg,
+    color-mix(in srgb,var(--acc) 13%,var(--surface)),var(--surface));
+  padding:clamp(22px,3vw,30px);display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.urg .ib{width:46px;height:46px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;background:var(--acc);color:var(--onacc);flex:none}
+.urg .ib svg{width:23px;height:23px}
+.urg div.t{flex:1;min-width:240px}
+.urg strong{font-family:var(--dsp);font-size:1.15rem;display:block;margin-bottom:4px}
+.urg p{font-size:.9rem;color:var(--muted)}
+
+/* ---------- metodo ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(16px,2.4vw,28px);position:relative}
+.steps::before{content:"";position:absolute;top:19px;left:8%;right:8%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--line),var(--line),transparent)}
+.step{position:relative}
+.step .n{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  background:var(--bg);display:flex;align-items:center;justify-content:center;
+  font-family:var(--dsp);font-size:.95rem;color:var(--acc);margin-bottom:15px;position:relative;z-index:1}
+.step h3{margin-bottom:5px}
+.step p{font-size:.89rem;color:var(--muted)}
+
+/* ---------- numeri ---------- */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,22px)}
+.num{padding:clamp(20px,2.6vw,28px);border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface)}
+.num .v{font-family:var(--dsp);font-size:clamp(2rem,4.6vw,2.9rem);line-height:1;
+  color:var(--acc);letter-spacing:-.04em}
+.num .l{font-size:.81rem;color:var(--muted);margin-top:10px}
+
+/* ---------- prima/dopo ---------- */
+.ba{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);
+  aspect-ratio:16/9;cursor:ew-resize;user-select:none;touch-action:pan-y}
+.ba .ph{position:absolute;inset:0;width:100%;height:100%}
+/* Prima/Dopo credibile: stessa identica inquadratura, due stati.
+   Sotto lo scatto "prima" (spento, ingiallito, contrasto piatto),
+   sopra quello "dopo" (pulito). Cambia solo il trattamento, non la scena. */
+.ba .prima>img{filter:saturate(.28) contrast(.84) brightness(.68) sepia(.32) blur(.4px)}
+.ba .prima::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
+  background:radial-gradient(120% 100% at 50% 40%,transparent 30%,rgba(28,20,10,.55) 100%)}
+.ba .dopo>img{filter:saturate(1.06) contrast(1.08) brightness(1.04)}
+.ba-lb b{font-weight:600}
+.ba-top{position:absolute;inset:0;clip-path:inset(0 50% 0 0);will-change:clip-path}
+.ba-h{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--acc);z-index:3;
+  will-change:left}
+.ba-h::after{content:"";position:absolute;top:50%;left:50%;width:42px;height:42px;
+  transform:translate(-50%,-50%);border-radius:50%;background:var(--acc);
+  box-shadow:0 6px 22px -6px rgba(0,0,0,.6)}
+.ba-lb{position:absolute;bottom:14px;padding:6px 12px;border-radius:100px;font-size:.75rem;
+  background:color-mix(in srgb,var(--bg) 75%,transparent);backdrop-filter:blur(8px);
+  border:1px solid var(--line);z-index:4}
+.ba-lb.l{left:14px}.ba-lb.r{right:14px}
+
+/* ---------- galleria ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.4vw,15px)}
+.gi{position:relative;border-radius:var(--rs);overflow:hidden;border:1px solid var(--line2);
+  cursor:zoom-in;background:var(--surface)}
+.gi .ph{width:100%;height:100%;aspect-ratio:4/3}
+.gi:hover .ph>img{transform:scale(1.06)}
+.gi.w2{grid-column:span 2}
+.gi.h2{grid-row:span 2}
+.gi.h2 .ph{aspect-ratio:4/6}
+.gi figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;
+  font-size:.79rem;color:#fff;
+  background:linear-gradient(transparent,rgba(0,0,0,.78));opacity:0;transition:opacity .4s}
+.gi:hover figcaption{opacity:1}
+.rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-bottom:12px;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{height:4px}
+.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.rail .gi{flex:0 0 clamp(240px,38vw,380px);scroll-snap-align:start}
+.note{font-size:.79rem;color:var(--muted2);margin-top:16px}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;background:color-mix(in srgb,var(--bg) 94%,#000);z-index:200;
+  display:none;align-items:center;justify-content:center;padding:22px}
+.lb.on{display:flex}
+.lb figure{max-width:960px;width:100%}
+.lb .ph{width:100%;border-radius:var(--r);aspect-ratio:4/3}
+.lb figcaption{text-align:center;font-size:.87rem;color:var(--muted);margin-top:14px}
+.lb-x{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line);background:var(--surface);color:var(--txt);
+  display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer}
+
+/* ---------- zone ---------- */
+.zone{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,5vw,60px);align-items:center}
+.zmap{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);
+  padding:16px;overflow:hidden}
+.zmap svg{width:100%;height:auto}
+.zn{animation:zn 3.4s var(--ease) infinite}
+.zn:nth-child(2){animation-delay:.4s}.zn:nth-child(3){animation-delay:.8s}
+.zn:nth-child(4){animation-delay:1.2s}.zn:nth-child(5){animation-delay:1.6s}
+.zn:nth-child(6){animation-delay:2s}.zn:nth-child(7){animation-delay:2.4s}
+@keyframes zn{0%,100%{opacity:.35}50%{opacity:1}}
+.zones{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.zones a{padding:9px 15px;border-radius:100px;font-size:.83rem;color:var(--muted);
+  border:1px solid var(--line);transition:.3s var(--ease)}
+.zones a:hover{color:var(--txt);border-color:var(--acc);transform:translateY(-2px)}
+.zones a.hi{background:var(--acc);color:var(--onacc);border-color:var(--acc);font-weight:600}
+
+/* ---------- recensioni ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,20px)}
+.rev{border:1px dashed var(--line);border-radius:var(--r);padding:clamp(20px,2.6vw,26px);
+  background:var(--surface2)}
+.stars{display:flex;gap:3px;margin-bottom:13px;color:var(--muted2)}
+.stars svg{width:15px;height:15px}
+.rev p{font-size:.9rem;color:var(--muted2);font-style:italic}
+.rev .who{display:flex;align-items:center;gap:11px;margin-top:16px;padding-top:14px;
+  border-top:1px solid var(--line2)}
+.rev .av{width:34px;height:34px;border-radius:50%;border:1px dashed var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--muted2);font-size:.9rem}
+.rev .who b{font-size:.86rem;display:block}
+.rev .who span{font-size:.76rem;color:var(--muted2)}
+
+/* ---------- faq ---------- */
+.faq{max-width:820px;margin:0 auto}
+.q{border-bottom:1px solid var(--line)}
+.q-h{width:100%;display:flex;align-items:center;gap:16px;padding:21px 0;background:none;
+  border:0;color:inherit;font-family:var(--bdy);font-size:1.02rem;font-weight:500;
+  text-align:left;cursor:pointer;letter-spacing:-.01em}
+.q-h i{margin-left:auto;width:20px;height:20px;position:relative;flex:none}
+.q-h i::before,.q-h i::after{content:"";position:absolute;top:9.5px;left:2px;width:16px;
+  height:1.5px;background:var(--acc);transition:transform .4s var(--ease)}
+.q-h i::after{transform:rotate(90deg)}
+.q.open .q-h i::after{transform:rotate(0)}
+.q-a{max-height:0;overflow:hidden;transition:max-height .5s var(--ease)}
+.q-a p{padding-bottom:22px;font-size:.94rem;color:var(--muted)}
+
+/* ---------- cta ---------- */
+.cta{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--acc) 12%,var(--surface)),var(--surface) 62%)}
+.cta-in{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,4vw,52px);
+  padding:clamp(30px,5vw,62px)}
+.cta-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.info{display:flex;flex-direction:column;gap:18px;justify-content:center}
+.irow{display:flex;gap:14px;align-items:flex-start}
+.irow .ii{width:38px;height:38px;border-radius:var(--rs);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--acc);flex:none}
+.irow .ii svg{width:18px;height:18px}
+.irow b{display:block;font-size:.92rem;margin-bottom:2px}
+.irow span{font-size:.86rem;color:var(--muted);word-break:break-word}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:clamp(46px,6vw,72px) 0 30px;background:var(--bg2)}
+.f-top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:clamp(26px,4vw,52px);
+  padding-bottom:36px;border-bottom:1px solid var(--line2)}
+.f-top p{font-size:.88rem;color:var(--muted);margin-top:14px;max-width:44ch}
+.f-col h4{font-family:var(--bdy);font-size:.8rem;font-weight:600;color:var(--muted2);
+  margin-bottom:14px}
+.f-col a,.f-col span{display:block;font-size:.88rem;color:var(--muted);padding:4px 0}
+.f-col a:hover{color:var(--acc)}
+.f-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding-top:22px;font-size:.79rem;color:var(--muted2)}
+.f-bot a{color:var(--acc)}
+
+/* ---------- fab ---------- */
+.fab{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;
+  background:var(--acc);color:var(--onacc);display:flex;align-items:center;justify-content:center;
+  z-index:90;box-shadow:0 14px 34px -12px rgba(0,0,0,.6);
+  opacity:0;visibility:hidden;transform:translateY(16px) scale(.9);
+  transition:.45s var(--ease)}
+.fab.on{opacity:1;visibility:visible;transform:none}
+.fab svg{width:26px;height:26px}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--acc);
+  animation:pulse 2.6s var(--ease) infinite}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transition:opacity .9s var(--ease),transform .9s var(--ease),
+  filter .9s var(--ease),clip-path 1s var(--ease)}
+body.rev-rise .rv{transform:translateY(28px)}
+body.rev-blur .rv{filter:blur(9px);transform:scale(.985)}
+body.rev-wipe .rv{clip-path:inset(0 0 100% 0);opacity:1}
+body.rev-slab .rv{transform:translateY(14px) scaleY(.97);transform-origin:bottom}
+.rv.rv.in{opacity:1;transform:none;filter:none;clip-path:inset(0 0 0 0)}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+.d4{transition-delay:.32s}.d5{transition-delay:.4s}.d6{transition-delay:.48s}
+.d7{transition-delay:.56s}.d8{transition-delay:.64s}
+
+/* ---------- responsive ---------- */
+@media (max-width:1000px){
+  .hero-grid,.zone,.cta-in{grid-template-columns:1fr}
+  .hero-card{max-width:520px}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .card.wide{grid-column:span 2}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .steps::before{display:none}
+  .nums{grid-template-columns:repeat(2,1fr)}
+  .revs{grid-template-columns:1fr}
+  .f-top{grid-template-columns:1fr 1fr}
+  .band{grid-template-columns:1fr}
+  .band:nth-child(even) .band-art{order:0}
+}
+@media (max-width:900px){
+  .menu,.nav .btn-txt{display:none}
+  .burger{display:flex}
+  .nav .btn{padding:10px 14px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .nav{height:62px}
+  .hero{padding-top:88px;min-height:96svh}
+  .grid{grid-template-columns:1fr}
+  .card,.card.wide{grid-column:span 1}
+  .gal{grid-template-columns:repeat(2,1fr)}
+  .gi.h2{grid-row:span 1}
+  .gi.h2 .ph{aspect-ratio:4/3}
+  .row{grid-template-columns:44px 1fr;gap:14px}
+  .row .thumb{display:none}
+  .f-top{grid-template-columns:1fr}
+  .lead{max-width:none}
+  .scrollcue{display:none}
+  .ba{aspect-ratio:4/3}
+}
+@media (hover:none){
+  .gi figcaption{opacity:1;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;scroll-behavior:auto !important}
+  .rv{opacity:1 !important;transform:none !important;filter:none !important;clip-path:none !important}
+}
+</style>
+</head>
+<body class="rev-rise">
+<div class="prg" id="prg"></div>
+<header id="hd"><div class="wrap nav"><a href="#top" class="logo" aria-label="Zappino Costruzioni"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg51682" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#FFC400"/><stop offset="1" stop-color="#B08400"/></linearGradient></defs><path d="M24 2 45 9v16c0 11-9 18-21 21C12 43 3 36 3 25V9z" fill="none" stroke="url(#mg51682)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg51682)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">ZC</text></svg><span class="logo-w"><span class="logo-t">Zappino Costruzioni</span><span class="logo-s">Impianti e ristrutturazioni</span></span></a>
+<nav class="menu"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a></nav>
+<a href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Genova%0AGrazie." class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span class="btn-txt">Scrivici</span></a>
+<a data-wa="Ciao Zappino Costruzioni srl, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a>
+<button class="burger" id="bg" aria-label="Apri il menu"><span></span></button>
+</div></header>
+<div class="drawer" id="dw"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a>
+<a href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Genova%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici una mail</a></div>
+<section class="hero" id="top">
+<div class="hero-veil" style="background:none"></div>
+<div class="wrap"><div style="max-width:900px"><div class="badge rv d1"><span class="dot"></span> Genova e provincia · Preventivo gratuito</div><h1 class="rv d2">Impianti e opere,<br><em>coordinati da una sola squadra.</em></h1><p class="lead rv d3">Zappino Costruzioni srl segue impianti e opere edili a Genova: dalla ristrutturazione completa al singolo intervento, coordinando le lavorazioni per non lasciarvi a fare da tramite tra artigiani.</p><div class="hero-btns rv d4"><a href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Genova%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Chiedi un preventivo</a><a data-wa="Ciao Zappino Costruzioni srl, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a><a href="#lavori" class="btn btn-g btn-lg">Guarda i lavori</a></div><div class="hero-mini rv d5"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Sopralluogo senza impegno</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Preventivo scritto</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cantiere lasciato pulito</span></div></div>
+<div class="hero-strip rv d5"><div class="ph q "><svg class="art" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1600" height="600" fill="#FFFFFF"/><path d="M0 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M200 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M600 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M800 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1000 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1200 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1400 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1600 0V600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 120H1600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 240H1600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 360H1600" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 600 L200 252" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M200 600 L400 252" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M400 600 L600 252" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M600 600 L800 252" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M800 600 L1000 252" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M1000 600 L1200 252" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M1200 600 L1400 252" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M1400 600 L1600 252" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="958" y="68" width="600" height="120" fill="#FFC400" opacity="0.55"/><rect x="1176" y="71" width="200" height="168" fill="#FFC400" opacity="0.80"/><rect x="580" y="72" width="400" height="120" fill="#FFC400" opacity="0.55"/><rect x="589" y="351" width="200" height="84" fill="#FFC400" opacity="0.95"/><path d=" M-60 330 l60 60 M-34 330 l60 60 M-8 330 l60 60 M18 330 l60 60 M44 330 l60 60 M70 330 l60 60 M96 330 l60 60 M122 330 l60 60 M148 330 l60 60 M174 330 l60 60 M200 330 l60 60 M226 330 l60 60 M252 330 l60 60 M278 330 l60 60 M304 330 l60 60 M330 330 l60 60 M356 330 l60 60 M382 330 l60 60 M408 330 l60 60 M434 330 l60 60 M460 330 l60 60 M486 330 l60 60 M512 330 l60 60 M538 330 l60 60 M564 330 l60 60 M590 330 l60 60 M616 330 l60 60 M642 330 l60 60 M668 330 l60 60 M694 330 l60 60 M720 330 l60 60 M746 330 l60 60 M772 330 l60 60 M798 330 l60 60 M824 330 l60 60 M850 330 l60 60 M876 330 l60 60 M902 330 l60 60 M928 330 l60 60 M954 330 l60 60 M980 330 l60 60 M1006 330 l60 60 M1032 330 l60 60 M1058 330 l60 60 M1084 330 l60 60 M1110 330 l60 60 M1136 330 l60 60 M1162 330 l60 60 M1188 330 l60 60 M1214 330 l60 60 M1240 330 l60 60 M1266 330 l60 60 M1292 330 l60 60 M1318 330 l60 60 M1344 330 l60 60 M1370 330 l60 60 M1396 330 l60 60 M1422 330 l60 60 M1448 330 l60 60 M1474 330 l60 60 M1500 330 l60 60 M1526 330 l60 60 M1552 330 l60 60 M1578 330 l60 60" stroke="#FFC400" stroke-width="13" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/7018243/pexels-photo-7018243.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Lavoro di impiantistica a Genova" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div></section>
+<div class="mq"><div class="mq-in"><span>Ristrutturazioni</span><span>Impianti idraulici</span><span>Impianti elettrici</span><span>Opere murarie</span><span>Pavimenti e rivestimenti</span><span>Cartongesso</span><span>Pratiche</span><span>Direzione del cantiere</span><span>Ristrutturazioni</span><span>Impianti idraulici</span><span>Impianti elettrici</span><span>Opere murarie</span><span>Pavimenti e rivestimenti</span><span>Cartongesso</span><span>Pratiche</span><span>Direzione del cantiere</span></div></div>
+<section class="sec" id="servizi"><div class="wrap"><div class="sv-head rv"><span class="eyebrow">Servizi</span>
+<h2>Cosa facciamo, detto senza giri di parole.</h2></div><div class="rows"><div class="row rv d1"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M6 21V9l6-5 6 5v12M6 12h12M12 4v17"/></svg></div>
+<div><h3>Ristrutturazioni complete</h3><p>Un preventivo unico e una squadra sola per tutte le lavorazioni.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M80 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M160 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M240 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M320 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M480 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L80 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M80 320 L160 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M160 320 L240 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M240 320 L320 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M320 320 L400 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M400 320 L480 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="217" y="143" width="240" height="64" fill="#FFC400" opacity="0.95"/><rect x="84" y="213" width="160" height="64" fill="#FFC400" opacity="0.95"/><rect x="149" y="194" width="240" height="44" fill="#FFC400" opacity="0.80"/><rect x="75" y="163" width="80" height="89" fill="#FFC400" opacity="0.55"/><path d=" M-32 96 l32 32 M-6 96 l32 32 M20 96 l32 32 M46 96 l32 32 M72 96 l32 32 M98 96 l32 32 M124 96 l32 32 M150 96 l32 32 M176 96 l32 32 M202 96 l32 32 M228 96 l32 32 M254 96 l32 32 M280 96 l32 32 M306 96 l32 32 M332 96 l32 32 M358 96 l32 32 M384 96 l32 32 M410 96 l32 32 M436 96 l32 32 M462 96 l32 32" stroke="#FFC400" stroke-width="7" opacity="0.50"/></svg><img src="https://images.pexels.com/photos/6585753/pexels-photo-6585753.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Ristrutturazioni complete" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d2"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18M3 15h18M7 9V4M12 9V4M17 9V4M7 15v5M12 15v5M17 15v5"/></svg></div>
+<div><h3>Impianti idraulici</h3><p>Rifacimenti, sanitari, scarichi e collaudo in pressione.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M80 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M160 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M240 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M320 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M480 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L80 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M80 320 L160 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M160 320 L240 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M240 320 L320 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M320 320 L400 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M400 320 L480 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="90" y="190" width="240" height="44" fill="#FFC400" opacity="0.95"/><rect x="96" y="220" width="160" height="89" fill="#FFC400" opacity="0.80"/></svg><img src="https://images.pexels.com/photos/7546320/pexels-photo-7546320.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Impianti idraulici" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d3"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4zM4 9h16M4 14h16M8 4v5M12 9v5M16 14v6"/></svg></div>
+<div><h3>Impianti elettrici</h3><p>Punti luce, quadri, certificazione a fine lavori.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M68 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M136 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M204 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M272 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M340 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M408 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M476 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M544 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 256H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L68 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M68 320 L136 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M136 320 L204 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M204 320 L272 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M272 320 L340 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M340 320 L408 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M408 320 L476 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M476 320 L544 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="241" y="201" width="204" height="89" fill="#FFC400" opacity="0.95"/><rect x="58" y="219" width="136" height="64" fill="#FFC400" opacity="0.80"/><rect x="69" y="15" width="136" height="64" fill="#FFC400" opacity="0.80"/><rect x="308" y="132" width="68" height="89" fill="#FFC400" opacity="0.55"/><path d=" M-32 25 l32 32 M-6 25 l32 32 M20 25 l32 32 M46 25 l32 32 M72 25 l32 32 M98 25 l32 32 M124 25 l32 32 M150 25 l32 32 M176 25 l32 32 M202 25 l32 32 M228 25 l32 32 M254 25 l32 32 M280 25 l32 32 M306 25 l32 32 M332 25 l32 32 M358 25 l32 32 M384 25 l32 32 M410 25 l32 32 M436 25 l32 32 M462 25 l32 32" stroke="#FFC400" stroke-width="7" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/8488035/pexels-photo-8488035.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Impianti elettrici" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d4"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3l7 7-3 3-7-7zM11 6 3 14l4 4 8-8"/></svg></div>
+<div><h3>Opere murarie</h3><p>Demolizioni, tracce, ripristini e chiusure.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M68 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M136 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M204 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M272 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M340 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M408 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M476 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M544 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L68 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M68 320 L136 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M136 320 L204 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M204 320 L272 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M272 320 L340 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M340 320 L408 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M408 320 L476 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M476 320 L544 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="57" y="162" width="204" height="64" fill="#FFC400" opacity="0.55"/><rect x="337" y="154" width="68" height="44" fill="#FFC400" opacity="0.95"/><rect x="88" y="96" width="68" height="89" fill="#FFC400" opacity="0.80"/><rect x="304" y="86" width="136" height="89" fill="#FFC400" opacity="0.55"/><path d=" M-32 176 l32 32 M-6 176 l32 32 M20 176 l32 32 M46 176 l32 32 M72 176 l32 32 M98 176 l32 32 M124 176 l32 32 M150 176 l32 32 M176 176 l32 32 M202 176 l32 32 M228 176 l32 32 M254 176 l32 32 M280 176 l32 32 M306 176 l32 32 M332 176 l32 32 M358 176 l32 32 M384 176 l32 32 M410 176 l32 32 M436 176 l32 32 M462 176 l32 32" stroke="#FFC400" stroke-width="7" opacity="0.90"/></svg><img src="https://images.pexels.com/photos/14598653/pexels-photo-14598653.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Opere murarie" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d1"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z"/></svg></div>
+<div><h3>Pavimenti e rivestimenti</h3><p>Posa, fughe, battiscopa e soglie.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M80 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M160 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M240 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M320 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M480 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 256H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L80 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M80 320 L160 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M160 320 L240 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M240 320 L320 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M320 320 L400 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M400 320 L480 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="35" y="98" width="80" height="89" fill="#FFC400" opacity="0.80"/><rect x="53" y="23" width="160" height="44" fill="#FFC400" opacity="0.80"/><rect x="287" y="15" width="240" height="64" fill="#FFC400" opacity="0.55"/><rect x="260" y="150" width="80" height="89" fill="#FFC400" opacity="0.95"/><path d=" M-32 176 l32 32 M-6 176 l32 32 M20 176 l32 32 M46 176 l32 32 M72 176 l32 32 M98 176 l32 32 M124 176 l32 32 M150 176 l32 32 M176 176 l32 32 M202 176 l32 32 M228 176 l32 32 M254 176 l32 32 M280 176 l32 32 M306 176 l32 32 M332 176 l32 32 M358 176 l32 32 M384 176 l32 32 M410 176 l32 32 M436 176 l32 32 M462 176 l32 32" stroke="#FFC400" stroke-width="13" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/35868664/pexels-photo-35868664.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Pavimenti e rivestimenti" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d2"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18v14H3zM3 10h18M3 15h18M9 5v5M15 10v5M9 15v4"/></svg></div>
+<div><h3>Cartongesso e controsoffitti</h3><p>Pareti, nicchie, velette per l&#x27;illuminazione.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M53 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M106 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M159 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M212 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M265 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M318 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M371 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M424 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M477 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M530 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 256H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L53 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M53 320 L106 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M106 320 L159 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M159 320 L212 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M212 320 L265 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M265 320 L318 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M318 320 L371 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M371 320 L424 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M424 320 L477 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M477 320 L530 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="126" y="129" width="106" height="89" fill="#FFC400" opacity="0.55"/><rect x="38" y="188" width="53" height="89" fill="#FFC400" opacity="0.55"/><rect x="140" y="24" width="159" height="89" fill="#FFC400" opacity="0.95"/><rect x="223" y="40" width="159" height="89" fill="#FFC400" opacity="0.55"/><path d=" M-32 176 l32 32 M-6 176 l32 32 M20 176 l32 32 M46 176 l32 32 M72 176 l32 32 M98 176 l32 32 M124 176 l32 32 M150 176 l32 32 M176 176 l32 32 M202 176 l32 32 M228 176 l32 32 M254 176 l32 32 M280 176 l32 32 M306 176 l32 32 M332 176 l32 32 M358 176 l32 32 M384 176 l32 32 M410 176 l32 32 M436 176 l32 32 M462 176 l32 32" stroke="#FFC400" stroke-width="9" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/7005268/pexels-photo-7005268.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Cartongesso e controsoffitti" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d3"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v4h4M9 12h6M9 16h4"/></svg></div>
+<div><h3>Pratiche e documentazione</h3><p>Comunicazioni, conformità e schede dei materiali.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M60 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M120 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M180 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M240 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M300 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M360 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M420 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M480 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 256H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L60 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M60 320 L120 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M120 320 L180 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M180 320 L240 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M240 320 L300 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M300 320 L360 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M360 320 L420 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M420 320 L480 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="226" y="132" width="60" height="89" fill="#FFC400" opacity="0.95"/><rect x="185" y="224" width="60" height="64" fill="#FFC400" opacity="0.80"/><rect x="291" y="36" width="180" height="44" fill="#FFC400" opacity="0.95"/><rect x="304" y="19" width="60" height="89" fill="#FFC400" opacity="0.95"/><path d=" M-32 249 l32 32 M-6 249 l32 32 M20 249 l32 32 M46 249 l32 32 M72 249 l32 32 M98 249 l32 32 M124 249 l32 32 M150 249 l32 32 M176 249 l32 32 M202 249 l32 32 M228 249 l32 32 M254 249 l32 32 M280 249 l32 32 M306 249 l32 32 M332 249 l32 32 M358 249 l32 32 M384 249 l32 32 M410 249 l32 32 M436 249 l32 32 M462 249 l32 32" stroke="#FFC400" stroke-width="7" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/19889117/pexels-photo-19889117.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Pratiche e documentazione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d4"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4a4.5 4.5 0 1 0 4.2 6.1L21 12.4l-2.1 2.1-1.4-1.4-1.4 1.4 1.4 1.4-2 2-1.4-1.4-1.4 1.4 1.4 1.4L11 21.4 4.6 15l6-6A4.5 4.5 0 0 1 14.5 4z"/></svg></div>
+<div><h3>Manutenzioni</h3><p>Interventi singoli per chi ha bisogno di una cosa sola, fatta bene.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#FFFFFF"/><path d="M0 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M68 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M136 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M204 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M272 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M340 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M408 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M476 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M544 0V320" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 64H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 128H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 192H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 256H480" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 320 L68 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M68 320 L136 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M136 320 L204 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M204 320 L272 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M272 320 L340 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M340 320 L408 134" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M408 320 L476 134" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M476 320 L544 134" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="107" y="13" width="204" height="64" fill="#FFC400" opacity="0.95"/><rect x="202" y="224" width="204" height="64" fill="#FFC400" opacity="0.80"/><rect x="215" y="173" width="136" height="64" fill="#FFC400" opacity="0.80"/></svg><img src="https://images.pexels.com/photos/7173665/pexels-photo-7173665.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Manutenzioni" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div></div><div class="urg rv"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20zM12 9v5M12 17h.01"/></svg></div>
+<div class="t"><strong>Cantiere fermo o artigiano sparito?</strong><p>Capita più spesso di quanto si creda. Scriveteci a che punto siete: valutiamo se possiamo subentrare.</p></div>
+<a href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20di%20intervento&amp;body=Buongiorno%2C%0Aavrei%20bisogno%20di%20un%20intervento.%0ASituazione%3A%0A%0A%0AZona%3A%20Genova" class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici ora</a>
+<a data-wa="Ciao Zappino Costruzioni srl, avrei bisogno di un intervento." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a></div></div></section>
+<section class="sec" id="metodo" style="background:var(--bg2)">
+<div class="wrap"><div class="sv-head rv"><h2>Quattro passaggi, nessuna sorpresa.</h2></div>
+<div class="steps"><div class="step rv d1"><div class="n">1</div>
+<h3>Ci scrivete</h3><p>Cosa volete fare e in che tempi.</p></div><div class="step rv d2"><div class="n">2</div>
+<h3>Sopralluogo</h3><p>Misure, stato degli impianti, vincoli dell&#x27;edificio.</p></div><div class="step rv d3"><div class="n">3</div>
+<h3>Preventivo scritto</h3><p>Voci separate per lavorazione, con cronoprogramma.</p></div><div class="step rv d4"><div class="n">4</div>
+<h3>Cantiere</h3><p>Una referente sola, aggiornamenti, consegna pulita.</p></div></div></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap"><div class="nums"><div class="num rv d1"><div class="v"><span data-count="0" data-suffix="€">0</span></div><div class="l">Costo del sopralluogo</div></div><div class="num rv d2"><div class="v"><span data-count="24" data-suffix="h">0</span></div><div class="l">Tempo medio di risposta</div></div><div class="num rv d3"><div class="v"><span data-count="1" data-suffix="">0</span></div><div class="l">Referente unico per il cantiere</div></div><div class="num rv d4"><div class="v"><span data-count="100" data-suffix="%">0</span></div><div class="l">Preventivi messi per iscritto</div></div></div><p class="note rv">Numeri indicativi da confermare con il cliente prima della pubblicazione definitiva.</p></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap">
+<div class="sv-head rv"><h2>La differenza si vede a lavoro finito.</h2></div>
+<div class="ba rv"><div class="ph q prima"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#FFFFFF"/><path d="M0 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M133 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M266 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M399 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M532 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M665 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M798 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M931 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1064 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1197 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1330 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 135H1200" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 270H1200" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 405H1200" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 675 L133 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M133 675 L266 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M266 675 L399 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M399 675 L532 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M532 675 L665 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M665 675 L798 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M798 675 L931 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M931 675 L1064 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M1064 675 L1197 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M1197 675 L1330 283" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="140" y="276" width="399" height="94" fill="#FFC400" opacity="0.95"/><rect x="348" y="80" width="266" height="189" fill="#FFC400" opacity="0.80"/><rect x="357" y="338" width="266" height="189" fill="#FFC400" opacity="0.95"/><rect x="743" y="111" width="133" height="135" fill="#FFC400" opacity="0.95"/><path d=" M-67 202 l67 67 M-41 202 l67 67 M-15 202 l67 67 M11 202 l67 67 M37 202 l67 67 M63 202 l67 67 M89 202 l67 67 M115 202 l67 67 M141 202 l67 67 M167 202 l67 67 M193 202 l67 67 M219 202 l67 67 M245 202 l67 67 M271 202 l67 67 M297 202 l67 67 M323 202 l67 67 M349 202 l67 67 M375 202 l67 67 M401 202 l67 67 M427 202 l67 67 M453 202 l67 67 M479 202 l67 67 M505 202 l67 67 M531 202 l67 67 M557 202 l67 67 M583 202 l67 67 M609 202 l67 67 M635 202 l67 67 M661 202 l67 67 M687 202 l67 67 M713 202 l67 67 M739 202 l67 67 M765 202 l67 67 M791 202 l67 67 M817 202 l67 67 M843 202 l67 67 M869 202 l67 67 M895 202 l67 67 M921 202 l67 67 M947 202 l67 67 M973 202 l67 67 M999 202 l67 67 M1025 202 l67 67 M1051 202 l67 67 M1077 202 l67 67 M1103 202 l67 67 M1129 202 l67 67 M1155 202 l67 67 M1181 202 l67 67" stroke="#FFC400" stroke-width="9" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/6908361/pexels-photo-6908361.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Situazione prima dell&#x27;intervento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="ba-top"><div class="ph q dopo"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#FFFFFF"/><path d="M0 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M133 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M266 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M399 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M532 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M665 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M798 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M931 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1064 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1197 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1330 0V675" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 135H1200" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 270H1200" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 405H1200" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 675 L133 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M133 675 L266 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M266 675 L399 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M399 675 L532 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M532 675 L665 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M665 675 L798 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M798 675 L931 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M931 675 L1064 283" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M1064 675 L1197 283" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M1197 675 L1330 283" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="140" y="276" width="399" height="94" fill="#FFC400" opacity="0.95"/><rect x="348" y="80" width="266" height="189" fill="#FFC400" opacity="0.80"/><rect x="357" y="338" width="266" height="189" fill="#FFC400" opacity="0.95"/><rect x="743" y="111" width="133" height="135" fill="#FFC400" opacity="0.95"/><path d=" M-67 202 l67 67 M-41 202 l67 67 M-15 202 l67 67 M11 202 l67 67 M37 202 l67 67 M63 202 l67 67 M89 202 l67 67 M115 202 l67 67 M141 202 l67 67 M167 202 l67 67 M193 202 l67 67 M219 202 l67 67 M245 202 l67 67 M271 202 l67 67 M297 202 l67 67 M323 202 l67 67 M349 202 l67 67 M375 202 l67 67 M401 202 l67 67 M427 202 l67 67 M453 202 l67 67 M479 202 l67 67 M505 202 l67 67 M531 202 l67 67 M557 202 l67 67 M583 202 l67 67 M609 202 l67 67 M635 202 l67 67 M661 202 l67 67 M687 202 l67 67 M713 202 l67 67 M739 202 l67 67 M765 202 l67 67 M791 202 l67 67 M817 202 l67 67 M843 202 l67 67 M869 202 l67 67 M895 202 l67 67 M921 202 l67 67 M947 202 l67 67 M973 202 l67 67 M999 202 l67 67 M1025 202 l67 67 M1051 202 l67 67 M1077 202 l67 67 M1103 202 l67 67 M1129 202 l67 67 M1155 202 l67 67 M1181 202 l67 67" stroke="#FFC400" stroke-width="9" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/6908361/pexels-photo-6908361.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Lo stesso punto a lavoro finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div>
+<div class="ba-h"></div>
+<span class="ba-lb l"><b>Dopo</b></span><span class="ba-lb r"><b>Prima</b></span></div>
+<p class="note rv">Dimostrativo: è la stessa immagine in due stati, per far vedere come funziona il cursore.
+Al suo posto andranno due foto vere dello stesso punto, prima e dopo il vostro lavoro.</p>
+</div></section>
+<section class="sec" id="lavori" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Un'idea di come lavoriamo.</h2></div>
+<div class="gal"><figure class="gi w2 rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M100 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M200 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M300 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M500 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M600 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M700 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M800 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M900 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 560H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L100 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M100 700 L200 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M200 700 L300 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M300 700 L400 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M400 700 L500 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M500 700 L600 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M600 700 L700 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M700 700 L800 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M800 700 L900 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M900 700 L1000 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="1" y="30" width="300" height="196" fill="#FFC400" opacity="0.95"/><rect x="234" y="123" width="200" height="196" fill="#FFC400" opacity="0.55"/><rect x="566" y="175" width="300" height="196" fill="#FFC400" opacity="0.80"/></svg><img src="https://images.pexels.com/photos/32998547/pexels-photo-32998547.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Cantiere in corso" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Cantiere in corso</figcaption></figure><figure class="gi  rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M100 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M200 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M300 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M500 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M600 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M700 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M800 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M900 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L100 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M100 700 L200 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M200 700 L300 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M300 700 L400 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M400 700 L500 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M500 700 L600 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M600 700 L700 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M700 700 L800 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M800 700 L900 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M900 700 L1000 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="261" y="449" width="200" height="98" fill="#FFC400" opacity="0.55"/><rect x="158" y="358" width="100" height="196" fill="#FFC400" opacity="0.80"/></svg><img src="https://images.pexels.com/photos/10827343/pexels-photo-10827343.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Nuovo impianto prima della chiusura" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Nuovo impianto prima della chiusura</figcaption></figure><figure class="gi  rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M128 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M256 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M384 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M512 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M640 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M768 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M896 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1024 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 560H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L128 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M128 700 L256 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M256 700 L384 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M384 700 L512 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M512 700 L640 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M640 700 L768 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M768 700 L896 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M896 700 L1024 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="392" y="21" width="128" height="140" fill="#FFC400" opacity="0.95"/><rect x="225" y="303" width="128" height="140" fill="#FFC400" opacity="0.80"/><rect x="355" y="328" width="384" height="140" fill="#FFC400" opacity="0.55"/><rect x="135" y="311" width="384" height="98" fill="#FFC400" opacity="0.95"/><path d=" M-70 56 l70 70 M-44 56 l70 70 M-18 56 l70 70 M8 56 l70 70 M34 56 l70 70 M60 56 l70 70 M86 56 l70 70 M112 56 l70 70 M138 56 l70 70 M164 56 l70 70 M190 56 l70 70 M216 56 l70 70 M242 56 l70 70 M268 56 l70 70 M294 56 l70 70 M320 56 l70 70 M346 56 l70 70 M372 56 l70 70 M398 56 l70 70 M424 56 l70 70 M450 56 l70 70 M476 56 l70 70 M502 56 l70 70 M528 56 l70 70 M554 56 l70 70 M580 56 l70 70 M606 56 l70 70 M632 56 l70 70 M658 56 l70 70 M684 56 l70 70 M710 56 l70 70 M736 56 l70 70 M762 56 l70 70 M788 56 l70 70 M814 56 l70 70 M840 56 l70 70 M866 56 l70 70 M892 56 l70 70" stroke="#FFC400" stroke-width="9" opacity="0.90"/></svg><img src="https://images.pexels.com/photos/35493890/pexels-photo-35493890.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Posa del pavimento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Posa del pavimento</figcaption></figure><figure class="gi h2 rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M128 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M256 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M384 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M512 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M640 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M768 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M896 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1024 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L128 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M128 700 L256 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M256 700 L384 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M384 700 L512 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M512 700 L640 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M640 700 L768 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M768 700 L896 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M896 700 L1024 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="323" y="102" width="128" height="140" fill="#FFC400" opacity="0.95"/><rect x="130" y="203" width="384" height="140" fill="#FFC400" opacity="0.55"/><rect x="454" y="426" width="384" height="140" fill="#FFC400" opacity="0.95"/><path d=" M-70 385 l70 70 M-44 385 l70 70 M-18 385 l70 70 M8 385 l70 70 M34 385 l70 70 M60 385 l70 70 M86 385 l70 70 M112 385 l70 70 M138 385 l70 70 M164 385 l70 70 M190 385 l70 70 M216 385 l70 70 M242 385 l70 70 M268 385 l70 70 M294 385 l70 70 M320 385 l70 70 M346 385 l70 70 M372 385 l70 70 M398 385 l70 70 M424 385 l70 70 M450 385 l70 70 M476 385 l70 70 M502 385 l70 70 M528 385 l70 70 M554 385 l70 70 M580 385 l70 70 M606 385 l70 70 M632 385 l70 70 M658 385 l70 70 M684 385 l70 70 M710 385 l70 70 M736 385 l70 70 M762 385 l70 70 M788 385 l70 70 M814 385 l70 70 M840 385 l70 70 M866 385 l70 70 M892 385 l70 70" stroke="#FFC400" stroke-width="13" opacity="0.90"/></svg><img src="https://images.pexels.com/photos/19889121/pexels-photo-19889121.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Controsoffitto in cartongesso" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Controsoffitto in cartongesso</figcaption></figure><figure class="gi  rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M112 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M224 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M336 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M448 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M560 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M672 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M784 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M896 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M1008 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 560H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L112 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M112 700 L224 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M224 700 L336 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M336 700 L448 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M448 700 L560 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M560 700 L672 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M672 700 L784 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M784 700 L896 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M896 700 L1008 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M1008 700 L1120 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="61" y="148" width="336" height="196" fill="#FFC400" opacity="0.80"/><rect x="230" y="221" width="224" height="140" fill="#FFC400" opacity="0.95"/><rect x="291" y="14" width="112" height="98" fill="#FFC400" opacity="0.55"/><rect x="192" y="389" width="224" height="140" fill="#FFC400" opacity="0.55"/><path d=" M-70 210 l70 70 M-44 210 l70 70 M-18 210 l70 70 M8 210 l70 70 M34 210 l70 70 M60 210 l70 70 M86 210 l70 70 M112 210 l70 70 M138 210 l70 70 M164 210 l70 70 M190 210 l70 70 M216 210 l70 70 M242 210 l70 70 M268 210 l70 70 M294 210 l70 70 M320 210 l70 70 M346 210 l70 70 M372 210 l70 70 M398 210 l70 70 M424 210 l70 70 M450 210 l70 70 M476 210 l70 70 M502 210 l70 70 M528 210 l70 70 M554 210 l70 70 M580 210 l70 70 M606 210 l70 70 M632 210 l70 70 M658 210 l70 70 M684 210 l70 70 M710 210 l70 70 M736 210 l70 70 M762 210 l70 70 M788 210 l70 70 M814 210 l70 70 M840 210 l70 70 M866 210 l70 70 M892 210 l70 70" stroke="#FFC400" stroke-width="7" opacity="0.90"/></svg><img src="https://images.pexels.com/photos/19666087/pexels-photo-19666087.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Bagno completato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Bagno completato</figcaption></figure><figure class="gi  rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M100 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M200 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M300 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M500 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M600 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M700 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M800 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M900 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 560H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L100 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M100 700 L200 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M200 700 L300 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M300 700 L400 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M400 700 L500 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M500 700 L600 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M600 700 L700 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M700 700 L800 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M800 700 L900 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M900 700 L1000 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="378" y="117" width="300" height="196" fill="#FFC400" opacity="0.95"/><rect x="694" y="63" width="300" height="98" fill="#FFC400" opacity="0.80"/><rect x="613" y="117" width="300" height="98" fill="#FFC400" opacity="0.95"/></svg><img src="https://images.pexels.com/photos/8134810/pexels-photo-8134810.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Tracce per gli impianti" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Tracce per gli impianti</figcaption></figure><figure class="gi  rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M100 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M200 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M300 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M500 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M600 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M700 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M800 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M900 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 560H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L100 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M100 700 L200 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M200 700 L300 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M300 700 L400 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M400 700 L500 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M500 700 L600 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M600 700 L700 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M700 700 L800 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M800 700 L900 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M900 700 L1000 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="685" y="185" width="200" height="196" fill="#FFC400" opacity="0.95"/><rect x="685" y="487" width="300" height="98" fill="#FFC400" opacity="0.55"/><rect x="415" y="423" width="300" height="98" fill="#FFC400" opacity="0.95"/><rect x="201" y="318" width="200" height="196" fill="#FFC400" opacity="0.95"/><path d=" M-70 210 l70 70 M-44 210 l70 70 M-18 210 l70 70 M8 210 l70 70 M34 210 l70 70 M60 210 l70 70 M86 210 l70 70 M112 210 l70 70 M138 210 l70 70 M164 210 l70 70 M190 210 l70 70 M216 210 l70 70 M242 210 l70 70 M268 210 l70 70 M294 210 l70 70 M320 210 l70 70 M346 210 l70 70 M372 210 l70 70 M398 210 l70 70 M424 210 l70 70 M450 210 l70 70 M476 210 l70 70 M502 210 l70 70 M528 210 l70 70 M554 210 l70 70 M580 210 l70 70 M606 210 l70 70 M632 210 l70 70 M658 210 l70 70 M684 210 l70 70 M710 210 l70 70 M736 210 l70 70 M762 210 l70 70 M788 210 l70 70 M814 210 l70 70 M840 210 l70 70 M866 210 l70 70 M892 210 l70 70" stroke="#FFC400" stroke-width="9" opacity="0.50"/></svg><img src="https://images.pexels.com/photos/12778827/pexels-photo-12778827.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Ripristini e rasature" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Ripristini e rasature</figcaption></figure><figure class="gi  rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M100 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M200 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M300 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M500 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M600 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M700 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M800 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M900 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 560H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L100 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M100 700 L200 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M200 700 L300 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M300 700 L400 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M400 700 L500 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M500 700 L600 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M600 700 L700 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M700 700 L800 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M800 700 L900 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M900 700 L1000 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="483" y="62" width="300" height="98" fill="#FFC400" opacity="0.55"/><rect x="484" y="335" width="300" height="98" fill="#FFC400" opacity="0.55"/><rect x="92" y="369" width="200" height="196" fill="#FFC400" opacity="0.55"/><rect x="604" y="277" width="100" height="98" fill="#FFC400" opacity="0.55"/></svg><img src="https://images.pexels.com/photos/3935352/pexels-photo-3935352.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Consegna a lavori finiti" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Consegna a lavori finiti</figcaption></figure><figure class="gi w2 rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#FFFFFF"/><path d="M0 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M100 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M200 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M300 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M400 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M500 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M600 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M700 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M800 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M900 0V700" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 140H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 280H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 420H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 560H900" stroke="rgba(0,0,0,.10)" stroke-width="3" opacity=".6"/><path d="M0 700 L100 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M100 700 L200 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M200 700 L300 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M300 700 L400 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M400 700 L500 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M500 700 L600 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M600 700 L700 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M700 700 L800 294" stroke="#B08400" stroke-width="4" opacity=".45"/><path d="M800 700 L900 294" stroke="#B08400" stroke-width="4" opacity=".75"/><path d="M900 700 L1000 294" stroke="#B08400" stroke-width="4" opacity=".45"/><rect x="62" y="389" width="300" height="98" fill="#FFC400" opacity="0.95"/><rect x="11" y="52" width="300" height="196" fill="#FFC400" opacity="0.80"/><rect x="171" y="439" width="100" height="196" fill="#FFC400" opacity="0.95"/><path d=" M-70 385 l70 70 M-44 385 l70 70 M-18 385 l70 70 M8 385 l70 70 M34 385 l70 70 M60 385 l70 70 M86 385 l70 70 M112 385 l70 70 M138 385 l70 70 M164 385 l70 70 M190 385 l70 70 M216 385 l70 70 M242 385 l70 70 M268 385 l70 70 M294 385 l70 70 M320 385 l70 70 M346 385 l70 70 M372 385 l70 70 M398 385 l70 70 M424 385 l70 70 M450 385 l70 70 M476 385 l70 70 M502 385 l70 70 M528 385 l70 70 M554 385 l70 70 M580 385 l70 70 M606 385 l70 70 M632 385 l70 70 M658 385 l70 70 M684 385 l70 70 M710 385 l70 70 M736 385 l70 70 M762 385 l70 70 M788 385 l70 70 M814 385 l70 70 M840 385 l70 70 M866 385 l70 70 M892 385 l70 70" stroke="#FFC400" stroke-width="13" opacity="0.70"/></svg><img src="https://images.pexels.com/photos/16509869/pexels-photo-16509869.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Cantiere lasciato pulito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Cantiere lasciato pulito</figcaption></figure></div>
+<p class="note rv">Foto di repertorio, scelte per il vostro mestiere: al loro posto andranno le foto reali dei vostri lavori.</p>
+</div></section>
+<section class="sec" id="zone"><div class="wrap"><div class="zone">
+<div class="zmap rv"><svg viewBox="0 0 300 280" aria-hidden="true">
+<defs><radialGradient id="pl"><stop offset="0" stop-color="#FFC400" stop-opacity=".5"/>
+<stop offset="1" stop-color="#FFC400" stop-opacity="0"/></radialGradient>
+<linearGradient id="lnn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFC400" stop-opacity=".65"/>
+<stop offset="1" stop-color="#B08400" stop-opacity=".08"/></linearGradient></defs>
+<g stroke="rgba(0,0,0,.10)" stroke-width="1" opacity=".55">
+<path d="M0 40h300M0 90h300M0 140h300M0 190h300M0 240h300"/>
+<path d="M40 0v280M90 0v280M140 0v280M190 0v280M240 0v280"/></g>
+<circle cx="150" cy="132" r="86" fill="url(#pl)"/>
+<circle cx="150" cy="132" r="86" fill="none" stroke="#FFC400" stroke-opacity=".28" stroke-dasharray="4 6"/>
+<circle cx="150" cy="132" r="120" fill="none" stroke="#FFC400" stroke-opacity=".13" stroke-dasharray="2 8"/>
+<g stroke="url(#lnn)" stroke-width="1.2" fill="none">
+<path d="M150 132 84 96M150 132 96 178M150 132 214 104M150 132 208 186M150 132 150 54M150 132 62 140M150 132 236 148"/></g>
+<g fill="#FFC400"><circle class="zn" cx="84" cy="96" r="3.6"/><circle class="zn" cx="96" cy="178" r="3.6"/><circle class="zn" cx="214" cy="104" r="3.6"/><circle class="zn" cx="208" cy="186" r="3.6"/><circle class="zn" cx="150" cy="54" r="3.6"/><circle class="zn" cx="62" cy="140" r="3.6"/><circle class="zn" cx="236" cy="148" r="3.6"/></g>
+<circle cx="150" cy="132" r="9" fill="#FFC400"/>
+<circle cx="150" cy="132" r="9" fill="none" stroke="#FFC400" opacity=".5">
+<animate attributeName="r" values="9;30" dur="2.8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".5;0" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="150" y="158" text-anchor="middle" fill="#16181A" font-family="Fraunces,sans-serif"
+ font-size="13" font-weight="600">Genova</text></svg></div>
+<div class="rv d1"><h2>Da Genova a tutta la provincia.</h2>
+<p class="lead" style="margin-top:18px">Base a Genova, interventi in provincia di Genova e nei comuni
+limitrofi. Se il vostro paese non è in elenco, chiedete comunque: quasi sempre si arriva.</p>
+<div class="zones"><a href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20informazioni&amp;body=Buongiorno%2C%0Ascrivo%20da%20Genova.%0A%0A" class="hi">Genova</a>
+<a href="#contatti">Genova</a><a href="#contatti">Comuni limitrofi</a></div>
+<p class="note">Qui va l'elenco dei comuni serviti davvero: mandateceli e li inseriamo.</p>
+</div></div></div></section>
+<section class="sec" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Le parole dei clienti valgono più delle nostre.</h2></div>
+<div class="revs"><div class="rev rv d1"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d2"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d3"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div></div>
+<p class="note rv">Sezione pronta: appena arrivano le prime recensioni Google le inseriamo qui. Nessun testo inventato.</p>
+</div></section>
+<section class="sec" id="faq"><div class="wrap"><div class="faq">
+<div class="sv-head rv" style="margin-bottom:26px"><h2>Quello che ci chiedono più spesso.</h2></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Fate anche solo una parte dei lavori?</span><i></i></button><div class="q-a"><p>Sì. Molti ci chiamano per un intervento singolo e poi ci affidano il resto.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Come funziona il preventivo?</span><i></i></button><div class="q-a"><p>Scritto, con le voci separate per lavorazione: così vedete dove si può intervenire sul budget.</p></div></div><div class="q rv d3"><button class="q-h" aria-expanded="false">
+<span>Chi coordina gli artigiani?</span><i></i></button><div class="q-a"><p>Noi. Avete un solo referente, non cinque numeri da chiamare.</p></div></div><div class="q rv d4"><button class="q-h" aria-expanded="false">
+<span>Il sopralluogo è gratuito?</span><i></i></button><div class="q-a"><p>Sì, sopralluogo e preventivo sono gratuiti e senza impegno.</p></div></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Vi occupate delle pratiche?</span><i></i></button><div class="q-a"><p>Delle comunicazioni e delle conformità degli impianti sì; per le pratiche edilizie lavoriamo con tecnici abilitati.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Quanto dura una ristrutturazione?</span><i></i></button><div class="q-a"><p>Dipende dalla metratura e dalle lavorazioni. Nel preventivo mettiamo un cronoprogramma realistico.</p></div></div></div></div></section>
+<section class="sec" id="contatti" style="padding-top:0"><div class="wrap">
+<div class="cta rv"><div class="cta-in"><div>
+<span class="eyebrow">Contatti</span>
+<h2>Raccontateci il lavoro.<br>Il preventivo è gratis.</h2>
+<p class="lead" style="margin-top:16px">Due righe bastano per partire. Se avete una foto della situazione,
+allegatela: si capisce subito di cosa c'è bisogno.</p>
+<div class="cta-btns"><a href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Genova%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> casa_zappino@hotmail.it</a>
+<a data-wa="Ciao Zappino Costruzioni srl, vorrei un preventivo gratuito." href="#" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a></div>
+</div><div class="info">
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+<div><b>Zappino Costruzioni srl</b><span>Genova (GE) — indirizzo da confermare</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div><div><b>Email</b><span>casa_zappino@hotmail.it</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+<div><b>Orari</b><span>Da confermare · Si risponde anche fuori orario</span></div></div>
+</div></div></div></div></section>
+<footer><div class="wrap"><div class="f-top"><div><a href="#top" class="logo" aria-label="Zappino Costruzioni"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg51682" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#FFC400"/><stop offset="1" stop-color="#B08400"/></linearGradient></defs><path d="M24 2 45 9v16c0 11-9 18-21 21C12 43 3 36 3 25V9z" fill="none" stroke="url(#mg51682)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg51682)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">ZC</text></svg><span class="logo-w"><span class="logo-t">Zappino Costruzioni</span><span class="logo-s">Impianti e ristrutturazioni</span></span></a>
+<p>Impianti e ristrutturazioni a Genova e in provincia di Genova.</p></div>
+<div class="f-col"><h4>Servizi</h4><a href="#servizi">Ristrutturazioni complete</a><a href="#servizi">Impianti idraulici</a><a href="#servizi">Impianti elettrici</a><a href="#servizi">Opere murarie</a><a href="#servizi">Pavimenti e rivestimenti</a><a href="#servizi">Cartongesso e controsoffitti</a></div>
+<div class="f-col"><h4>Contatti</h4><a href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Genova%0AGrazie.">casa_zappino@hotmail.it</a>
+<span>Genova (GE)</span><span>Orari da confermare</span></div></div>
+<div class="f-bot"><span>© <span id="yy">2026</span> Zappino Costruzioni srl — Genova (GE)</span>
+<span>Bozza realizzata da <a href="#top">Umbra</a></span></div></div></footer>
+<a class="fab" id="fab" href="mailto:casa_zappino@hotmail.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Genova%0AGrazie." aria-label="Scrivici una mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+<div class="lb" id="lb"><button class="lb-x" aria-label="Chiudi">×</button>
+<figure><div class="lb-art"></div><figcaption></figcaption></figure></div>
+<script>
+(function(){
+  var RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* header + progress + fab */
+  var hd=document.getElementById('hd'), prg=document.getElementById('prg'),
+      fab=document.getElementById('fab'), tick=false;
+  function onScroll(){
+    var y=scrollY, h=document.body.scrollHeight-innerHeight;
+    hd.classList.toggle('on', y>24);
+    prg.style.width=(h>0? (y/h*100):0)+'%';
+    if(fab) fab.classList.toggle('on', y>620);
+    tick=false;
+  }
+  addEventListener('scroll',function(){ if(!tick){requestAnimationFrame(onScroll);tick=true;} },{passive:true});
+  onScroll();
+
+  /* drawer */
+  var bg=document.getElementById('bg'), dw=document.getElementById('dw');
+  if(bg) bg.onclick=function(){ dw.classList.toggle('open'); document.body.style.overflow=dw.classList.contains('open')?'hidden':''; };
+  if(dw) dw.querySelectorAll('a').forEach(function(a){ a.onclick=function(){ dw.classList.remove('open'); document.body.style.overflow=''; }; });
+
+  /* reveal */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.14, rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+  /* hero parallax legato allo scroll */
+  var art=document.querySelector('.hero-art');
+  if(art && !RM){
+    addEventListener('scroll',function(){
+      var y=scrollY;
+      if(y<innerHeight*1.2){
+        art.style.transform='translate3d(0,'+(y*.22)+'px,0) scale('+(1+y/innerHeight*.09)+')';
+        art.style.opacity=Math.max(0,1-y/innerHeight*.75);
+      }
+    },{passive:true});
+  }
+
+  /* contatori */
+  var co=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      co.unobserve(e.target);
+      var el=e.target, to=parseFloat(el.dataset.count)||0, sfx=el.dataset.suffix||'', t0=null, D=1500;
+      if(RM){ el.textContent=to+sfx; return; }
+      requestAnimationFrame(function step(t){
+        if(!t0)t0=t;
+        var p=Math.min(1,(t-t0)/D), e2=1-Math.pow(1-p,3);
+        el.textContent=Math.round(to*e2)+sfx;
+        if(p<1) requestAnimationFrame(step);
+      });
+    });
+  },{threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(function(el){ co.observe(el); });
+
+  /* faq */
+  document.querySelectorAll('.q-h').forEach(function(b){
+    b.onclick=function(){
+      var q=b.parentElement, a=q.querySelector('.q-a'), open=q.classList.contains('open');
+      document.querySelectorAll('.q.open').forEach(function(o){
+        o.classList.remove('open'); o.querySelector('.q-a').style.maxHeight=null;
+        o.querySelector('.q-h').setAttribute('aria-expanded','false');
+      });
+      if(!open){ q.classList.add('open'); a.style.maxHeight=a.scrollHeight+'px';
+        b.setAttribute('aria-expanded','true'); }
+    };
+  });
+
+  /* prima/dopo */
+  var ba=document.querySelector('.ba');
+  if(ba){
+    var top=ba.querySelector('.ba-top'), hnd=ba.querySelector('.ba-h'), drag=false, played=false;
+    function set(p){ p=Math.max(2,Math.min(98,p));
+      top.style.clipPath='inset(0 '+(100-p)+'% 0 0)'; hnd.style.left=p+'%'; }
+    function fromEvt(e){ var r=ba.getBoundingClientRect(),
+      x=(e.touches?e.touches[0].clientX:e.clientX)-r.left; set(x/r.width*100); }
+    ba.addEventListener('pointerdown',function(e){drag=true;ba.setPointerCapture(e.pointerId);fromEvt(e);});
+    ba.addEventListener('pointermove',function(e){ if(drag) fromEvt(e); });
+    ba.addEventListener('pointerup',function(){drag=false;});
+    ba.addEventListener('pointercancel',function(){drag=false;});
+    new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting||played||RM) return; played=true;
+        var t0=null;
+        requestAnimationFrame(function s(t){ if(!t0)t0=t;
+          var p=Math.min(1,(t-t0)/1900), e2=1-Math.pow(1-p,3);
+          set(50+Math.sin(e2*Math.PI*1.5)*40);
+          if(p<1) requestAnimationFrame(s); else set(50);
+        });
+      });
+    },{threshold:.45}).observe(ba);
+  }
+
+  /* lightbox */
+  var lb=document.getElementById('lb');
+  if(lb){
+    var lba=lb.querySelector('.lb-art'), lbc=lb.querySelector('figcaption');
+    document.querySelectorAll('.gi').forEach(function(g){
+      g.onclick=function(){
+        lba.innerHTML=g.querySelector('.ph').outerHTML;
+        lbc.textContent=g.querySelector('figcaption').textContent;
+        lb.classList.add('on'); document.body.style.overflow='hidden';
+      };
+    });
+    function close(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+    lb.onclick=close;
+    addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  }
+
+  /* foto gia' in cache: onload puo' non scattare, le sblocco a mano */
+  document.querySelectorAll('.ph.q>img').forEach(function(i){
+    if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+  });
+  addEventListener('load', function(){
+    document.querySelectorAll('.ph.q>img').forEach(function(i){
+      if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+    });
+  });
+
+  /* anno */
+  var yy=document.getElementById('yy'); if(yy) yy.textContent=new Date().getFullYear();
+
+  /* WhatsApp: i bottoni compaiono solo se WA e' valorizzato in testa al file */
+  if(!window.WA_NUM){
+    document.querySelectorAll('[data-wa]').forEach(function(el){ el.remove(); });
+  } else {
+    document.querySelectorAll('[data-wa]').forEach(function(el){
+      el.href='https://wa.me/'+window.WA_NUM+'?text='+encodeURIComponent(el.dataset.wa);
+    });
+  }
+})();
+</script>
+</body>
+</html>
