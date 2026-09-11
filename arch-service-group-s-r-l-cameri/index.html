@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  BOZZA UMBRA — Arch Service Group srl
+  Cameri (NO) · info@archservice.it
+  Stile: Marina · Mestiere: Idraulica · Accento #B07D3A / #77501F
+  ============================================================================
+  PER ATTIVARE I BOTTONI WHATSAPP: mettere il numero (39 + cellulare, senza spazi)
+  nella riga  window.WA_NUM = "";  qui sotto nel <head>. Se resta vuota, i bottoni
+  WhatsApp spariscono da soli e restano solo quelli email.
+
+  FOTO: sono di repertorio (Pexels / Unsplash, libere per uso commerciale),
+  scelte per il mestiere. Dietro ogni foto c'e' una grafica vettoriale generata
+  nei colori del sito: se una URL smette di rispondere il riquadro resta pieno.
+  Per sostituirle con le foto vere del cliente: cercare images.pexels.com /
+  images.unsplash.com e cambiare la src.
+
+  DA CONFERMARE COL CLIENTE PRIMA DI CONSIDERARLA DEFINITIVA:
+  indirizzo, orari, elenco dei comuni serviti, servizi realmente offerti,
+  numeri della sezione contatori, foto reali dei lavori, recensioni Google.
+  ============================================================================
+-->
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arch Service Group srl — Idraulico a Cameri (NO)</title>
+<meta name="description" content="Arch Service Group srl: impianti idraulici e sanitari a Cameri e in provincia di Novara. Preventivo gratuito, sopralluogo senza impegno.">
+<meta name="theme-color" content="#0A1B29">
+<meta property="og:title" content="Arch Service Group srl — Idraulico a Cameri (NO)">
+<meta property="og:description" content="Arch Service Group srl: impianti idraulici e sanitari a Cameri e in provincia di Novara. Preventivo gratuito, sopralluogo senza impegno.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22mg7655%22%20x1%3D%224%22%20y1%3D%224%22%20x2%3D%2244%22%20y2%3D%2244%22%3E%3Cstop%20stop-color%3D%22%23B07D3A%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2377501F%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20x%3D%221.5%22%20y%3D%221.5%22%20width%3D%2245%22%20height%3D%2245%22%20rx%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22url%28%23mg7655%29%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2224%22%20y%3D%2224%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20fill%3D%22url%28%23mg7655%29%22%20font-family%3D%22inherit%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20letter-spacing%3D%22-.5%22%3EAS%3C/text%3E%3C/svg%3E">
+<script>window.WA_NUM = "";</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font-family:var(--bdy);font-weight:300;
+  line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  font-size:16.5px;letter-spacing:-.005em}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:2px}
+::selection{background:var(--acc);color:var(--onacc)}
+
+:root{
+  --bg:#0A1B29; --bg2:#0E2435; --surface:#123045; --surface2:#163A52;
+  --line:rgba(236,224,203,.15); --line2:rgba(236,224,203,.08);
+  --txt:#F2EBDE; --muted:#A6B7C4; --muted2:#7A8C9B;
+  --acc:#B07D3A; --acc2:#77501F; --onacc:#0A1B29;
+  --wa:#25D366;
+  --r:2px; --rs:2px; --rb:2px;
+  --dsp:'Newsreader', Georgia, serif; --bdy:'Inter', system-ui, sans-serif;
+  --max:1180px; --ease:cubic-bezier(.22,1,.36,1);
+  --pad:clamp(18px,5vw,34px);
+}
+
+h1,h2,h3,h4,.dsp{font-family:var(--dsp);font-weight:400;letter-spacing:-.02em;line-height:1.06}
+h1{font-size:clamp(2.5rem,8.4vw,4.8rem)}
+h2{font-size:clamp(1.85rem,5.2vw,3.05rem);line-height:1.06}
+h3{font-size:1.14rem;font-family:var(--bdy);font-weight:600;letter-spacing:-.015em;line-height:1.3}
+p{max-width:66ch}
+.lead{font-size:clamp(1.02rem,2.5vw,1.16rem);color:var(--muted);line-height:1.72}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.sec{padding:clamp(70px,11vw,140px) 0;position:relative}
+.eyebrow{display:inline-block;font-family:var(--bdy);font-size:.79rem;font-weight:600;
+  color:var(--acc);margin-bottom:14px;letter-spacing:.01em}
+
+/* ---------- progress ---------- */
+.prg{position:fixed;top:0;left:0;height:2px;width:0;z-index:120;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .1s linear}
+
+/* ---------- header ---------- */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:.4s var(--ease);
+  border-bottom:1px solid transparent}
+header.on{background:color-mix(in srgb,var(--bg) 86%, transparent);
+  backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);
+  border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;gap:20px;height:70px}
+.logo{display:flex;align-items:center;gap:11px;flex:none}
+.logo svg{width:36px;height:36px}
+.logo-w{display:flex;flex-direction:column;line-height:1.05}
+.logo-t{font-family:var(--dsp);font-size:1.16rem;font-weight:400;letter-spacing:-.02em}
+.logo-s{font-size:.68rem;color:var(--muted2);letter-spacing:.02em}
+.menu{display:flex;gap:26px;margin-left:auto;font-size:.9rem;color:var(--muted)}
+.menu a{position:relative;padding:4px 0;transition:color .25s}
+.menu a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;
+  background:var(--acc);transition:right .35s var(--ease)}
+.menu a:hover{color:var(--txt)}
+.menu a:hover::after{right:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:12px 20px;border-radius:var(--rb);font-size:.9rem;font-weight:600;
+  font-family:var(--bdy);border:1px solid transparent;cursor:pointer;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .25s,color .25s;
+  white-space:nowrap;letter-spacing:-.01em}
+.btn svg{width:17px;height:17px;flex:none}
+.btn-p{background:var(--acc);color:var(--onacc)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--acc)}
+.btn-g{border-color:var(--line);color:var(--txt);background:var(--surface)}
+.btn-g:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#04240F}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--wa)}
+.btn-lg{padding:15px 26px;font-size:.97rem}
+.nav .btn{padding:10px 17px;font-size:.85rem}
+.burger{display:none;margin-left:auto;width:42px;height:42px;border:1px solid var(--line);
+  border-radius:var(--rb);background:var(--surface);align-items:center;justify-content:center}
+.burger span{display:block;width:17px;height:1.5px;background:var(--txt);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:17px;
+  height:1.5px;background:var(--txt);transition:.3s var(--ease)}
+.burger span::before{top:-5.5px}.burger span::after{top:5.5px}
+.drawer{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;
+  flex-direction:column;justify-content:center;gap:6px;padding:0 var(--pad);
+  transform:translateY(-100%);transition:transform .5s var(--ease);visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
+.drawer a:not(.btn){font-family:var(--dsp);font-size:2rem;padding:11px 0;
+  border-bottom:1px solid var(--line2)}
+.drawer .btn{margin-top:22px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;
+  padding-top:100px;padding-bottom:70px;overflow:hidden}
+.hero-art{position:absolute;inset:0;z-index:0}
+.hero-art svg{width:100%;height:100%;object-fit:cover}
+
+/* --- foto: la grafica generativa resta sotto come fondo, la foto ci va sopra.
+   Se una URL non risponde l'immagine si toglie da sola e resta il fondo. --- */
+.ph{position:relative;overflow:hidden;background:var(--surface2);isolation:isolate}
+.ph>svg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph>img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;
+  filter:saturate(.95) contrast(1.04) brightness(1);
+  transition:transform .9s var(--ease),opacity .8s var(--ease)}
+.ph::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(150deg,#77501F 0%,transparent 55%),linear-gradient(0deg,#0A1B29 0%,transparent 65%);mix-blend-mode:soft-light;opacity:.4}
+.ph.q>img{opacity:0}
+.ph.q.on>img{opacity:1}
+.hero-veil{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,color-mix(in srgb,#0A1B29 55%,transparent) 0%,color-mix(in srgb,#0A1B29 78%,transparent) 52%,#0A1B29 100%)}
+.hero-veil::after{content:"";position:absolute;inset:0;background:linear-gradient(96deg,color-mix(in srgb,#0A1B29 72%,transparent) 0%,color-mix(in srgb,#0A1B29 34%,transparent) 58%,transparent 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.badge{display:inline-flex;align-items:center;gap:9px;padding:8px 15px;
+  border:1px solid var(--line);border-radius:100px;font-size:.8rem;color:var(--muted);
+  background:color-mix(in srgb,var(--surface) 70%,transparent);backdrop-filter:blur(8px);
+  margin-bottom:22px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--acc);position:relative}
+.dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;
+  border:1px solid var(--acc);animation:pulse 2.4s var(--ease) infinite}
+@keyframes pulse{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.7);opacity:0}}
+.hero .lead{margin:22px 0 30px;max-width:56ch}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.hero-mini{display:flex;gap:9px;flex-wrap:wrap;margin-top:30px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:.81rem;color:var(--muted);
+  padding:7px 13px;border:1px solid var(--line2);border-radius:100px}
+.chip svg{width:13px;height:13px;color:var(--acc)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,64px);align-items:center}
+.hero-card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:var(--surface);box-shadow:0 40px 90px -50px rgba(0,0,0,.6)}
+.hero-card .ph{width:100%;aspect-ratio:4/3}
+.hero-card-b{padding:20px 22px 22px}
+.hero-card-b strong{display:block;font-family:var(--dsp);font-size:1.1rem;margin-bottom:6px}
+.hero-card-b span{font-size:.87rem;color:var(--muted);display:block}
+.hcrow{display:flex;justify-content:space-between;gap:16px;margin-top:18px;
+  padding-top:16px;border-top:1px solid var(--line2)}
+.hcrow .k{font-family:var(--dsp);font-size:1.45rem;color:var(--acc);line-height:1}
+.hcrow .l{font-size:.72rem;color:var(--muted2);margin-top:4px}
+.hero-strip{margin-top:clamp(34px,5vw,56px);border:1px solid var(--line);
+  border-radius:var(--r);overflow:hidden;height:clamp(180px,30vw,330px)}
+.hero-strip .ph{width:100%;height:100%}
+.scrollcue{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);z-index:3;
+  display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.7rem;
+  color:var(--muted2);letter-spacing:.06em}
+.scrollcue i{display:block;width:1px;height:34px;background:linear-gradient(var(--acc),transparent);
+  animation:cue 2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}
+  46%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- marquee ---------- */
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:17px 0;overflow:hidden;background:var(--bg2)}
+.mq-in{display:flex;gap:44px;width:max-content;animation:mq 34s linear infinite}
+.mq:hover .mq-in{animation-play-state:paused}
+.mq span{font-family:var(--dsp);font-size:1.02rem;color:var(--muted);
+  display:flex;align-items:center;gap:44px;white-space:nowrap}
+.mq span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--acc);flex:none}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- servizi ---------- */
+.sv-head{max-width:640px;margin-bottom:clamp(34px,5vw,58px)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.6vw,18px)}
+.card{grid-column:span 2;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);overflow:hidden;position:relative;
+  transition:transform .5s var(--ease),border-color .4s,box-shadow .5s var(--ease)}
+.card:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line));
+  box-shadow:0 30px 60px -40px rgba(0,0,0,.55)}
+.card .ph{width:100%;aspect-ratio:16/10}
+.card-b{padding:20px 21px 23px}
+.card .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:13px;
+  background:var(--surface2)}
+.card .ib svg{width:19px;height:19px}
+.card p{font-size:.9rem;color:var(--muted);margin-top:7px;line-height:1.6}
+.card.wide{grid-column:span 4}
+.card.wide .ph{aspect-ratio:21/7}
+
+.rows{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:20px;align-items:start;
+  padding:26px 0;border-bottom:1px solid var(--line);transition:padding .4s var(--ease)}
+.row:hover{padding-left:10px}
+.row .ib{width:44px;height:44px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);background:var(--surface2)}
+.row .ib svg{width:21px;height:21px}
+.row p{font-size:.92rem;color:var(--muted);margin-top:5px}
+.row .thumb{width:120px;height:78px;border-radius:var(--rs);overflow:hidden;
+  border:1px solid var(--line2);flex:none}
+.row .thumb .ph{width:100%;height:100%}
+
+.bands{display:flex;flex-direction:column;gap:clamp(12px,1.6vw,16px)}
+.band{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;
+  border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.band:nth-child(even) .band-art{order:-1}
+.band-art{min-height:190px}
+.band-art .ph{width:100%;height:100%}
+.band-b{padding:clamp(22px,3vw,34px)}
+.band-b .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:14px}
+.band-b .ib svg{width:19px;height:19px}
+.band-b p{font-size:.92rem;color:var(--muted);margin-top:8px}
+
+/* ---------- urgenze ---------- */
+.urg{margin-top:clamp(20px,3vw,30px);border:1px solid color-mix(in srgb,var(--acc) 40%,var(--line));
+  border-radius:var(--r);background:linear-gradient(105deg,
+    color-mix(in srgb,var(--acc) 13%,var(--surface)),var(--surface));
+  padding:clamp(22px,3vw,30px);display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.urg .ib{width:46px;height:46px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;background:var(--acc);color:var(--onacc);flex:none}
+.urg .ib svg{width:23px;height:23px}
+.urg div.t{flex:1;min-width:240px}
+.urg strong{font-family:var(--dsp);font-size:1.15rem;display:block;margin-bottom:4px}
+.urg p{font-size:.9rem;color:var(--muted)}
+
+/* ---------- metodo ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(16px,2.4vw,28px);position:relative}
+.steps::before{content:"";position:absolute;top:19px;left:8%;right:8%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--line),var(--line),transparent)}
+.step{position:relative}
+.step .n{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  background:var(--bg);display:flex;align-items:center;justify-content:center;
+  font-family:var(--dsp);font-size:.95rem;color:var(--acc);margin-bottom:15px;position:relative;z-index:1}
+.step h3{margin-bottom:5px}
+.step p{font-size:.89rem;color:var(--muted)}
+
+/* ---------- numeri ---------- */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,22px)}
+.num{padding:clamp(20px,2.6vw,28px);border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface)}
+.num .v{font-family:var(--dsp);font-size:clamp(2rem,4.6vw,2.9rem);line-height:1;
+  color:var(--acc);letter-spacing:-.04em}
+.num .l{font-size:.81rem;color:var(--muted);margin-top:10px}
+
+/* ---------- prima/dopo ---------- */
+.ba{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);
+  aspect-ratio:16/9;cursor:ew-resize;user-select:none;touch-action:pan-y}
+.ba .ph{position:absolute;inset:0;width:100%;height:100%}
+/* Prima/Dopo credibile: stessa identica inquadratura, due stati.
+   Sotto lo scatto "prima" (spento, ingiallito, contrasto piatto),
+   sopra quello "dopo" (pulito). Cambia solo il trattamento, non la scena. */
+.ba .prima>img{filter:saturate(.28) contrast(.84) brightness(.68) sepia(.32) blur(.4px)}
+.ba .prima::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
+  background:radial-gradient(120% 100% at 50% 40%,transparent 30%,rgba(28,20,10,.55) 100%)}
+.ba .dopo>img{filter:saturate(1.06) contrast(1.08) brightness(1.04)}
+.ba-lb b{font-weight:600}
+.ba-top{position:absolute;inset:0;clip-path:inset(0 50% 0 0);will-change:clip-path}
+.ba-h{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--acc);z-index:3;
+  will-change:left}
+.ba-h::after{content:"";position:absolute;top:50%;left:50%;width:42px;height:42px;
+  transform:translate(-50%,-50%);border-radius:50%;background:var(--acc);
+  box-shadow:0 6px 22px -6px rgba(0,0,0,.6)}
+.ba-lb{position:absolute;bottom:14px;padding:6px 12px;border-radius:100px;font-size:.75rem;
+  background:color-mix(in srgb,var(--bg) 75%,transparent);backdrop-filter:blur(8px);
+  border:1px solid var(--line);z-index:4}
+.ba-lb.l{left:14px}.ba-lb.r{right:14px}
+
+/* ---------- galleria ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.4vw,15px)}
+.gi{position:relative;border-radius:var(--rs);overflow:hidden;border:1px solid var(--line2);
+  cursor:zoom-in;background:var(--surface)}
+.gi .ph{width:100%;height:100%;aspect-ratio:4/3}
+.gi:hover .ph>img{transform:scale(1.06)}
+.gi.w2{grid-column:span 2}
+.gi.h2{grid-row:span 2}
+.gi.h2 .ph{aspect-ratio:4/6}
+.gi figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;
+  font-size:.79rem;color:#fff;
+  background:linear-gradient(transparent,rgba(0,0,0,.78));opacity:0;transition:opacity .4s}
+.gi:hover figcaption{opacity:1}
+.rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-bottom:12px;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{height:4px}
+.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.rail .gi{flex:0 0 clamp(240px,38vw,380px);scroll-snap-align:start}
+.note{font-size:.79rem;color:var(--muted2);margin-top:16px}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;background:color-mix(in srgb,var(--bg) 94%,#000);z-index:200;
+  display:none;align-items:center;justify-content:center;padding:22px}
+.lb.on{display:flex}
+.lb figure{max-width:960px;width:100%}
+.lb .ph{width:100%;border-radius:var(--r);aspect-ratio:4/3}
+.lb figcaption{text-align:center;font-size:.87rem;color:var(--muted);margin-top:14px}
+.lb-x{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line);background:var(--surface);color:var(--txt);
+  display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer}
+
+/* ---------- zone ---------- */
+.zone{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,5vw,60px);align-items:center}
+.zmap{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);
+  padding:16px;overflow:hidden}
+.zmap svg{width:100%;height:auto}
+.zn{animation:zn 3.4s var(--ease) infinite}
+.zn:nth-child(2){animation-delay:.4s}.zn:nth-child(3){animation-delay:.8s}
+.zn:nth-child(4){animation-delay:1.2s}.zn:nth-child(5){animation-delay:1.6s}
+.zn:nth-child(6){animation-delay:2s}.zn:nth-child(7){animation-delay:2.4s}
+@keyframes zn{0%,100%{opacity:.35}50%{opacity:1}}
+.zones{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.zones a{padding:9px 15px;border-radius:100px;font-size:.83rem;color:var(--muted);
+  border:1px solid var(--line);transition:.3s var(--ease)}
+.zones a:hover{color:var(--txt);border-color:var(--acc);transform:translateY(-2px)}
+.zones a.hi{background:var(--acc);color:var(--onacc);border-color:var(--acc);font-weight:600}
+
+/* ---------- recensioni ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,20px)}
+.rev{border:1px dashed var(--line);border-radius:var(--r);padding:clamp(20px,2.6vw,26px);
+  background:var(--surface2)}
+.stars{display:flex;gap:3px;margin-bottom:13px;color:var(--muted2)}
+.stars svg{width:15px;height:15px}
+.rev p{font-size:.9rem;color:var(--muted2);font-style:italic}
+.rev .who{display:flex;align-items:center;gap:11px;margin-top:16px;padding-top:14px;
+  border-top:1px solid var(--line2)}
+.rev .av{width:34px;height:34px;border-radius:50%;border:1px dashed var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--muted2);font-size:.9rem}
+.rev .who b{font-size:.86rem;display:block}
+.rev .who span{font-size:.76rem;color:var(--muted2)}
+
+/* ---------- faq ---------- */
+.faq{max-width:820px;margin:0 auto}
+.q{border-bottom:1px solid var(--line)}
+.q-h{width:100%;display:flex;align-items:center;gap:16px;padding:21px 0;background:none;
+  border:0;color:inherit;font-family:var(--bdy);font-size:1.02rem;font-weight:500;
+  text-align:left;cursor:pointer;letter-spacing:-.01em}
+.q-h i{margin-left:auto;width:20px;height:20px;position:relative;flex:none}
+.q-h i::before,.q-h i::after{content:"";position:absolute;top:9.5px;left:2px;width:16px;
+  height:1.5px;background:var(--acc);transition:transform .4s var(--ease)}
+.q-h i::after{transform:rotate(90deg)}
+.q.open .q-h i::after{transform:rotate(0)}
+.q-a{max-height:0;overflow:hidden;transition:max-height .5s var(--ease)}
+.q-a p{padding-bottom:22px;font-size:.94rem;color:var(--muted)}
+
+/* ---------- cta ---------- */
+.cta{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--acc) 12%,var(--surface)),var(--surface) 62%)}
+.cta-in{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,4vw,52px);
+  padding:clamp(30px,5vw,62px)}
+.cta-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.info{display:flex;flex-direction:column;gap:18px;justify-content:center}
+.irow{display:flex;gap:14px;align-items:flex-start}
+.irow .ii{width:38px;height:38px;border-radius:var(--rs);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--acc);flex:none}
+.irow .ii svg{width:18px;height:18px}
+.irow b{display:block;font-size:.92rem;margin-bottom:2px}
+.irow span{font-size:.86rem;color:var(--muted);word-break:break-word}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:clamp(46px,6vw,72px) 0 30px;background:var(--bg2)}
+.f-top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:clamp(26px,4vw,52px);
+  padding-bottom:36px;border-bottom:1px solid var(--line2)}
+.f-top p{font-size:.88rem;color:var(--muted);margin-top:14px;max-width:44ch}
+.f-col h4{font-family:var(--bdy);font-size:.8rem;font-weight:600;color:var(--muted2);
+  margin-bottom:14px}
+.f-col a,.f-col span{display:block;font-size:.88rem;color:var(--muted);padding:4px 0}
+.f-col a:hover{color:var(--acc)}
+.f-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding-top:22px;font-size:.79rem;color:var(--muted2)}
+.f-bot a{color:var(--acc)}
+
+/* ---------- fab ---------- */
+.fab{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;
+  background:var(--acc);color:var(--onacc);display:flex;align-items:center;justify-content:center;
+  z-index:90;box-shadow:0 14px 34px -12px rgba(0,0,0,.6);
+  opacity:0;visibility:hidden;transform:translateY(16px) scale(.9);
+  transition:.45s var(--ease)}
+.fab.on{opacity:1;visibility:visible;transform:none}
+.fab svg{width:26px;height:26px}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--acc);
+  animation:pulse 2.6s var(--ease) infinite}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transition:opacity .9s var(--ease),transform .9s var(--ease),
+  filter .9s var(--ease),clip-path 1s var(--ease)}
+body.rev-rise .rv{transform:translateY(28px)}
+body.rev-blur .rv{filter:blur(9px);transform:scale(.985)}
+body.rev-wipe .rv{clip-path:inset(0 0 100% 0);opacity:1}
+body.rev-slab .rv{transform:translateY(14px) scaleY(.97);transform-origin:bottom}
+.rv.rv.in{opacity:1;transform:none;filter:none;clip-path:inset(0 0 0 0)}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+.d4{transition-delay:.32s}.d5{transition-delay:.4s}.d6{transition-delay:.48s}
+.d7{transition-delay:.56s}.d8{transition-delay:.64s}
+
+/* ---------- responsive ---------- */
+@media (max-width:1000px){
+  .hero-grid,.zone,.cta-in{grid-template-columns:1fr}
+  .hero-card{max-width:520px}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .card.wide{grid-column:span 2}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .steps::before{display:none}
+  .nums{grid-template-columns:repeat(2,1fr)}
+  .revs{grid-template-columns:1fr}
+  .f-top{grid-template-columns:1fr 1fr}
+  .band{grid-template-columns:1fr}
+  .band:nth-child(even) .band-art{order:0}
+}
+@media (max-width:900px){
+  .menu,.nav .btn-txt{display:none}
+  .burger{display:flex}
+  .nav .btn{padding:10px 14px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .nav{height:62px}
+  .hero{padding-top:88px;min-height:96svh}
+  .grid{grid-template-columns:1fr}
+  .card,.card.wide{grid-column:span 1}
+  .gal{grid-template-columns:repeat(2,1fr)}
+  .gi.h2{grid-row:span 1}
+  .gi.h2 .ph{aspect-ratio:4/3}
+  .row{grid-template-columns:44px 1fr;gap:14px}
+  .row .thumb{display:none}
+  .f-top{grid-template-columns:1fr}
+  .lead{max-width:none}
+  .scrollcue{display:none}
+  .ba{aspect-ratio:4/3}
+}
+@media (hover:none){
+  .gi figcaption{opacity:1;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;scroll-behavior:auto !important}
+  .rv{opacity:1 !important;transform:none !important;filter:none !important;clip-path:none !important}
+}
+</style>
+</head>
+<body class="rev-wipe">
+<div class="prg" id="prg"></div>
+<header id="hd"><div class="wrap nav"><a href="#top" class="logo" aria-label="Arch Service Group"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg7655" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#B07D3A"/><stop offset="1" stop-color="#77501F"/></linearGradient></defs><rect x="1.5" y="1.5" width="45" height="45" rx="10" fill="none" stroke="url(#mg7655)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg7655)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">AS</text></svg><span class="logo-w"><span class="logo-t">Arch Service Group</span><span class="logo-s">Impianti idraulici e sanitari</span></span></a>
+<nav class="menu"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a></nav>
+<a href="mailto:info@archservice.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Cameri%0AGrazie." class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span class="btn-txt">Scrivici</span></a>
+<a data-wa="Ciao Arch Service Group srl, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a>
+<button class="burger" id="bg" aria-label="Apri il menu"><span></span></button>
+</div></header>
+<div class="drawer" id="dw"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a>
+<a href="mailto:info@archservice.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Cameri%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici una mail</a></div>
+<section class="hero" id="top">
+<div class="hero-art"><div class="ph q "><svg class="art" viewBox="0 0 1400 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1400" height="900" fill="#77501F" opacity=".55"/><rect width="1400" height="900" fill="#123045" opacity=".82"/><path d="M239 715 L514 715 L514 457 L514 204 L973 204 L1318 204" stroke="#B07D3A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="514" cy="457" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.95"/><circle cx="514" cy="204" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.95"/><circle cx="973" cy="204" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.95"/><path d="M-112 88 L263 88 L582 88 L1014 88 L1256 88" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="263" cy="88" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><path d="M322 197 L322 321 L322 549 L668 549 L1039 549 L1039 291 L1365 291 L1749 291" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="322" cy="321" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><circle cx="1039" cy="291" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><path d="M405 217 L628 217 L995 217 L995 330 L995 148 L995 385 L995 479" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="628" cy="217" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M303 642 L763 642 L1062 642 L1062 871 L1062 1114 L1062 951" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="1062" cy="871" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><path d="M210 608 L396 608 L396 353 L396 590 L396 793 L396 1043 L583 1043" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="396" cy="608" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="396" cy="353" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="396" cy="1043" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="1315" cy="540" r="107" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M1208 540 H1422 M1315 433 V647" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="1111" cy="325" r="114" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M997 325 H1225 M1111 211 V439" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="1061" cy="315" r="87" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M974 315 H1148 M1061 228 V402" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7587289/pexels-photo-7587289.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Lavoro di idraulico a Cameri" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div><div class="hero-veil"></div>
+<div class="wrap"><div><div class="badge rv d1"><span class="dot"></span> Cameri e provincia · Preventivo gratuito</div><h1 class="rv d2">Acqua che scorre<br><em>dove deve, come deve.</em></h1><p class="lead rv d3">Arch Service Group srl lavora su impianti idrico-sanitari a Cameri e dintorni: rifacimenti completi, riparazioni, sostituzione sanitari e ricerca perdite. Preventivo scritto prima di iniziare, cantiere lasciato pulito.</p><div class="hero-btns rv d4"><a href="mailto:info@archservice.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Cameri%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Chiedi un preventivo</a><a data-wa="Ciao Arch Service Group srl, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a><a href="#lavori" class="btn btn-g btn-lg">Guarda i lavori</a></div><div class="hero-mini rv d5"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Sopralluogo senza impegno</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Preventivo scritto</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cantiere lasciato pulito</span></div></div></div>
+<div class="scrollcue"><span>Scorri</span><i></i></div></section>
+<div class="mq"><div class="mq-in"><span>Rifacimento bagni</span><span>Ricerca perdite</span><span>Sostituzione sanitari</span><span>Scarichi e colonne</span><span>Autoclave e pressione</span><span>Addolcitori</span><span>Rubinetteria</span><span>Allacci e contatori</span><span>Rifacimento bagni</span><span>Ricerca perdite</span><span>Sostituzione sanitari</span><span>Scarichi e colonne</span><span>Autoclave e pressione</span><span>Addolcitori</span><span>Rubinetteria</span><span>Allacci e contatori</span></div></div>
+<section class="sec" id="servizi"><div class="wrap"><div class="sv-head rv"><span class="eyebrow">Servizi</span>
+<h2>Cosa facciamo, detto senza giri di parole.</h2></div><div class="rows"><div class="row rv d1"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM7 13V6a2 2 0 0 1 4 0M9 6h2"/></svg></div>
+<div><h3>Rifacimento completo del bagno</h3><p>Demolizione, nuovi scarichi, sanitari e rubinetteria. Un solo interlocutore dall&#x27;inizio alla fine.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M-49 29 L-49 68 L-49 11 L-49 65 L-49 -5 L34 -5" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="-49" cy="68" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><path d="M138 188 L192 188 L287 188 L376 188 L376 280" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="376" cy="188" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><path d="M149 43 L149 123 L149 33 L149 -41 L149 45 L204 45 L204 100 L204 19" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="149" cy="123" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><circle cx="149" cy="-41" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><circle cx="149" cy="45" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><path d="M173 194 L173 116 L173 53 L234 53 L234 97" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="173" cy="116" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="173" cy="53" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M-17 243 L92 243 L92 303 L181 303 L300 303 L419 303 L575 303" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="300" cy="303" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="419" cy="303" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M-4 216 L-4 261 L96 261 L214 261 L289 261" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="214" cy="261" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="286" cy="172" r="43" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M243 172 H329 M286 129 V215" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="33" cy="124" r="47" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M-14 124 H80 M33 77 V171" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7018243/pexels-photo-7018243.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Rifacimento completo del bagno" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d2"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5S6 10 6 14a6 6 0 0 0 12 0c0-4-6-10.5-6-10.5zM9.5 15a2.5 2.5 0 0 0 2.5 2.5"/></svg></div>
+<div><h3>Ricerca perdite</h3><p>Individuazione del punto esatto prima di rompere, con videoispezione dove serve.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M118 163 L118 234 L118 153 L248 153 L248 212 L394 212 L394 154" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="118" cy="234" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><circle cx="118" cy="153" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><circle cx="248" cy="153" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><path d="M69 173 L220 173 L220 212 L284 212 L284 122 L284 160 L284 225" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M4 61 L141 61 L210 61 L320 61 L396 61" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M53 167 L53 252 L182 252 L182 200 L182 259 L336 259" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="53" cy="252" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="182" cy="252" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="182" cy="259" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M102 185 L155 185 L274 185 L323 185 L323 145 L420 145 L420 78 L420 160" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="155" cy="185" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="274" cy="185" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="323" cy="145" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="420" cy="145" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="313" cy="107" r="34" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M279 107 H347 M313 73 V141" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="288" cy="210" r="30" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M258 210 H318 M288 180 V240" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="129" cy="176" r="24" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M105 176 H153 M129 152 V200" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6908361/pexels-photo-6908361.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Ricerca perdite" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d3"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h10M8 4v5a4 4 0 0 0 8 0V4M12 13v7M9 20h6"/></svg></div>
+<div><h3>Sostituzione sanitari</h3><p>WC, lavabi, piatti doccia e cassette: sostituzione in giornata quando l&#x27;impianto lo permette.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M48 48 L154 48 L301 48 L423 48 L531 48 L658 48" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="301" cy="48" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><path d="M233 96 L233 25 L314 25 L400 25 L558 25" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="233" cy="25" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><circle cx="400" cy="25" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><path d="M15 234 L151 234 L240 234 L240 184 L375 184 L424 184" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M123 108 L123 184 L185 184 L302 184 L434 184 L521 184 L521 116" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="123" cy="184" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="185" cy="184" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="302" cy="184" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="521" cy="184" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><path d="M229 147 L286 147 L447 147 L447 232 L447 145" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="286" cy="147" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="447" cy="232" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M86 119 L86 151 L162 151 L162 192 L162 150" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="162" cy="151" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="162" cy="192" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="255" cy="176" r="29" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M226 176 H284 M255 147 V205" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="307" cy="76" r="37" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M270 76 H344 M307 39 V113" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="163" cy="273" r="35" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M128 273 H198 M163 238 V308" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="438" cy="219" r="49" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M389 219 H487 M438 170 V268" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/8134810/pexels-photo-8134810.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Sostituzione sanitari" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d4"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14M8 5v5a4 4 0 0 0 8 0M12 14v6M9.5 17.5 12 20l2.5-2.5"/></svg></div>
+<div><h3>Scarichi e colonne di scarico</h3><p>Rifacimento tratti ammalorati, sifoni, pozzetti e collegamenti alla fognatura.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M-7 35 L-7 -42 L81 -42 L235 -42 L235 18 L345 18 L432 18" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="-7" cy="-42" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><path d="M176 244 L310 244 L421 244 L493 244 L493 199 L558 199" stroke="#B07D3A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="310" cy="244" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.60"/><path d="M223 57 L381 57 L466 57 L466 130 L466 72 L621 72" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="381" cy="57" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="466" cy="57" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="466" cy="130" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="466" cy="72" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><path d="M43 274 L191 274 L303 274 L303 315 L464 315 L579 315" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="303" cy="274" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="303" cy="315" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M92 74 L165 74 L223 74 L223 128 L331 128" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="129" cy="103" r="50" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M79 103 H179 M129 53 V153" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="46" cy="70" r="34" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M12 70 H80 M46 36 V104" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="282" cy="275" r="40" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M242 275 H322 M282 235 V315" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="194" cy="32" r="39" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M155 32 H233 M194 -7 V71" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/32588559/pexels-photo-32588559.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Scarichi e colonne di scarico" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d1"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18M3 15h18M7 9V4M12 9V4M17 9V4M7 15v5M12 15v5M17 15v5"/></svg></div>
+<div><h3>Impianto idrico nuovo</h3><p>Distribuzione in multistrato o pex, collettori ispezionabili, collaudo a pressione.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M-55 212 L-55 269 L18 269 L18 229 L18 325 L125 325 L125 288" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="18" cy="269" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><circle cx="18" cy="229" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><circle cx="18" cy="325" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><circle cx="125" cy="325" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><path d="M-23 71 L-23 5 L-23 77 L68 77 L204 77 L204 -19 L204 -95" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-23" cy="5" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><circle cx="-23" cy="77" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><circle cx="204" cy="77" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><path d="M67 60 L157 60 L157 132 L157 71 L242 71 L333 71" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="157" cy="60" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><circle cx="157" cy="132" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><path d="M223 21 L332 21 L332 63 L457 63 L457 108 L457 48 L457 -39 L457 32" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="332" cy="21" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="457" cy="63" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="457" cy="108" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M205 75 L274 75 L373 75 L487 75 L581 75" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M23 31 L23 118 L79 118 L79 30 L209 30" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="79" cy="30" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="190" cy="253" r="23" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M167 253 H213 M190 230 V276" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="267" cy="151" r="40" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M227 151 H307 M267 111 V191" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="439" cy="286" r="32" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M407 286 H471 M439 254 V318" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="100" cy="125" r="25" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M75 125 H125 M100 100 V150" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7546320/pexels-photo-7546320.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Impianto idrico nuovo" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d2"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 7v2l1.8 1M4 20h16M7 14v6M17 14v6"/></svg></div>
+<div><h3>Autoclave e pressione</h3><p>Pompe, vasi di espansione e riduttori per case dove l&#x27;acqua arriva debole.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M-29 105 L44 105 L171 105 L171 36 L171 -59 L240 -59 L397 -59 L397 36" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="44" cy="105" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.95"/><circle cx="171" cy="36" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.95"/><circle cx="171" cy="-59" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.95"/><path d="M22 123 L22 90 L179 90 L179 6 L179 93" stroke="#B07D3A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="22" cy="90" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.60"/><path d="M183 180 L244 180 L244 275 L336 275 L479 275 L527 275" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="244" cy="180" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="244" cy="275" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="336" cy="275" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="479" cy="275" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><path d="M-14 26 L86 26 L86 -37 L241 -37 L384 -37 L533 -37 L658 -37" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="241" cy="-37" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="384" cy="-37" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M174 95 L333 95 L333 11 L333 99 L479 99 L551 99" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="333" cy="11" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M239 64 L239 150 L288 150 L288 243 L415 243 L415 157 L415 121 L463 121" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="239" cy="150" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="288" cy="150" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="288" cy="243" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="415" cy="243" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="415" cy="157" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="415" cy="121" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M139 221 L278 221 L278 174 L409 174 L409 139 L469 139 L469 98 L602 98" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="278" cy="221" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="278" cy="174" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="409" cy="174" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="409" cy="139" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="469" cy="139" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="348" cy="133" r="47" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M301 133 H395 M348 86 V180" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="290" cy="1" r="33" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M257 1 H323 M290 -32 V34" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="421" cy="143" r="26" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M395 143 H447 M421 117 V169" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="299" cy="169" r="49" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M250 169 H348 M299 120 V218" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/35016079/pexels-photo-35016079.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Autoclave e pressione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d3"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16l-6 7v6l-4 2v-8z"/></svg></div>
+<div><h3>Addolcitori e filtri</h3><p>Trattamento acqua contro il calcare, con manutenzione programmata.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M69 66 L229 66 L229 23 L314 23 L314 -16 L314 43 L456 43 L547 43" stroke="#B07D3A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="229" cy="23" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.95"/><circle cx="314" cy="23" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.95"/><path d="M201 174 L277 174 L409 174 L471 174 L471 221 L471 182 L601 182" stroke="#B07D3A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="277" cy="174" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.60"/><circle cx="471" cy="174" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.60"/><circle cx="471" cy="221" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.60"/><circle cx="471" cy="182" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.60"/><path d="M-16 139 L-16 43 L-16 135 L-16 82 L88 82 L88 50 L153 50 L153 85" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-16" cy="43" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><circle cx="-16" cy="82" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><circle cx="88" cy="50" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><circle cx="153" cy="50" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><path d="M9 294 L9 256 L9 343 L9 247 L165 247 L165 200 L165 123 L279 123" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="9" cy="247" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="165" cy="200" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M-29 161 L-29 82 L63 82 L63 -6 L194 -6" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="-29" cy="82" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="63" cy="-6" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="255" cy="293" r="42" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M213 293 H297 M255 251 V335" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="129" cy="42" r="43" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M86 42 H172 M129 -1 V85" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/35868666/pexels-photo-35868666.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Addolcitori e filtri" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d4"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4a4.5 4.5 0 1 0 4.2 6.1L21 12.4l-2.1 2.1-1.4-1.4-1.4 1.4 1.4 1.4-2 2-1.4-1.4-1.4 1.4 1.4 1.4L11 21.4 4.6 15l6-6A4.5 4.5 0 0 1 14.5 4z"/></svg></div>
+<div><h3>Piccole riparazioni</h3><p>Rubinetti che gocciolano, cassette che perdono, sifoni intasati: interventi rapidi.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#77501F" opacity=".55"/><rect width="480" height="320" fill="#123045" opacity=".82"/><path d="M161 122 L161 210 L161 173 L292 173 L292 139 L292 76 L365 76 L469 76" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="292" cy="139" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><circle cx="292" cy="76" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><circle cx="365" cy="76" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.95"/><path d="M240 28 L345 28 L345 -38 L472 -38 L557 -38" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="345" cy="-38" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><circle cx="472" cy="-38" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><path d="M76 100 L76 145 L76 229 L209 229 L292 229 L447 229 L447 163" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="76" cy="145" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><circle cx="76" cy="229" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><path d="M77 161 L77 126 L77 175 L77 254 L77 217 L160 217 L321 217" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="77" cy="254" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><path d="M223 90 L223 128 L223 200 L370 200 L420 200 L533 200 L533 270" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="223" cy="128" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="223" cy="200" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="370" cy="200" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="420" cy="200" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="217" cy="233" r="33" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M184 233 H250 M217 200 V266" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="153" cy="38" r="32" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M121 38 H185 M153 6 V70" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/4494655/pexels-photo-4494655.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Piccole riparazioni" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div></div><div class="urg rv"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20zM12 9v5M12 17h.01"/></svg></div>
+<div class="t"><strong>Perdita in corso?</strong><p>Chiudete il rubinetto generale e scriveteci subito: una foto del punto bagnato ci fa capire in trenta secondi cosa serve portare.</p></div>
+<a href="mailto:info@archservice.it?subject=Richiesta%20di%20intervento&amp;body=Buongiorno%2C%0Aavrei%20bisogno%20di%20un%20intervento.%0ASituazione%3A%0A%0A%0AZona%3A%20Cameri" class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici ora</a>
+<a data-wa="Ciao Arch Service Group srl, avrei bisogno di un intervento." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a></div></div></section>
+<section class="sec" id="metodo" style="background:var(--bg2)">
+<div class="wrap"><div class="sv-head rv"><h2>Quattro passaggi, nessuna sorpresa.</h2></div>
+<div class="steps"><div class="step rv d1"><div class="n">1</div>
+<h3>Ci scrivete</h3><p>Due righe e una foto. Vi rispondiamo con le domande giuste.</p></div><div class="step rv d2"><div class="n">2</div>
+<h3>Sopralluogo</h3><p>Veniamo a vedere. Gratuito e senza impegno.</p></div><div class="step rv d3"><div class="n">3</div>
+<h3>Preventivo scritto</h3><p>Voci separate, tempi indicati. Nessuna sorpresa dopo.</p></div><div class="step rv d4"><div class="n">4</div>
+<h3>Lavoro e collaudo</h3><p>Prova in pressione, pulizia del cantiere, garanzia sull&#x27;intervento.</p></div></div></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap"><div class="nums"><div class="num rv d1"><div class="v"><span data-count="0" data-suffix="€">0</span></div><div class="l">Costo del sopralluogo</div></div><div class="num rv d2"><div class="v"><span data-count="24" data-suffix="h">0</span></div><div class="l">Tempo medio di risposta</div></div><div class="num rv d3"><div class="v"><span data-count="10" data-suffix="+">0</span></div><div class="l">Anni sui cantieri</div></div><div class="num rv d4"><div class="v"><span data-count="100" data-suffix="%">0</span></div><div class="l">Preventivi messi per iscritto</div></div></div><p class="note rv">Numeri indicativi da confermare con il cliente prima della pubblicazione definitiva.</p></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap">
+<div class="sv-head rv"><h2>La differenza si vede a lavoro finito.</h2></div>
+<div class="ba rv"><div class="ph q prima"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#77501F" opacity=".55"/><rect width="1200" height="675" fill="#123045" opacity=".82"/><path d="M-85 60 L-85 236 L233 236 L233 66 L233 -64 L574 -64 L574 -179 L574 -280" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="233" cy="66" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><path d="M423 506 L423 617 L639 617 L639 690 L765 690 L765 563" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M551 580 L835 580 L1042 580 L1343 580 L1739 580" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="1042" cy="580" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><circle cx="1343" cy="580" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><path d="M201 182 L201 371 L409 371 L409 244 L409 359 L587 359 L831 359 L831 478" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="201" cy="371" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="409" cy="359" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="831" cy="359" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M196 121 L392 121 L392 30 L789 30 L990 30" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="392" cy="121" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="392" cy="30" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="789" cy="30" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M51 190 L51 65 L51 -133 L247 -133 L627 -133 L913 -133" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="247" cy="-133" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="856" cy="621" r="94" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M762 621 H950 M856 527 V715" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="638" cy="490" r="90" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M548 490 H728 M638 400 V580" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="173" cy="368" r="82" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M91 368 H255 M173 286 V450" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="902" cy="427" r="107" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M795 427 H1009 M902 320 V534" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/10827343/pexels-photo-10827343.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Situazione prima dell&#x27;intervento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="ba-top"><div class="ph q dopo"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#77501F" opacity=".55"/><rect width="1200" height="675" fill="#123045" opacity=".82"/><path d="M-85 60 L-85 236 L233 236 L233 66 L233 -64 L574 -64 L574 -179 L574 -280" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="233" cy="66" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><path d="M423 506 L423 617 L639 617 L639 690 L765 690 L765 563" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M551 580 L835 580 L1042 580 L1343 580 L1739 580" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="1042" cy="580" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><circle cx="1343" cy="580" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.60"/><path d="M201 182 L201 371 L409 371 L409 244 L409 359 L587 359 L831 359 L831 478" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="201" cy="371" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="409" cy="359" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="831" cy="359" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M196 121 L392 121 L392 30 L789 30 L990 30" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="392" cy="121" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="392" cy="30" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="789" cy="30" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M51 190 L51 65 L51 -133 L247 -133 L627 -133 L913 -133" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="247" cy="-133" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="856" cy="621" r="94" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M762 621 H950 M856 527 V715" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="638" cy="490" r="90" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M548 490 H728 M638 400 V580" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="173" cy="368" r="82" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M91 368 H255 M173 286 V450" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="902" cy="427" r="107" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M795 427 H1009 M902 320 V534" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/10827343/pexels-photo-10827343.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Lo stesso punto a lavoro finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div>
+<div class="ba-h"></div>
+<span class="ba-lb l"><b>Dopo</b></span><span class="ba-lb r"><b>Prima</b></span></div>
+<p class="note rv">Dimostrativo: è la stessa immagine in due stati, per far vedere come funziona il cursore.
+Al suo posto andranno due foto vere dello stesso punto, prima e dopo il vostro lavoro.</p>
+</div></section>
+<section class="sec" id="lavori" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Un'idea di come lavoriamo.</h2></div>
+<div class="gal"><figure class="gi w2 rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M-68 379 L113 379 L379 379 L379 295 L568 295" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M195 478 L195 286 L195 481 L195 629 L420 629" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="195" cy="286" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><circle cx="195" cy="629" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><path d="M370 618 L670 618 L825 618 L972 618 L1065 618" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="825" cy="618" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="972" cy="618" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><path d="M262 139 L355 139 L355 283 L515 283 L763 283 L763 161" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="355" cy="139" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="355" cy="283" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M-11 615 L80 615 L80 447 L80 307 L230 307 L343 307 L343 130 L343 -52" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="80" cy="615" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="80" cy="447" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="343" cy="307" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="343" cy="130" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="348" cy="132" r="58" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M290 132 H406 M348 74 V190" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="178" cy="124" r="75" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M103 124 H253 M178 49 V199" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/19666087/pexels-photo-19666087.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Collettore ispezionabile a impianto finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Collettore ispezionabile a impianto finito</figcaption></figure><figure class="gi  rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M-37 620 L80 620 L80 442 L80 520 L80 354 L80 237 L80 316" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="80" cy="620" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><circle cx="80" cy="520" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><circle cx="80" cy="354" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><circle cx="80" cy="237" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><path d="M420 407 L420 327 L689 327 L823 327 L1080 327" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="689" cy="327" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><circle cx="823" cy="327" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><path d="M53 147 L295 147 L562 147 L734 147 L734 260 L734 394" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="562" cy="147" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="734" cy="147" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><path d="M15 588 L15 456 L295 456 L295 268 L539 268 L731 268 L944 268" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="15" cy="456" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="731" cy="268" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M303 437 L397 437 L397 325 L397 475 L701 475 L978 475 L1070 475" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="397" cy="437" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="397" cy="325" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="397" cy="475" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M249 227 L531 227 L808 227 L808 351 L944 351 L944 244 L1052 244" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="808" cy="227" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="944" cy="351" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="944" cy="244" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M96 211 L96 68 L308 68 L440 68 L530 68 L711 68 L958 68 L958 276" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="530" cy="68" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="958" cy="68" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="48" cy="674" r="95" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M-47 674 H143 M48 579 V769" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="615" cy="654" r="64" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M551 654 H679 M615 590 V718" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/19889117/pexels-photo-19889117.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Nuovo scarico prima della chiusura" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Nuovo scarico prima della chiusura</figcaption></figure><figure class="gi  rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M-55 604 L143 604 L406 604 L528 604 L528 697" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="143" cy="604" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.95"/><path d="M-88 172 L93 172 L265 172 L265 62 L417 62 L571 62" stroke="#B07D3A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="265" cy="62" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.60"/><path d="M167 253 L167 428 L315 428 L618 428 L618 322 L723 322" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="167" cy="428" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.60"/><circle cx="315" cy="428" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.60"/><circle cx="618" cy="322" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.60"/><path d="M201 321 L201 231 L421 231 L670 231 L780 231 L780 361 L965 361" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="201" cy="231" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="780" cy="361" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M-76 593 L-76 717 L-76 868 L-76 959 L129 959 L129 1130 L129 1057" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="-76" cy="717" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="129" cy="959" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><circle cx="129" cy="1130" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M130 408 L130 275 L130 484 L332 484 L455 484 L455 621 L455 713 L455 590" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="332" cy="484" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.30"/><circle cx="245" cy="408" r="92" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M153 408 H337 M245 316 V500" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="744" cy="280" r="103" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M641 280 H847 M744 177 V383" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="772" cy="227" r="72" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M700 227 H844 M772 155 V299" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/10827349/pexels-photo-10827349.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Bagno completato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Bagno completato</figcaption></figure><figure class="gi h2 rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M444 632 L597 632 L882 632 L882 545 L882 473 L1090 473" stroke="#B07D3A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="882" cy="545" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.95"/><circle cx="882" cy="473" r="23" fill="none" stroke="#B07D3A" stroke-width="5.4" opacity="0.95"/><path d="M-61 481 L178 481 L354 481 L354 561 L526 561 L526 660 L526 502 L636 502" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="178" cy="481" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><circle cx="354" cy="481" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><circle cx="526" cy="561" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><circle cx="526" cy="502" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><path d="M286 66 L286 -88 L451 -88 L546 -88 L546 71" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="451" cy="-88" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.60"/><circle cx="546" cy="-88" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.60"/><path d="M347 414 L607 414 L607 273 L607 387 L850 387" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="607" cy="414" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M93 578 L348 578 L348 487 L627 487 L867 487" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="23" cy="463" r="102" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M-79 463 H125 M23 361 V565" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="329" cy="635" r="62" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M267 635 H391 M329 573 V697" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="299" cy="2" r="56" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M243 2 H355 M299 -54 V58" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="436" cy="71" r="52" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M384 71 H488 M436 19 V123" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/36777927/pexels-photo-36777927.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Prova di tenuta in pressione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Prova di tenuta in pressione</figcaption></figure><figure class="gi  rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M255 538 L255 618 L255 466 L255 595 L417 595 L417 690" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="417" cy="595" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><path d="M32 70 L32 -108 L32 19 L244 19 L498 19 L498 -64" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="244" cy="19" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><path d="M148 103 L148 9 L295 9 L555 9 L745 9" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M437 598 L437 770 L437 979 L712 979 L712 859 L712 1058 L995 1058" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="437" cy="770" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="712" cy="979" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="712" cy="859" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M-52 619 L182 619 L182 775 L386 775 L386 566" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="182" cy="619" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="182" cy="775" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M78 573 L180 573 L471 573 L626 573 L867 573 L1093 573" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="471" cy="573" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="876" cy="193" r="50" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M826 193 H926 M876 143 V243" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="631" cy="294" r="63" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M568 294 H694 M631 231 V357" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6920613/pexels-photo-6920613.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Sostituzione miscelatore" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Sostituzione miscelatore</figcaption></figure><figure class="gi  rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M187 378 L187 546 L187 662 L408 662 L408 486 L408 350 L408 522" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="408" cy="662" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.95"/><path d="M45 170 L193 170 L369 170 L369 3 L674 3" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="193" cy="170" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><circle cx="369" cy="3" r="20" fill="none" stroke="#B07D3A" stroke-width="4.3" opacity="0.60"/><path d="M-21 431 L100 431 L100 508 L348 508 L348 592 L348 767" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="100" cy="431" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="348" cy="592" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><path d="M238 283 L537 283 L537 385 L537 476 L813 476 L1035 476" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M-53 504 L41 504 L173 504 L372 504 L524 504 L812 504 L812 601 L812 485" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="173" cy="504" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M354 663 L447 663 L447 830 L569 830 L695 830" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="447" cy="830" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><path d="M-44 327 L120 327 L120 438 L120 609 L120 703 L120 845 L379 845" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="120" cy="327" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="120" cy="609" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="120" cy="703" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="120" cy="845" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="183" cy="102" r="65" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M118 102 H248 M183 37 V167" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="756" cy="289" r="61" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M695 289 H817 M756 228 V350" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="157" cy="21" r="57" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M100 21 H214 M157 -36 V78" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="176" cy="104" r="112" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M64 104 H288 M176 -8 V216" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/35290675/pexels-photo-35290675.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Distribuzione in multistrato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Distribuzione in multistrato</figcaption></figure><figure class="gi  rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M355 464 L629 464 L920 464 L1058 464" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="629" cy="464" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><path d="M328 244 L328 424 L328 263 L536 263 L718 263 L718 72" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="328" cy="424" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><circle cx="328" cy="263" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><circle cx="718" cy="263" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><path d="M296 175 L419 175 L419 341 L620 341 L888 341 L888 518 L1020 518" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="419" cy="341" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.60"/><path d="M10 63 L101 63 L101 -71 L310 -71 L596 -71 L706 -71 L706 29" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M186 515 L344 515 L344 684 L344 842 L501 842 L803 842 L1040 842" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="344" cy="684" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="344" cy="842" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="314" cy="476" r="94" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M220 476 H408 M314 382 V570" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="472" cy="269" r="85" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M387 269 H557 M472 184 V354" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/4494653/pexels-photo-4494653.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Piatto doccia filo pavimento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Piatto doccia filo pavimento</figcaption></figure><figure class="gi  rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M255 139 L444 139 L444 -26 L615 -26 L809 -26" stroke="#B07D3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M266 240 L266 79 L266 -112 L266 6 L546 6 L832 6 L1130 6" stroke="#B07D3A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="266" cy="79" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><circle cx="266" cy="-112" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><circle cx="546" cy="6" r="16" fill="none" stroke="#B07D3A" stroke-width="2.9" opacity="0.60"/><path d="M41 51 L41 169 L219 169 L219 306 L336 306" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="41" cy="169" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.60"/><circle cx="219" cy="169" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.60"/><path d="M-10 80 L-10 -88 L-10 -284 L96 -284 L96 -93 L96 107 L278 107 L278 201" stroke="#77501F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="96" cy="-284" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><circle cx="96" cy="107" r="16" fill="none" stroke="#77501F" stroke-width="2.9" opacity="0.30"/><path d="M59 139 L204 139 L204 216 L204 13 L302 13" stroke="#77501F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="204" cy="139" r="20" fill="none" stroke="#77501F" stroke-width="4.3" opacity="0.30"/><path d="M39 84 L215 84 L215 -80 L215 -250 L215 -70 L215 44 L215 -76" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="215" cy="84" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="215" cy="-80" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="215" cy="-250" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="618" cy="29" r="108" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M510 29 H726 M618 -79 V137" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="520" cy="86" r="111" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M409 86 H631 M520 -25 V197" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="284" cy="530" r="58" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M226 530 H342 M284 472 V588" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="838" cy="89" r="74" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M764 89 H912 M838 15 V163" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/34938446/pexels-photo-34938446.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Punto acqua per lavatrice" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Punto acqua per lavatrice</figcaption></figure><figure class="gi w2 rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#77501F" opacity=".55"/><rect width="900" height="700" fill="#123045" opacity=".82"/><path d="M-96 306 L152 306 L405 306 L604 306 L604 112" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="152" cy="306" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><circle cx="604" cy="306" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.95"/><path d="M-78 468 L126 468 L126 657 L312 657 L312 811 L614 811 L830 811 L830 707" stroke="#B07D3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="126" cy="468" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><circle cx="126" cy="657" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><circle cx="614" cy="811" r="13" fill="none" stroke="#B07D3A" stroke-width="1.8" opacity="0.60"/><path d="M43 603 L150 603 L437 603 L437 464 L704 464 L958 464 L958 631" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="437" cy="603" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="437" cy="464" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><circle cx="704" cy="464" r="13" fill="none" stroke="#77501F" stroke-width="1.8" opacity="0.60"/><path d="M-56 166 L193 166 L452 166 L452 24 L577 24 L816 24 L816 105 L816 29" stroke="#77501F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M124 232 L430 232 L430 134 L657 134 L877 134 L1107 134" stroke="#77501F" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="877" cy="134" r="23" fill="none" stroke="#77501F" stroke-width="5.4" opacity="0.30"/><circle cx="257" cy="279" r="50" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M207 279 H307 M257 229 V329" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="837" cy="379" r="73" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M764 379 H910 M837 306 V452" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="43" cy="131" r="111" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M-68 131 H154 M43 20 V242" stroke="#B07D3A" stroke-width="5" opacity=".7"/><circle cx="494" cy="459" r="92" fill="none" stroke="#B07D3A" stroke-width="5" opacity=".7"/><path d="M402 459 H586 M494 367 V551" stroke="#B07D3A" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/4469187/pexels-photo-4469187.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Cantiere lasciato pulito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Cantiere lasciato pulito</figcaption></figure></div>
+<p class="note rv">Foto di repertorio, scelte per il vostro mestiere: al loro posto andranno le foto reali dei vostri lavori.</p>
+</div></section>
+<section class="sec" id="zone"><div class="wrap"><div class="zone">
+<div class="zmap rv"><svg viewBox="0 0 300 280" aria-hidden="true">
+<defs><radialGradient id="pl"><stop offset="0" stop-color="#B07D3A" stop-opacity=".5"/>
+<stop offset="1" stop-color="#B07D3A" stop-opacity="0"/></radialGradient>
+<linearGradient id="lnn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B07D3A" stop-opacity=".65"/>
+<stop offset="1" stop-color="#77501F" stop-opacity=".08"/></linearGradient></defs>
+<g stroke="rgba(255,255,255,.13)" stroke-width="1" opacity=".55">
+<path d="M0 40h300M0 90h300M0 140h300M0 190h300M0 240h300"/>
+<path d="M40 0v280M90 0v280M140 0v280M190 0v280M240 0v280"/></g>
+<circle cx="150" cy="132" r="86" fill="url(#pl)"/>
+<circle cx="150" cy="132" r="86" fill="none" stroke="#B07D3A" stroke-opacity=".28" stroke-dasharray="4 6"/>
+<circle cx="150" cy="132" r="120" fill="none" stroke="#B07D3A" stroke-opacity=".13" stroke-dasharray="2 8"/>
+<g stroke="url(#lnn)" stroke-width="1.2" fill="none">
+<path d="M150 132 84 96M150 132 96 178M150 132 214 104M150 132 208 186M150 132 150 54M150 132 62 140M150 132 236 148"/></g>
+<g fill="#B07D3A"><circle class="zn" cx="84" cy="96" r="3.6"/><circle class="zn" cx="96" cy="178" r="3.6"/><circle class="zn" cx="214" cy="104" r="3.6"/><circle class="zn" cx="208" cy="186" r="3.6"/><circle class="zn" cx="150" cy="54" r="3.6"/><circle class="zn" cx="62" cy="140" r="3.6"/><circle class="zn" cx="236" cy="148" r="3.6"/></g>
+<circle cx="150" cy="132" r="9" fill="#B07D3A"/>
+<circle cx="150" cy="132" r="9" fill="none" stroke="#B07D3A" opacity=".5">
+<animate attributeName="r" values="9;30" dur="2.8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".5;0" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="150" y="158" text-anchor="middle" fill="#F2EBDE" font-family="Newsreader,sans-serif"
+ font-size="13" font-weight="600">Cameri</text></svg></div>
+<div class="rv d1"><h2>Da Cameri a tutta la provincia.</h2>
+<p class="lead" style="margin-top:18px">Base a Cameri, interventi in provincia di Novara e nei comuni
+limitrofi. Se il vostro paese non è in elenco, chiedete comunque: quasi sempre si arriva.</p>
+<div class="zones"><a href="mailto:info@archservice.it?subject=Richiesta%20informazioni&amp;body=Buongiorno%2C%0Ascrivo%20da%20Cameri.%0A%0A" class="hi">Cameri</a>
+<a href="#contatti">Novara</a><a href="#contatti">Comuni limitrofi</a></div>
+<p class="note">Qui va l'elenco dei comuni serviti davvero: mandateceli e li inseriamo.</p>
+</div></div></div></section>
+<section class="sec" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Le parole dei clienti valgono più delle nostre.</h2></div>
+<div class="revs"><div class="rev rv d1"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d2"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d3"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div></div>
+<p class="note rv">Sezione pronta: appena arrivano le prime recensioni Google le inseriamo qui. Nessun testo inventato.</p>
+</div></section>
+<section class="sec" id="faq"><div class="wrap"><div class="faq">
+<div class="sv-head rv" style="margin-bottom:26px"><h2>Quello che ci chiedono più spesso.</h2></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Quanto costa rifare un bagno?</span><i></i></button><div class="q-a"><p>Dipende da metratura, scarichi esistenti e finiture scelte. Dopo il sopralluogo vi diamo un preventivo scritto con le voci separate, così vedete dove si può risparmiare.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Fate interventi urgenti?</span><i></i></button><div class="q-a"><p>Sì, per perdite e allagamenti cerchiamo di arrivare in giornata. Scriveteci indicando zona e cosa sta succedendo.</p></div></div><div class="q rv d3"><button class="q-h" aria-expanded="false">
+<span>Il sopralluogo è gratuito?</span><i></i></button><div class="q-a"><p>Sì, sopralluogo e preventivo sono gratuiti e senza impegno.</p></div></div><div class="q rv d4"><button class="q-h" aria-expanded="false">
+<span>Quanto dura il cantiere di un bagno?</span><i></i></button><div class="q-a"><p>In genere una o due settimane, a seconda di demolizioni e tempi di posa delle piastrelle. Ve lo indichiamo nel preventivo.</p></div></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Rilasciate documentazione?</span><i></i></button><div class="q-a"><p>Sì, a fine lavori consegniamo la dichiarazione di conformità dove prevista, insieme alle schede dei materiali.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Lavorate anche su condomini?</span><i></i></button><div class="q-a"><p>Sì, comprese colonne di scarico e interventi su parti comuni, coordinandoci con l&#x27;amministratore.</p></div></div></div></div></section>
+<section class="sec" id="contatti" style="padding-top:0"><div class="wrap">
+<div class="cta rv"><div class="cta-in"><div>
+<span class="eyebrow">Contatti</span>
+<h2>Raccontateci il lavoro.<br>Il preventivo è gratis.</h2>
+<p class="lead" style="margin-top:16px">Due righe bastano per partire. Se avete una foto della situazione,
+allegatela: si capisce subito di cosa c'è bisogno.</p>
+<div class="cta-btns"><a href="mailto:info@archservice.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Cameri%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> info@archservice.it</a>
+<a data-wa="Ciao Arch Service Group srl, vorrei un preventivo gratuito." href="#" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a></div>
+</div><div class="info">
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+<div><b>Arch Service Group srl</b><span>Cameri (NO) — indirizzo da confermare</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div><div><b>Email</b><span>info@archservice.it</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+<div><b>Orari</b><span>Da confermare · Si risponde anche fuori orario</span></div></div>
+</div></div></div></div></section>
+<footer><div class="wrap"><div class="f-top"><div><a href="#top" class="logo" aria-label="Arch Service Group"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg7655" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#B07D3A"/><stop offset="1" stop-color="#77501F"/></linearGradient></defs><rect x="1.5" y="1.5" width="45" height="45" rx="10" fill="none" stroke="url(#mg7655)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg7655)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">AS</text></svg><span class="logo-w"><span class="logo-t">Arch Service Group</span><span class="logo-s">Impianti idraulici e sanitari</span></span></a>
+<p>Impianti idraulici e sanitari a Cameri e in provincia di Novara.</p></div>
+<div class="f-col"><h4>Servizi</h4><a href="#servizi">Rifacimento completo del bagno</a><a href="#servizi">Ricerca perdite</a><a href="#servizi">Sostituzione sanitari</a><a href="#servizi">Scarichi e colonne di scarico</a><a href="#servizi">Impianto idrico nuovo</a><a href="#servizi">Autoclave e pressione</a></div>
+<div class="f-col"><h4>Contatti</h4><a href="mailto:info@archservice.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Cameri%0AGrazie.">info@archservice.it</a>
+<span>Cameri (NO)</span><span>Orari da confermare</span></div></div>
+<div class="f-bot"><span>© <span id="yy">2026</span> Arch Service Group srl — Cameri (NO)</span>
+<span>Bozza realizzata da <a href="#top">Umbra</a></span></div></div></footer>
+<a class="fab" id="fab" href="mailto:info@archservice.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Cameri%0AGrazie." aria-label="Scrivici una mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+<div class="lb" id="lb"><button class="lb-x" aria-label="Chiudi">×</button>
+<figure><div class="lb-art"></div><figcaption></figcaption></figure></div>
+<script>
+(function(){
+  var RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* header + progress + fab */
+  var hd=document.getElementById('hd'), prg=document.getElementById('prg'),
+      fab=document.getElementById('fab'), tick=false;
+  function onScroll(){
+    var y=scrollY, h=document.body.scrollHeight-innerHeight;
+    hd.classList.toggle('on', y>24);
+    prg.style.width=(h>0? (y/h*100):0)+'%';
+    if(fab) fab.classList.toggle('on', y>620);
+    tick=false;
+  }
+  addEventListener('scroll',function(){ if(!tick){requestAnimationFrame(onScroll);tick=true;} },{passive:true});
+  onScroll();
+
+  /* drawer */
+  var bg=document.getElementById('bg'), dw=document.getElementById('dw');
+  if(bg) bg.onclick=function(){ dw.classList.toggle('open'); document.body.style.overflow=dw.classList.contains('open')?'hidden':''; };
+  if(dw) dw.querySelectorAll('a').forEach(function(a){ a.onclick=function(){ dw.classList.remove('open'); document.body.style.overflow=''; }; });
+
+  /* reveal */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.14, rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+  /* hero parallax legato allo scroll */
+  var art=document.querySelector('.hero-art');
+  if(art && !RM){
+    addEventListener('scroll',function(){
+      var y=scrollY;
+      if(y<innerHeight*1.2){
+        art.style.transform='translate3d(0,'+(y*.22)+'px,0) scale('+(1+y/innerHeight*.09)+')';
+        art.style.opacity=Math.max(0,1-y/innerHeight*.75);
+      }
+    },{passive:true});
+  }
+
+  /* contatori */
+  var co=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      co.unobserve(e.target);
+      var el=e.target, to=parseFloat(el.dataset.count)||0, sfx=el.dataset.suffix||'', t0=null, D=1500;
+      if(RM){ el.textContent=to+sfx; return; }
+      requestAnimationFrame(function step(t){
+        if(!t0)t0=t;
+        var p=Math.min(1,(t-t0)/D), e2=1-Math.pow(1-p,3);
+        el.textContent=Math.round(to*e2)+sfx;
+        if(p<1) requestAnimationFrame(step);
+      });
+    });
+  },{threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(function(el){ co.observe(el); });
+
+  /* faq */
+  document.querySelectorAll('.q-h').forEach(function(b){
+    b.onclick=function(){
+      var q=b.parentElement, a=q.querySelector('.q-a'), open=q.classList.contains('open');
+      document.querySelectorAll('.q.open').forEach(function(o){
+        o.classList.remove('open'); o.querySelector('.q-a').style.maxHeight=null;
+        o.querySelector('.q-h').setAttribute('aria-expanded','false');
+      });
+      if(!open){ q.classList.add('open'); a.style.maxHeight=a.scrollHeight+'px';
+        b.setAttribute('aria-expanded','true'); }
+    };
+  });
+
+  /* prima/dopo */
+  var ba=document.querySelector('.ba');
+  if(ba){
+    var top=ba.querySelector('.ba-top'), hnd=ba.querySelector('.ba-h'), drag=false, played=false;
+    function set(p){ p=Math.max(2,Math.min(98,p));
+      top.style.clipPath='inset(0 '+(100-p)+'% 0 0)'; hnd.style.left=p+'%'; }
+    function fromEvt(e){ var r=ba.getBoundingClientRect(),
+      x=(e.touches?e.touches[0].clientX:e.clientX)-r.left; set(x/r.width*100); }
+    ba.addEventListener('pointerdown',function(e){drag=true;ba.setPointerCapture(e.pointerId);fromEvt(e);});
+    ba.addEventListener('pointermove',function(e){ if(drag) fromEvt(e); });
+    ba.addEventListener('pointerup',function(){drag=false;});
+    ba.addEventListener('pointercancel',function(){drag=false;});
+    new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting||played||RM) return; played=true;
+        var t0=null;
+        requestAnimationFrame(function s(t){ if(!t0)t0=t;
+          var p=Math.min(1,(t-t0)/1900), e2=1-Math.pow(1-p,3);
+          set(50+Math.sin(e2*Math.PI*1.5)*40);
+          if(p<1) requestAnimationFrame(s); else set(50);
+        });
+      });
+    },{threshold:.45}).observe(ba);
+  }
+
+  /* lightbox */
+  var lb=document.getElementById('lb');
+  if(lb){
+    var lba=lb.querySelector('.lb-art'), lbc=lb.querySelector('figcaption');
+    document.querySelectorAll('.gi').forEach(function(g){
+      g.onclick=function(){
+        lba.innerHTML=g.querySelector('.ph').outerHTML;
+        lbc.textContent=g.querySelector('figcaption').textContent;
+        lb.classList.add('on'); document.body.style.overflow='hidden';
+      };
+    });
+    function close(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+    lb.onclick=close;
+    addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  }
+
+  /* foto gia' in cache: onload puo' non scattare, le sblocco a mano */
+  document.querySelectorAll('.ph.q>img').forEach(function(i){
+    if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+  });
+  addEventListener('load', function(){
+    document.querySelectorAll('.ph.q>img').forEach(function(i){
+      if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+    });
+  });
+
+  /* anno */
+  var yy=document.getElementById('yy'); if(yy) yy.textContent=new Date().getFullYear();
+
+  /* WhatsApp: i bottoni compaiono solo se WA e' valorizzato in testa al file */
+  if(!window.WA_NUM){
+    document.querySelectorAll('[data-wa]').forEach(function(el){ el.remove(); });
+  } else {
+    document.querySelectorAll('[data-wa]').forEach(function(el){
+      el.href='https://wa.me/'+window.WA_NUM+'?text='+encodeURIComponent(el.dataset.wa);
+    });
+  }
+})();
+</script>
+</body>
+</html>
