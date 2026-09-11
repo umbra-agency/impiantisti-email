@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  BOZZA UMBRA — Eversivo di Yuri Nardi
+  Conegliano (TV) · info@eversivo.com
+  Stile: Officina · Mestiere: Domotica · Accento #C2A36B / #8A6A32
+  ============================================================================
+  PER ATTIVARE I BOTTONI WHATSAPP: mettere il numero (39 + cellulare, senza spazi)
+  nella riga  window.WA_NUM = "";  qui sotto nel <head>. Se resta vuota, i bottoni
+  WhatsApp spariscono da soli e restano solo quelli email.
+
+  FOTO: sono di repertorio (Pexels / Unsplash, libere per uso commerciale),
+  scelte per il mestiere. Dietro ogni foto c'e' una grafica vettoriale generata
+  nei colori del sito: se una URL smette di rispondere il riquadro resta pieno.
+  Per sostituirle con le foto vere del cliente: cercare images.pexels.com /
+  images.unsplash.com e cambiare la src.
+
+  DA CONFERMARE COL CLIENTE PRIMA DI CONSIDERARLA DEFINITIVA:
+  indirizzo, orari, elenco dei comuni serviti, servizi realmente offerti,
+  numeri della sezione contatori, foto reali dei lavori, recensioni Google.
+  ============================================================================
+-->
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eversivo di Yuri Nardi — Domotica a Conegliano (TV)</title>
+<meta name="description" content="Eversivo di Yuri Nardi: domotica e impianti tecnologici a Conegliano e in provincia di Treviso. Preventivo gratuito, sopralluogo senza impegno.">
+<meta name="theme-color" content="#0D1014">
+<meta property="og:title" content="Eversivo di Yuri Nardi — Domotica a Conegliano (TV)">
+<meta property="og:description" content="Eversivo di Yuri Nardi: domotica e impianti tecnologici a Conegliano e in provincia di Treviso. Preventivo gratuito, sopralluogo senza impegno.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22mg60903%22%20x1%3D%224%22%20y1%3D%224%22%20x2%3D%2244%22%20y2%3D%2244%22%3E%3Cstop%20stop-color%3D%22%23C2A36B%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238A6A32%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath%20d%3D%22M24%202%2045%209v16c0%2011-9%2018-21%2021C12%2043%203%2036%203%2025V9z%22%20fill%3D%22none%22%20stroke%3D%22url%28%23mg60903%29%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2224%22%20y%3D%2224%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20fill%3D%22url%28%23mg60903%29%22%20font-family%3D%22inherit%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20letter-spacing%3D%22-.5%22%3EE%3C/text%3E%3C/svg%3E">
+<script>window.WA_NUM = "";</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font-family:var(--bdy);font-weight:400;
+  line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  font-size:16.5px;letter-spacing:-.005em}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:2px}
+::selection{background:var(--acc);color:var(--onacc)}
+
+:root{
+  --bg:#0D1014; --bg2:#12161C; --surface:#171C23; --surface2:#1D232B;
+  --line:rgba(255,255,255,.085); --line2:rgba(255,255,255,.05);
+  --txt:#EDF1F5; --muted:#97A2AF; --muted2:#69737F;
+  --acc:#C2A36B; --acc2:#8A6A32; --onacc:#0A0D11;
+  --wa:#25D366;
+  --r:16px; --rs:11px; --rb:100px;
+  --dsp:'Space Grotesk', sans-serif; --bdy:'Inter', system-ui, sans-serif;
+  --max:1180px; --ease:cubic-bezier(.22,1,.36,1);
+  --pad:clamp(18px,5vw,34px);
+}
+
+h1,h2,h3,h4,.dsp{font-family:var(--dsp);font-weight:600;letter-spacing:-.035em;line-height:1.03}
+h1{font-size:clamp(2.5rem,8.4vw,4.8rem)}
+h2{font-size:clamp(1.85rem,5.2vw,3.05rem);line-height:1.06}
+h3{font-size:1.14rem;font-family:var(--bdy);font-weight:600;letter-spacing:-.015em;line-height:1.3}
+p{max-width:66ch}
+.lead{font-size:clamp(1.02rem,2.5vw,1.16rem);color:var(--muted);line-height:1.72}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.sec{padding:clamp(70px,11vw,140px) 0;position:relative}
+.eyebrow{display:inline-block;font-family:var(--bdy);font-size:.79rem;font-weight:600;
+  color:var(--acc);margin-bottom:14px;letter-spacing:.01em}
+
+/* ---------- progress ---------- */
+.prg{position:fixed;top:0;left:0;height:2px;width:0;z-index:120;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .1s linear}
+
+/* ---------- header ---------- */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:.4s var(--ease);
+  border-bottom:1px solid transparent}
+header.on{background:color-mix(in srgb,var(--bg) 86%, transparent);
+  backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);
+  border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;gap:20px;height:70px}
+.logo{display:flex;align-items:center;gap:11px;flex:none}
+.logo svg{width:36px;height:36px}
+.logo-w{display:flex;flex-direction:column;line-height:1.05}
+.logo-t{font-family:var(--dsp);font-size:1.16rem;font-weight:600;letter-spacing:-.02em}
+.logo-s{font-size:.68rem;color:var(--muted2);letter-spacing:.02em}
+.menu{display:flex;gap:26px;margin-left:auto;font-size:.9rem;color:var(--muted)}
+.menu a{position:relative;padding:4px 0;transition:color .25s}
+.menu a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;
+  background:var(--acc);transition:right .35s var(--ease)}
+.menu a:hover{color:var(--txt)}
+.menu a:hover::after{right:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:12px 20px;border-radius:var(--rb);font-size:.9rem;font-weight:600;
+  font-family:var(--bdy);border:1px solid transparent;cursor:pointer;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .25s,color .25s;
+  white-space:nowrap;letter-spacing:-.01em}
+.btn svg{width:17px;height:17px;flex:none}
+.btn-p{background:var(--acc);color:var(--onacc)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--acc)}
+.btn-g{border-color:var(--line);color:var(--txt);background:var(--surface)}
+.btn-g:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#04240F}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--wa)}
+.btn-lg{padding:15px 26px;font-size:.97rem}
+.nav .btn{padding:10px 17px;font-size:.85rem}
+.burger{display:none;margin-left:auto;width:42px;height:42px;border:1px solid var(--line);
+  border-radius:var(--rb);background:var(--surface);align-items:center;justify-content:center}
+.burger span{display:block;width:17px;height:1.5px;background:var(--txt);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:17px;
+  height:1.5px;background:var(--txt);transition:.3s var(--ease)}
+.burger span::before{top:-5.5px}.burger span::after{top:5.5px}
+.drawer{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;
+  flex-direction:column;justify-content:center;gap:6px;padding:0 var(--pad);
+  transform:translateY(-100%);transition:transform .5s var(--ease);visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
+.drawer a:not(.btn){font-family:var(--dsp);font-size:2rem;padding:11px 0;
+  border-bottom:1px solid var(--line2)}
+.drawer .btn{margin-top:22px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;
+  padding-top:100px;padding-bottom:70px;overflow:hidden}
+.hero-art{position:absolute;inset:0;z-index:0}
+.hero-art svg{width:100%;height:100%;object-fit:cover}
+
+/* --- foto: la grafica generativa resta sotto come fondo, la foto ci va sopra.
+   Se una URL non risponde l'immagine si toglie da sola e resta il fondo. --- */
+.ph{position:relative;overflow:hidden;background:var(--surface2);isolation:isolate}
+.ph>svg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph>img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;
+  filter:saturate(.95) contrast(1.04) brightness(1);
+  transition:transform .9s var(--ease),opacity .8s var(--ease)}
+.ph::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(150deg,#8A6A32 0%,transparent 55%),linear-gradient(0deg,#0D1014 0%,transparent 65%);mix-blend-mode:soft-light;opacity:.4}
+.ph.q>img{opacity:0}
+.ph.q.on>img{opacity:1}
+.hero-veil{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,color-mix(in srgb,#0D1014 55%,transparent) 0%,color-mix(in srgb,#0D1014 78%,transparent) 52%,#0D1014 100%)}
+.hero-veil::after{content:"";position:absolute;inset:0;background:linear-gradient(96deg,color-mix(in srgb,#0D1014 72%,transparent) 0%,color-mix(in srgb,#0D1014 34%,transparent) 58%,transparent 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.badge{display:inline-flex;align-items:center;gap:9px;padding:8px 15px;
+  border:1px solid var(--line);border-radius:100px;font-size:.8rem;color:var(--muted);
+  background:color-mix(in srgb,var(--surface) 70%,transparent);backdrop-filter:blur(8px);
+  margin-bottom:22px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--acc);position:relative}
+.dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;
+  border:1px solid var(--acc);animation:pulse 2.4s var(--ease) infinite}
+@keyframes pulse{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.7);opacity:0}}
+.hero .lead{margin:22px 0 30px;max-width:56ch}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.hero-mini{display:flex;gap:9px;flex-wrap:wrap;margin-top:30px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:.81rem;color:var(--muted);
+  padding:7px 13px;border:1px solid var(--line2);border-radius:100px}
+.chip svg{width:13px;height:13px;color:var(--acc)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,64px);align-items:center}
+.hero-card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:var(--surface);box-shadow:0 40px 90px -50px rgba(0,0,0,.6)}
+.hero-card .ph{width:100%;aspect-ratio:4/3}
+.hero-card-b{padding:20px 22px 22px}
+.hero-card-b strong{display:block;font-family:var(--dsp);font-size:1.1rem;margin-bottom:6px}
+.hero-card-b span{font-size:.87rem;color:var(--muted);display:block}
+.hcrow{display:flex;justify-content:space-between;gap:16px;margin-top:18px;
+  padding-top:16px;border-top:1px solid var(--line2)}
+.hcrow .k{font-family:var(--dsp);font-size:1.45rem;color:var(--acc);line-height:1}
+.hcrow .l{font-size:.72rem;color:var(--muted2);margin-top:4px}
+.hero-strip{margin-top:clamp(34px,5vw,56px);border:1px solid var(--line);
+  border-radius:var(--r);overflow:hidden;height:clamp(180px,30vw,330px)}
+.hero-strip .ph{width:100%;height:100%}
+.scrollcue{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);z-index:3;
+  display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.7rem;
+  color:var(--muted2);letter-spacing:.06em}
+.scrollcue i{display:block;width:1px;height:34px;background:linear-gradient(var(--acc),transparent);
+  animation:cue 2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}
+  46%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- marquee ---------- */
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:17px 0;overflow:hidden;background:var(--bg2)}
+.mq-in{display:flex;gap:44px;width:max-content;animation:mq 34s linear infinite}
+.mq:hover .mq-in{animation-play-state:paused}
+.mq span{font-family:var(--dsp);font-size:1.02rem;color:var(--muted);
+  display:flex;align-items:center;gap:44px;white-space:nowrap}
+.mq span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--acc);flex:none}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- servizi ---------- */
+.sv-head{max-width:640px;margin-bottom:clamp(34px,5vw,58px)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.6vw,18px)}
+.card{grid-column:span 2;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);overflow:hidden;position:relative;
+  transition:transform .5s var(--ease),border-color .4s,box-shadow .5s var(--ease)}
+.card:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line));
+  box-shadow:0 30px 60px -40px rgba(0,0,0,.55)}
+.card .ph{width:100%;aspect-ratio:16/10}
+.card-b{padding:20px 21px 23px}
+.card .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:13px;
+  background:var(--surface2)}
+.card .ib svg{width:19px;height:19px}
+.card p{font-size:.9rem;color:var(--muted);margin-top:7px;line-height:1.6}
+.card.wide{grid-column:span 4}
+.card.wide .ph{aspect-ratio:21/7}
+
+.rows{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:20px;align-items:start;
+  padding:26px 0;border-bottom:1px solid var(--line);transition:padding .4s var(--ease)}
+.row:hover{padding-left:10px}
+.row .ib{width:44px;height:44px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);background:var(--surface2)}
+.row .ib svg{width:21px;height:21px}
+.row p{font-size:.92rem;color:var(--muted);margin-top:5px}
+.row .thumb{width:120px;height:78px;border-radius:var(--rs);overflow:hidden;
+  border:1px solid var(--line2);flex:none}
+.row .thumb .ph{width:100%;height:100%}
+
+.bands{display:flex;flex-direction:column;gap:clamp(12px,1.6vw,16px)}
+.band{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;
+  border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.band:nth-child(even) .band-art{order:-1}
+.band-art{min-height:190px}
+.band-art .ph{width:100%;height:100%}
+.band-b{padding:clamp(22px,3vw,34px)}
+.band-b .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:14px}
+.band-b .ib svg{width:19px;height:19px}
+.band-b p{font-size:.92rem;color:var(--muted);margin-top:8px}
+
+/* ---------- urgenze ---------- */
+.urg{margin-top:clamp(20px,3vw,30px);border:1px solid color-mix(in srgb,var(--acc) 40%,var(--line));
+  border-radius:var(--r);background:linear-gradient(105deg,
+    color-mix(in srgb,var(--acc) 13%,var(--surface)),var(--surface));
+  padding:clamp(22px,3vw,30px);display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.urg .ib{width:46px;height:46px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;background:var(--acc);color:var(--onacc);flex:none}
+.urg .ib svg{width:23px;height:23px}
+.urg div.t{flex:1;min-width:240px}
+.urg strong{font-family:var(--dsp);font-size:1.15rem;display:block;margin-bottom:4px}
+.urg p{font-size:.9rem;color:var(--muted)}
+
+/* ---------- metodo ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(16px,2.4vw,28px);position:relative}
+.steps::before{content:"";position:absolute;top:19px;left:8%;right:8%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--line),var(--line),transparent)}
+.step{position:relative}
+.step .n{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  background:var(--bg);display:flex;align-items:center;justify-content:center;
+  font-family:var(--dsp);font-size:.95rem;color:var(--acc);margin-bottom:15px;position:relative;z-index:1}
+.step h3{margin-bottom:5px}
+.step p{font-size:.89rem;color:var(--muted)}
+
+/* ---------- numeri ---------- */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,22px)}
+.num{padding:clamp(20px,2.6vw,28px);border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface)}
+.num .v{font-family:var(--dsp);font-size:clamp(2rem,4.6vw,2.9rem);line-height:1;
+  color:var(--acc);letter-spacing:-.04em}
+.num .l{font-size:.81rem;color:var(--muted);margin-top:10px}
+
+/* ---------- prima/dopo ---------- */
+.ba{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);
+  aspect-ratio:16/9;cursor:ew-resize;user-select:none;touch-action:pan-y}
+.ba .ph{position:absolute;inset:0;width:100%;height:100%}
+/* Prima/Dopo credibile: stessa identica inquadratura, due stati.
+   Sotto lo scatto "prima" (spento, ingiallito, contrasto piatto),
+   sopra quello "dopo" (pulito). Cambia solo il trattamento, non la scena. */
+.ba .prima>img{filter:saturate(.28) contrast(.84) brightness(.68) sepia(.32) blur(.4px)}
+.ba .prima::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
+  background:radial-gradient(120% 100% at 50% 40%,transparent 30%,rgba(28,20,10,.55) 100%)}
+.ba .dopo>img{filter:saturate(1.06) contrast(1.08) brightness(1.04)}
+.ba-lb b{font-weight:600}
+.ba-top{position:absolute;inset:0;clip-path:inset(0 50% 0 0);will-change:clip-path}
+.ba-h{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--acc);z-index:3;
+  will-change:left}
+.ba-h::after{content:"";position:absolute;top:50%;left:50%;width:42px;height:42px;
+  transform:translate(-50%,-50%);border-radius:50%;background:var(--acc);
+  box-shadow:0 6px 22px -6px rgba(0,0,0,.6)}
+.ba-lb{position:absolute;bottom:14px;padding:6px 12px;border-radius:100px;font-size:.75rem;
+  background:color-mix(in srgb,var(--bg) 75%,transparent);backdrop-filter:blur(8px);
+  border:1px solid var(--line);z-index:4}
+.ba-lb.l{left:14px}.ba-lb.r{right:14px}
+
+/* ---------- galleria ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.4vw,15px)}
+.gi{position:relative;border-radius:var(--rs);overflow:hidden;border:1px solid var(--line2);
+  cursor:zoom-in;background:var(--surface)}
+.gi .ph{width:100%;height:100%;aspect-ratio:4/3}
+.gi:hover .ph>img{transform:scale(1.06)}
+.gi.w2{grid-column:span 2}
+.gi.h2{grid-row:span 2}
+.gi.h2 .ph{aspect-ratio:4/6}
+.gi figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;
+  font-size:.79rem;color:#fff;
+  background:linear-gradient(transparent,rgba(0,0,0,.78));opacity:0;transition:opacity .4s}
+.gi:hover figcaption{opacity:1}
+.rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-bottom:12px;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{height:4px}
+.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.rail .gi{flex:0 0 clamp(240px,38vw,380px);scroll-snap-align:start}
+.note{font-size:.79rem;color:var(--muted2);margin-top:16px}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;background:color-mix(in srgb,var(--bg) 94%,#000);z-index:200;
+  display:none;align-items:center;justify-content:center;padding:22px}
+.lb.on{display:flex}
+.lb figure{max-width:960px;width:100%}
+.lb .ph{width:100%;border-radius:var(--r);aspect-ratio:4/3}
+.lb figcaption{text-align:center;font-size:.87rem;color:var(--muted);margin-top:14px}
+.lb-x{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line);background:var(--surface);color:var(--txt);
+  display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer}
+
+/* ---------- zone ---------- */
+.zone{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,5vw,60px);align-items:center}
+.zmap{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);
+  padding:16px;overflow:hidden}
+.zmap svg{width:100%;height:auto}
+.zn{animation:zn 3.4s var(--ease) infinite}
+.zn:nth-child(2){animation-delay:.4s}.zn:nth-child(3){animation-delay:.8s}
+.zn:nth-child(4){animation-delay:1.2s}.zn:nth-child(5){animation-delay:1.6s}
+.zn:nth-child(6){animation-delay:2s}.zn:nth-child(7){animation-delay:2.4s}
+@keyframes zn{0%,100%{opacity:.35}50%{opacity:1}}
+.zones{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.zones a{padding:9px 15px;border-radius:100px;font-size:.83rem;color:var(--muted);
+  border:1px solid var(--line);transition:.3s var(--ease)}
+.zones a:hover{color:var(--txt);border-color:var(--acc);transform:translateY(-2px)}
+.zones a.hi{background:var(--acc);color:var(--onacc);border-color:var(--acc);font-weight:600}
+
+/* ---------- recensioni ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,20px)}
+.rev{border:1px dashed var(--line);border-radius:var(--r);padding:clamp(20px,2.6vw,26px);
+  background:var(--surface2)}
+.stars{display:flex;gap:3px;margin-bottom:13px;color:var(--muted2)}
+.stars svg{width:15px;height:15px}
+.rev p{font-size:.9rem;color:var(--muted2);font-style:italic}
+.rev .who{display:flex;align-items:center;gap:11px;margin-top:16px;padding-top:14px;
+  border-top:1px solid var(--line2)}
+.rev .av{width:34px;height:34px;border-radius:50%;border:1px dashed var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--muted2);font-size:.9rem}
+.rev .who b{font-size:.86rem;display:block}
+.rev .who span{font-size:.76rem;color:var(--muted2)}
+
+/* ---------- faq ---------- */
+.faq{max-width:820px;margin:0 auto}
+.q{border-bottom:1px solid var(--line)}
+.q-h{width:100%;display:flex;align-items:center;gap:16px;padding:21px 0;background:none;
+  border:0;color:inherit;font-family:var(--bdy);font-size:1.02rem;font-weight:500;
+  text-align:left;cursor:pointer;letter-spacing:-.01em}
+.q-h i{margin-left:auto;width:20px;height:20px;position:relative;flex:none}
+.q-h i::before,.q-h i::after{content:"";position:absolute;top:9.5px;left:2px;width:16px;
+  height:1.5px;background:var(--acc);transition:transform .4s var(--ease)}
+.q-h i::after{transform:rotate(90deg)}
+.q.open .q-h i::after{transform:rotate(0)}
+.q-a{max-height:0;overflow:hidden;transition:max-height .5s var(--ease)}
+.q-a p{padding-bottom:22px;font-size:.94rem;color:var(--muted)}
+
+/* ---------- cta ---------- */
+.cta{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--acc) 12%,var(--surface)),var(--surface) 62%)}
+.cta-in{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,4vw,52px);
+  padding:clamp(30px,5vw,62px)}
+.cta-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.info{display:flex;flex-direction:column;gap:18px;justify-content:center}
+.irow{display:flex;gap:14px;align-items:flex-start}
+.irow .ii{width:38px;height:38px;border-radius:var(--rs);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--acc);flex:none}
+.irow .ii svg{width:18px;height:18px}
+.irow b{display:block;font-size:.92rem;margin-bottom:2px}
+.irow span{font-size:.86rem;color:var(--muted);word-break:break-word}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:clamp(46px,6vw,72px) 0 30px;background:var(--bg2)}
+.f-top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:clamp(26px,4vw,52px);
+  padding-bottom:36px;border-bottom:1px solid var(--line2)}
+.f-top p{font-size:.88rem;color:var(--muted);margin-top:14px;max-width:44ch}
+.f-col h4{font-family:var(--bdy);font-size:.8rem;font-weight:600;color:var(--muted2);
+  margin-bottom:14px}
+.f-col a,.f-col span{display:block;font-size:.88rem;color:var(--muted);padding:4px 0}
+.f-col a:hover{color:var(--acc)}
+.f-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding-top:22px;font-size:.79rem;color:var(--muted2)}
+.f-bot a{color:var(--acc)}
+
+/* ---------- fab ---------- */
+.fab{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;
+  background:var(--acc);color:var(--onacc);display:flex;align-items:center;justify-content:center;
+  z-index:90;box-shadow:0 14px 34px -12px rgba(0,0,0,.6);
+  opacity:0;visibility:hidden;transform:translateY(16px) scale(.9);
+  transition:.45s var(--ease)}
+.fab.on{opacity:1;visibility:visible;transform:none}
+.fab svg{width:26px;height:26px}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--acc);
+  animation:pulse 2.6s var(--ease) infinite}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transition:opacity .9s var(--ease),transform .9s var(--ease),
+  filter .9s var(--ease),clip-path 1s var(--ease)}
+body.rev-rise .rv{transform:translateY(28px)}
+body.rev-blur .rv{filter:blur(9px);transform:scale(.985)}
+body.rev-wipe .rv{clip-path:inset(0 0 100% 0);opacity:1}
+body.rev-slab .rv{transform:translateY(14px) scaleY(.97);transform-origin:bottom}
+.rv.rv.in{opacity:1;transform:none;filter:none;clip-path:inset(0 0 0 0)}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+.d4{transition-delay:.32s}.d5{transition-delay:.4s}.d6{transition-delay:.48s}
+.d7{transition-delay:.56s}.d8{transition-delay:.64s}
+
+/* ---------- responsive ---------- */
+@media (max-width:1000px){
+  .hero-grid,.zone,.cta-in{grid-template-columns:1fr}
+  .hero-card{max-width:520px}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .card.wide{grid-column:span 2}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .steps::before{display:none}
+  .nums{grid-template-columns:repeat(2,1fr)}
+  .revs{grid-template-columns:1fr}
+  .f-top{grid-template-columns:1fr 1fr}
+  .band{grid-template-columns:1fr}
+  .band:nth-child(even) .band-art{order:0}
+}
+@media (max-width:900px){
+  .menu,.nav .btn-txt{display:none}
+  .burger{display:flex}
+  .nav .btn{padding:10px 14px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .nav{height:62px}
+  .hero{padding-top:88px;min-height:96svh}
+  .grid{grid-template-columns:1fr}
+  .card,.card.wide{grid-column:span 1}
+  .gal{grid-template-columns:repeat(2,1fr)}
+  .gi.h2{grid-row:span 1}
+  .gi.h2 .ph{aspect-ratio:4/3}
+  .row{grid-template-columns:44px 1fr;gap:14px}
+  .row .thumb{display:none}
+  .f-top{grid-template-columns:1fr}
+  .lead{max-width:none}
+  .scrollcue{display:none}
+  .ba{aspect-ratio:4/3}
+}
+@media (hover:none){
+  .gi figcaption{opacity:1;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;scroll-behavior:auto !important}
+  .rv{opacity:1 !important;transform:none !important;filter:none !important;clip-path:none !important}
+}
+</style>
+</head>
+<body class="rev-rise">
+<div class="prg" id="prg"></div>
+<header id="hd"><div class="wrap nav"><a href="#top" class="logo" aria-label="Eversivo"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg60903" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#C2A36B"/><stop offset="1" stop-color="#8A6A32"/></linearGradient></defs><path d="M24 2 45 9v16c0 11-9 18-21 21C12 43 3 36 3 25V9z" fill="none" stroke="url(#mg60903)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg60903)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">E</text></svg><span class="logo-w"><span class="logo-t">Eversivo</span><span class="logo-s">Domotica e impianti tecnologici</span></span></a>
+<nav class="menu"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a></nav>
+<a href="mailto:info@eversivo.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Conegliano%0AGrazie." class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span class="btn-txt">Scrivici</span></a>
+<a data-wa="Ciao Eversivo di Yuri Nardi, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a>
+<button class="burger" id="bg" aria-label="Apri il menu"><span></span></button>
+</div></header>
+<div class="drawer" id="dw"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a>
+<a href="mailto:info@eversivo.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Conegliano%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici una mail</a></div>
+<section class="hero" id="top">
+<div class="hero-art"><div class="ph q "><svg class="art" viewBox="0 0 1400 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1400" height="900" fill="#171C23"/><circle cx="1341" cy="145" r="275" fill="#C2A36B" opacity=".10"/><circle cx="183" cy="353" r="494" fill="#C2A36B" opacity=".10"/><circle cx="468" cy="201" r="522" fill="#C2A36B" opacity=".10"/><path d="M610 798 L939 801" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M610 798 L421 709" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M610 798 L268 580" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M610 798 L830 405" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M605 236 L832 298" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M605 236 L288 377" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M605 236 L1029 313" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M605 236 L830 405" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M939 801 L1167 653" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M939 801 L830 405" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M1167 653 L1255 403" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M1167 653 L1029 313" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M1167 653 L830 405" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M832 298 L1255 403" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M832 298 L1029 313" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M832 298 L830 405" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M1255 403 L1029 313" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M1255 403 L830 405" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M421 709 L288 377" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M421 709 L268 580" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M288 377 L268 580" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M1029 313 L830 405" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="610" cy="798" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="605" cy="236" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="939" cy="801" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="1167" cy="653" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="832" cy="298" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="1255" cy="403" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="421" cy="709" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="288" cy="377" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="1029" cy="313" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="268" cy="580" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="830" cy="405" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="610" cy="798" r="81" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="610" cy="798" r="162" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="610" cy="798" r="243" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="610" cy="798" r="324" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="610" cy="798" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/10827349/pexels-photo-10827349.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Lavoro di domotica a Conegliano" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div><div class="hero-veil"></div>
+<div class="wrap"><div><div class="badge rv d1"><span class="dot"></span> Conegliano e provincia · Preventivo gratuito</div><h1 class="rv d2">Tecnologia in casa,<br><em>senza manuale da studiare.</em></h1><p class="lead rv d3">Eversivo di Yuri Nardi realizza impianti domotici e tecnologici a Conegliano: luci, clima, sicurezza e scenari che funzionano davvero, con comandi che capisce anche chi non ama la tecnologia.</p><div class="hero-btns rv d4"><a href="mailto:info@eversivo.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Conegliano%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Chiedi un preventivo</a><a data-wa="Ciao Eversivo di Yuri Nardi, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a><a href="#lavori" class="btn btn-g btn-lg">Guarda i lavori</a></div><div class="hero-mini rv d5"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Sopralluogo senza impegno</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Preventivo scritto</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cantiere lasciato pulito</span></div></div></div>
+<div class="scrollcue"><span>Scorri</span><i></i></div></section>
+<div class="mq"><div class="mq-in"><span>Scenari</span><span>Luci e tapparelle</span><span>Clima per zone</span><span>Videocitofono</span><span>Videosorveglianza</span><span>Diffusione sonora</span><span>Reti e wifi</span><span>Assistenza</span><span>Scenari</span><span>Luci e tapparelle</span><span>Clima per zone</span><span>Videocitofono</span><span>Videosorveglianza</span><span>Diffusione sonora</span><span>Reti e wifi</span><span>Assistenza</span></div></div>
+<section class="sec" id="servizi"><div class="wrap"><div class="sv-head rv"><span class="eyebrow">Servizi</span>
+<h2>Cosa facciamo, detto senza giri di parole.</h2></div><div class="rows"><div class="row rv d1"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7M6 10v10h12V10M10 20v-5h4v5"/></svg></div>
+<div><h3>Scenari</h3><p>Un comando che spegne tutto e chiude le tapparelle quando uscite di casa.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="157" cy="77" r="177" fill="#C2A36B" opacity=".10"/><circle cx="210" cy="191" r="136" fill="#C2A36B" opacity=".10"/><path d="M134 27 L153 53" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M134 27 L47 47" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M134 27 L220 122" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M134 27 L126 23" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M134 27 L251 45" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M134 27 L197 32" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M134 27 L233 96" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M153 53 L47 47" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M153 53 L220 122" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M153 53 L126 23" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M153 53 L251 45" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M153 53 L197 32" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M153 53 L233 96" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M454 45 L382 19" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M454 45 L383 20" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M196 235 L220 122" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M196 235 L53 259" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M196 235 L233 96" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M47 47 L126 23" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M47 47 L197 32" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M220 122 L126 23" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M220 122 L251 45" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M220 122 L197 32" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M220 122 L233 96" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M382 19 L383 20" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M382 19 L251 45" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M383 20 L251 45" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M126 23 L251 45" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M126 23 L197 32" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M126 23 L233 96" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M251 45 L197 32" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M251 45 L233 96" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M197 32 L233 96" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="134" cy="27" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="153" cy="53" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="454" cy="45" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="196" cy="235" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="47" cy="47" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="220" cy="122" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="53" cy="259" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="382" cy="19" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="383" cy="20" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="126" cy="23" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="251" cy="45" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="197" cy="32" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="233" cy="96" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="134" cy="27" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="134" cy="27" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="134" cy="27" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="134" cy="27" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="134" cy="27" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1576446470246-499c738d1c8e?auto=format&fit=crop&w=480&q=72" alt="Scenari" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d2"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0-3 11v3h6v-3a6 6 0 0 0-3-11zM10 20h4"/></svg></div>
+<div><h3>Luci e tapparelle</h3><p>Dimmer, sensori, automatismi sull&#x27;orario e sulla luce esterna.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="269" cy="119" r="117" fill="#C2A36B" opacity=".10"/><circle cx="220" cy="281" r="123" fill="#C2A36B" opacity=".10"/><path d="M138 156 L190 289" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L151 95" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L200 63" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L55 98" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L92 220" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L70 135" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L294 165" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L260 72" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L281 180" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M138 156 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M190 289 L320 198" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M190 289 L92 220" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M190 289 L294 165" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M190 289 L281 180" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L200 63" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L55 98" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L92 220" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L70 135" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L294 165" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L260 72" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L25 20" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L281 180" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M151 95 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M200 63 L55 98" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M200 63 L70 135" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M200 63 L294 165" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M200 63 L260 72" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M200 63 L281 180" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M200 63 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M55 98 L92 220" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M55 98 L70 135" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M55 98 L25 20" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M55 98 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M320 198 L294 165" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M320 198 L260 72" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M320 198 L281 180" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M320 198 L423 145" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M92 220 L70 135" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M92 220 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M70 135 L25 20" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M70 135 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M294 165 L260 72" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M294 165 L281 180" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M294 165 L423 145" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M294 165 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M260 72 L281 180" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M260 72 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M25 20 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 180 L423 145" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 180 L169 90" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="138" cy="156" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="190" cy="289" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="151" cy="95" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="200" cy="63" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="55" cy="98" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="320" cy="198" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="92" cy="220" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="70" cy="135" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="294" cy="165" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="260" cy="72" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="25" cy="20" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="281" cy="180" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="423" cy="145" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="169" cy="90" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="138" cy="156" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="138" cy="156" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="138" cy="156" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="138" cy="156" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="138" cy="156" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/32998547/pexels-photo-32998547.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Luci e tapparelle" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d3"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 8v4l3 2"/></svg></div>
+<div><h3>Clima per zone</h3><p>Ogni stanza alla sua temperatura, con programmazione settimanale.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="27" cy="299" r="151" fill="#C2A36B" opacity=".10"/><circle cx="198" cy="222" r="141" fill="#C2A36B" opacity=".10"/><path d="M179 273 L226 171" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M179 273 L78 274" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M179 273 L262 272" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M179 273 L76 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M179 273 L316 223" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M226 171 L262 272" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M226 171 L158 92" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M226 171 L76 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M226 171 L316 223" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M226 171 L370 182" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M422 296 L262 272" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M422 296 L316 223" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M422 296 L370 182" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M422 296 L443 141" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M78 274 L76 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M262 272 L316 223" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M262 272 L370 182" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M158 92 L66 38" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M158 92 L76 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M158 92 L43 87" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M66 38 L43 87" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M76 228 L43 87" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M316 223 L370 182" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M316 223 L443 141" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M370 182 L443 141" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="179" cy="273" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="226" cy="171" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="422" cy="296" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="78" cy="274" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="262" cy="272" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="158" cy="92" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="66" cy="38" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="76" cy="228" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="316" cy="223" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="370" cy="182" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="443" cy="141" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="43" cy="87" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="179" cy="273" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="179" cy="273" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="179" cy="273" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="179" cy="273" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="179" cy="273" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?auto=format&fit=crop&w=480&q=72" alt="Clima per zone" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d4"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h11v9H4zM15 10l5-3v9l-5-3M9 11.5a1 1 0 1 0 .01 0"/></svg></div>
+<div><h3>Videocitofono</h3><p>Risposta dal telefono anche quando non siete in casa.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="364" cy="281" r="178" fill="#C2A36B" opacity=".10"/><circle cx="336" cy="182" r="107" fill="#C2A36B" opacity=".10"/><circle cx="208" cy="255" r="116" fill="#C2A36B" opacity=".10"/><path d="M218 224 L301 267" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M218 224 L72 266" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M404 260 L398 173" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M404 260 L301 267" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M404 260 L369 290" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M398 173 L301 267" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M398 173 L427 46" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M398 173 L369 290" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M398 173 L377 74" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M30 269 L32 298" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M30 269 L72 266" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M30 269 L23 202" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M301 267 L369 290" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M427 46 L377 74" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M32 298 L72 266" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M32 298 L23 202" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M72 266 L23 202" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M24 79 L23 202" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="218" cy="224" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="404" cy="260" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="398" cy="173" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="30" cy="269" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="301" cy="267" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="427" cy="46" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="32" cy="298" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="72" cy="266" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="24" cy="79" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="23" cy="202" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="369" cy="290" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="377" cy="74" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="218" cy="224" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="218" cy="224" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="218" cy="224" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="218" cy="224" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="218" cy="224" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/7005268/pexels-photo-7005268.jpeg?auto=compress&cs=tinysrgb&w=480" alt="Videocitofono" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d1"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h11v9H4zM15 10l5-3v9l-5-3M9 11.5a1 1 0 1 0 .01 0"/></svg></div>
+<div><h3>Videosorveglianza</h3><p>Telecamere integrate nello stesso sistema, senza app separate.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="253" cy="195" r="123" fill="#C2A36B" opacity=".10"/><circle cx="110" cy="117" r="176" fill="#C2A36B" opacity=".10"/><circle cx="341" cy="105" r="173" fill="#C2A36B" opacity=".10"/><path d="M88 120 L98 205" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M88 120 L140 238" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M88 120 L127 240" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M88 120 L151 213" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M268 106 L420 165" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M268 106 L151 213" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M242 285 L359 254" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M242 285 L140 238" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M242 285 L386 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M242 285 L127 240" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M242 285 L151 213" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M359 254 L420 165" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M359 254 L386 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M98 205 L140 238" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M98 205 L127 240" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M98 205 L151 213" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M420 165 L386 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M140 238 L127 240" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M140 238 L151 213" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M127 240 L151 213" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="88" cy="120" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="268" cy="106" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="242" cy="285" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="359" cy="254" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="98" cy="205" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="420" cy="165" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="140" cy="238" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="386" cy="229" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="127" cy="240" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="151" cy="213" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="88" cy="120" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="88" cy="120" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="88" cy="120" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="88" cy="120" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="88" cy="120" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1581972327480-e3764d31e5e6?auto=format&fit=crop&w=480&q=72" alt="Videosorveglianza" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d2"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h3l4-4v12l-4-4H4zM15 9a4 4 0 0 1 0 6M18 6a8 8 0 0 1 0 12"/></svg></div>
+<div><h3>Diffusione sonora</h3><p>Musica per ambienti, comandi a muro e da telefono.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="295" cy="209" r="155" fill="#C2A36B" opacity=".10"/><circle cx="337" cy="18" r="121" fill="#C2A36B" opacity=".10"/><path d="M405 148 L264 146" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M405 148 L329 249" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M405 148 L300 261" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M405 148 L245 121" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M405 148 L305 276" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M405 148 L258 176" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M405 148 L349 155" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L169 27" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L329 249" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L300 261" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L245 121" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L305 276" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L173 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L258 176" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L349 155" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M264 146 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M169 27 L245 121" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M169 27 L84 124" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M329 249 L300 261" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M329 249 L245 121" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M329 249 L305 276" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M329 249 L173 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M329 249 L258 176" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M329 249 L349 155" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M329 249 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M300 261 L245 121" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M300 261 L305 276" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M300 261 L173 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M300 261 L258 176" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M300 261 L349 155" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M300 261 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M245 121 L173 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M245 121 L84 124" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M245 121 L258 176" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M245 121 L349 155" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M245 121 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M305 276 L173 229" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M305 276 L258 176" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M305 276 L349 155" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M305 276 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M173 229 L84 124" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M173 229 L258 176" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M173 229 L29 164" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M173 229 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M84 124 L29 164" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M84 124 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M258 176 L349 155" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M258 176 L184 228" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="405" cy="148" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="264" cy="146" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="169" cy="27" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="329" cy="249" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="300" cy="261" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="245" cy="121" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="305" cy="276" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="173" cy="229" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="84" cy="124" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="258" cy="176" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="349" cy="155" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="29" cy="164" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="184" cy="228" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="405" cy="148" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="405" cy="148" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="405" cy="148" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="405" cy="148" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="405" cy="148" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1601462904263-f2fa0c851cb9?auto=format&fit=crop&w=480&q=72" alt="Diffusione sonora" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d3"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v5M6 21v-4h12v4M6 17v-2h12v2M12 8v7M9 21h.01M15 21h.01"/></svg></div>
+<div><h3>Reti e wifi</h3><p>Copertura reale in tutta la casa: la domotica senza rete non esiste.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="454" cy="95" r="123" fill="#C2A36B" opacity=".10"/><circle cx="99" cy="107" r="126" fill="#C2A36B" opacity=".10"/><path d="M388 136 L321 274" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M388 136 L234 179" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M388 136 L430 39" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M150 110 L72 56" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M150 110 L150 210" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M150 110 L176 208" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M150 110 L234 179" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M150 210 L176 208" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M150 210 L234 179" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M150 210 L52 265" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M176 208 L321 274" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M176 208 L234 179" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M176 208 L52 265" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M321 274 L234 179" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="388" cy="136" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="150" cy="110" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="72" cy="56" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="150" cy="210" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="176" cy="208" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="321" cy="274" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="234" cy="179" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="430" cy="39" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="52" cy="265" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="388" cy="136" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="388" cy="136" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="388" cy="136" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="388" cy="136" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="388" cy="136" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1600490819528-42405785433a?auto=format&fit=crop&w=480&q=72" alt="Reti e wifi" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div><div class="row rv d4"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4a4.5 4.5 0 1 0 4.2 6.1L21 12.4l-2.1 2.1-1.4-1.4-1.4 1.4 1.4 1.4-2 2-1.4-1.4-1.4 1.4 1.4 1.4L11 21.4 4.6 15l6-6A4.5 4.5 0 0 1 14.5 4z"/></svg></div>
+<div><h3>Assistenza</h3><p>Restiamo raggiungibili dopo l&#x27;installazione, anche solo per una modifica.</p></div>
+<div class="thumb"><div class="ph q "><svg class="art" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="480" height="320" fill="#171C23"/><circle cx="280" cy="296" r="110" fill="#C2A36B" opacity=".10"/><circle cx="430" cy="119" r="178" fill="#C2A36B" opacity=".10"/><circle cx="75" cy="237" r="124" fill="#C2A36B" opacity=".10"/><path d="M445 252 L388 290" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M445 252 L368 122" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M445 252 L449 298" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 204 L270 210" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 204 L136 195" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 204 L163 292" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 204 L388 290" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 204 L368 122" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M281 204 L297 88" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M303 36 L193 63" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M303 36 L368 122" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M303 36 L297 88" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M270 210 L136 195" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M270 210 L163 292" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M270 210 L388 290" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M270 210 L368 122" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M270 210 L297 88" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M136 195 L163 292" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M136 195 L193 63" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M136 195 L96 44" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M193 63 L96 44" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M193 63 L297 88" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M193 63 L53 52" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M96 44 L53 52" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M388 290 L449 298" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M368 122 L297 88" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="445" cy="252" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="281" cy="204" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="303" cy="36" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="270" cy="210" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="136" cy="195" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="163" cy="292" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="193" cy="63" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="96" cy="44" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="388" cy="290" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="368" cy="122" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="297" cy="88" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="449" cy="298" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="53" cy="52" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="445" cy="252" r="28" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="445" cy="252" r="56" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="445" cy="252" r="84" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="445" cy="252" r="112" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="445" cy="252" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1570044389283-6713c3b1c48b?auto=format&fit=crop&w=480&q=72" alt="Assistenza" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div></div></div></div></section>
+<section class="sec" id="metodo" style="background:var(--bg2)">
+<div class="wrap"><div class="sv-head rv"><h2>Quattro passaggi, nessuna sorpresa.</h2></div>
+<div class="steps"><div class="step rv d1"><div class="n">1</div>
+<h3>Ci scrivete</h3><p>Cosa vorreste automatizzare, e cosa vi infastidisce oggi.</p></div><div class="step rv d2"><div class="n">2</div>
+<h3>Sopralluogo</h3><p>Impianto esistente, rete, punti di comando.</p></div><div class="step rv d3"><div class="n">3</div>
+<h3>Preventivo scritto</h3><p>Per funzioni, così potete partire da poco e ampliare.</p></div><div class="step rv d4"><div class="n">4</div>
+<h3>Installazione e consegna</h3><p>Configurazione, prova insieme a voi, istruzioni semplici.</p></div></div></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap"><div class="nums"><div class="num rv d1"><div class="v"><span data-count="0" data-suffix="€">0</span></div><div class="l">Costo del sopralluogo</div></div><div class="num rv d2"><div class="v"><span data-count="24" data-suffix="h">0</span></div><div class="l">Tempo medio di risposta</div></div><div class="num rv d3"><div class="v"><span data-count="1" data-suffix="app">0</span></div><div class="l">Un solo comando per tutto</div></div><div class="num rv d4"><div class="v"><span data-count="100" data-suffix="%">0</span></div><div class="l">Sistemi consegnati configurati</div></div></div><p class="note rv">Numeri indicativi da confermare con il cliente prima della pubblicazione definitiva.</p></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap">
+<div class="sv-head rv"><h2>La differenza si vede a lavoro finito.</h2></div>
+<div class="ba rv"><div class="ph q prima"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#171C23"/><circle cx="223" cy="512" r="283" fill="#C2A36B" opacity=".10"/><circle cx="1039" cy="502" r="222" fill="#C2A36B" opacity=".10"/><path d="M786 322 L594 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L916 551" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L515 499" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L578 162" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L916 551" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L515 499" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L578 162" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M916 551 L515 499" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M916 551 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M916 551 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L578 162" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L225 92" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L225 92" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M663 156 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M663 156 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M663 156 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M726 487 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M915 71 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="786" cy="322" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="594" cy="487" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="916" cy="551" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="515" cy="499" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="578" cy="162" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="567" cy="99" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="611" cy="262" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="663" cy="156" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="726" cy="487" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="225" cy="92" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="915" cy="71" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="907" cy="501" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="665" cy="51" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="786" cy="322" r="60" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="786" cy="322" r="120" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="786" cy="322" r="180" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="786" cy="322" r="240" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="786" cy="322" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/35868664/pexels-photo-35868664.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Situazione prima dell&#x27;intervento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="ba-top"><div class="ph q dopo"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#171C23"/><circle cx="223" cy="512" r="283" fill="#C2A36B" opacity=".10"/><circle cx="1039" cy="502" r="222" fill="#C2A36B" opacity=".10"/><path d="M786 322 L594 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L916 551" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L515 499" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L578 162" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M786 322 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L916 551" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L515 499" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L578 162" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M594 487 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M916 551 L515 499" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M916 551 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M916 551 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L578 162" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 499 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L567 99" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L225 92" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M578 162 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L611 262" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L225 92" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M567 99 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L663 156" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M611 262 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M663 156 L726 487" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M663 156 L915 71" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M663 156 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M726 487 L907 501" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M915 71 L665 51" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="786" cy="322" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="594" cy="487" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="916" cy="551" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="515" cy="499" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="578" cy="162" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="567" cy="99" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="611" cy="262" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="663" cy="156" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="726" cy="487" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="225" cy="92" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="915" cy="71" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="907" cy="501" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="665" cy="51" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="786" cy="322" r="60" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="786" cy="322" r="120" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="786" cy="322" r="180" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="786" cy="322" r="240" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="786" cy="322" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/35868664/pexels-photo-35868664.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Lo stesso punto a lavoro finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div>
+<div class="ba-h"></div>
+<span class="ba-lb l"><b>Dopo</b></span><span class="ba-lb r"><b>Prima</b></span></div>
+<p class="note rv">Dimostrativo: è la stessa immagine in due stati, per far vedere come funziona il cursore.
+Al suo posto andranno due foto vere dello stesso punto, prima e dopo il vostro lavoro.</p>
+</div></section>
+<section class="sec" id="lavori" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Un'idea di come lavoriamo.</h2></div>
+<div class="rail"><figure class="gi rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="778" cy="461" r="359" fill="#C2A36B" opacity=".10"/><circle cx="411" cy="112" r="261" fill="#C2A36B" opacity=".10"/><circle cx="713" cy="91" r="289" fill="#C2A36B" opacity=".10"/><path d="M161 251 L308 256" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M161 251 L115 244" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M161 251 L119 476" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M512 412 L308 256" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M512 412 L609 183" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M512 412 L669 171" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M512 412 L535 630" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M512 412 L398 469" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M308 256 L115 244" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M308 256 L119 476" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M308 256 L398 469" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M115 244 L119 476" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M119 476 L74 648" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M119 476 L398 469" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M789 220 L609 183" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M789 220 L669 171" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M609 183 L669 171" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M535 630 L398 469" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="161" cy="251" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="512" cy="412" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="308" cy="256" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="115" cy="244" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="119" cy="476" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="74" cy="648" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="789" cy="220" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="609" cy="183" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="669" cy="171" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="535" cy="630" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="398" cy="469" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="161" cy="251" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="161" cy="251" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="161" cy="251" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="161" cy="251" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="161" cy="251" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/19889117/pexels-photo-19889117.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Comando a parete illuminato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Comando a parete illuminato</figcaption></figure><figure class="gi rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="434" cy="661" r="357" fill="#C2A36B" opacity=".10"/><circle cx="339" cy="70" r="378" fill="#C2A36B" opacity=".10"/><path d="M430 658 L423 371" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M430 658 L515 589" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M430 658 L386 373" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M430 658 L559 612" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M430 658 L691 530" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M430 658 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L515 589" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L386 373" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L294 119" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L653 308" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L559 612" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L481 206" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L635 271" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M423 371 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 589 L386 373" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 589 L559 612" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 589 L691 530" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M515 589 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M386 373 L294 119" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M386 373 L653 308" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M386 373 L559 612" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M386 373 L481 206" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M386 373 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M386 373 L635 271" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M386 373 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M294 119 L481 206" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M294 119 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M294 119 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M653 308 L691 530" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M653 308 L481 206" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M653 308 L608 62" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M653 308 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M653 308 L635 271" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M653 308 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M559 612 L691 530" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M559 612 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M691 530 L635 271" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M481 206 L608 62" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M481 206 L389 375" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M481 206 L635 271" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M481 206 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M608 62 L635 271" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M608 62 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M389 375 L635 271" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M389 375 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M635 271 L483 154" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="430" cy="658" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="423" cy="371" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="515" cy="589" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="386" cy="373" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="294" cy="119" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="653" cy="308" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="559" cy="612" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="691" cy="530" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="481" cy="206" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="608" cy="62" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="389" cy="375" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="635" cy="271" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="483" cy="154" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="430" cy="658" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="430" cy="658" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="430" cy="658" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="430" cy="658" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="430" cy="658" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1566417110090-6b15a06ec800?auto=format&fit=crop&w=1000&q=72" alt="Quadro con moduli domotici" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Quadro con moduli domotici</figcaption></figure><figure class="gi rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="722" cy="698" r="334" fill="#C2A36B" opacity=".10"/><circle cx="158" cy="420" r="360" fill="#C2A36B" opacity=".10"/><circle cx="857" cy="689" r="411" fill="#C2A36B" opacity=".10"/><path d="M702 459 L491 350" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M702 459 L514 398" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M702 459 L714 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M702 459 L638 575" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M702 459 L568 407" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M505 134 L438 161" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M505 134 L491 350" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M505 134 L514 398" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M505 134 L642 82" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M505 134 L714 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M505 134 L568 407" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M438 161 L491 350" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M438 161 L514 398" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M438 161 L642 82" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M438 161 L714 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M438 161 L568 407" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M491 350 L514 398" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M491 350 L714 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M491 350 L638 575" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M491 350 L568 407" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M514 398 L714 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M514 398 L638 575" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M514 398 L568 407" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M642 82 L831 57" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M642 82 L714 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M128 372 L80 112" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M831 57 L714 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M714 250 L568 407" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M638 575 L568 407" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="702" cy="459" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="505" cy="134" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="438" cy="161" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="491" cy="350" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="514" cy="398" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="642" cy="82" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="128" cy="372" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="831" cy="57" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="80" cy="112" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="714" cy="250" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="638" cy="575" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="568" cy="407" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="702" cy="459" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="702" cy="459" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="702" cy="459" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="702" cy="459" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="702" cy="459" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1558054665-fbe00cd7d920?auto=format&fit=crop&w=1000&q=72" alt="Videocitofono installato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Videocitofono installato</figcaption></figure><figure class="gi rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="568" cy="190" r="398" fill="#C2A36B" opacity=".10"/><circle cx="672" cy="66" r="276" fill="#C2A36B" opacity=".10"/><path d="M699 579 L803 387" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M699 579 L456 561" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M699 579 L719 448" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M699 579 L779 427" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M699 579 L569 584" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M699 579 L794 338" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M699 579 L847 368" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M699 579 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M803 387 L719 448" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M803 387 L779 427" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M803 387 L569 584" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M803 387 L794 338" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M803 387 L847 368" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M803 387 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M456 561 L719 448" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M456 561 L569 584" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M456 561 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M456 561 L238 442" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M719 448 L779 427" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M719 448 L569 584" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M719 448 L794 338" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M719 448 L847 368" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M719 448 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M779 427 L569 584" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M779 427 L794 338" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M779 427 L847 368" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M779 427 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M569 584 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M794 338 L847 368" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M794 338 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M847 368 L683 521" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M475 68 L539 79" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="699" cy="579" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="803" cy="387" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="456" cy="561" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="719" cy="448" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="779" cy="427" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="569" cy="584" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="794" cy="338" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="847" cy="368" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="475" cy="68" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="683" cy="521" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="238" cy="442" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="539" cy="79" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="699" cy="579" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="699" cy="579" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="699" cy="579" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="699" cy="579" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="699" cy="579" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/19666087/pexels-photo-19666087.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Scenario notte in funzione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Scenario notte in funzione</figcaption></figure><figure class="gi rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="572" cy="534" r="306" fill="#C2A36B" opacity=".10"/><circle cx="674" cy="195" r="304" fill="#C2A36B" opacity=".10"/><circle cx="780" cy="290" r="315" fill="#C2A36B" opacity=".10"/><path d="M549 219 L670 190" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M549 219 L747 329" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M549 219 L514 95" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M549 219 L269 273" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M549 219 L624 189" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M670 190 L832 83" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M670 190 L747 329" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M670 190 L514 95" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M670 190 L624 189" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M104 573 L317 655" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M832 83 L747 329" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M832 83 L624 189" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M747 329 L624 189" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M108 102 L269 273" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M514 95 L269 273" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M514 95 L624 189" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="549" cy="219" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="670" cy="190" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="104" cy="573" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="832" cy="83" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="747" cy="329" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="108" cy="102" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="514" cy="95" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="269" cy="273" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="317" cy="655" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="624" cy="189" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="549" cy="219" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="549" cy="219" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="549" cy="219" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="549" cy="219" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="549" cy="219" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/10827349/pexels-photo-10827349.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Termostato di zona" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Termostato di zona</figcaption></figure><figure class="gi rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="270" cy="43" r="363" fill="#C2A36B" opacity=".10"/><circle cx="897" cy="156" r="243" fill="#C2A36B" opacity=".10"/><circle cx="642" cy="321" r="285" fill="#C2A36B" opacity=".10"/><path d="M783 141 L501 182" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M783 141 L616 163" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M506 505 L413 575" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M506 505 L420 240" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M506 505 L728 599" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M501 182 L420 240" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M501 182 L616 163" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M501 182 L235 322" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M501 182 L385 118" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M420 240 L616 163" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M420 240 L235 322" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M420 240 L385 118" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M420 240 L127 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M616 163 L385 118" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M235 322 L385 118" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M235 322 L127 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M235 322 L46 339" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M385 118 L127 250" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M127 250 L46 339" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="783" cy="141" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="506" cy="505" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="501" cy="182" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="413" cy="575" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="420" cy="240" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="616" cy="163" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="235" cy="322" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="385" cy="118" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="127" cy="250" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="728" cy="599" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="46" cy="339" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="783" cy="141" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="783" cy="141" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="783" cy="141" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="783" cy="141" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="783" cy="141" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1585206031650-9e9a7c87dcfe?auto=format&fit=crop&w=1000&q=72" alt="Punto rete in armadio" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Punto rete in armadio</figcaption></figure><figure class="gi rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="3" cy="126" r="351" fill="#C2A36B" opacity=".10"/><circle cx="573" cy="283" r="226" fill="#C2A36B" opacity=".10"/><path d="M556 281 L577 305" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M556 281 L486 426" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M556 281 L369 233" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M556 281 L452 181" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M556 281 L754 248" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M556 281 L629 324" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M577 305 L486 426" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M577 305 L369 233" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M577 305 L452 181" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M577 305 L754 248" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M577 305 L629 324" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M486 426 L369 233" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M486 426 L452 181" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M486 426 L629 324" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M108 287 L369 233" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M369 233 L452 181" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M369 233 L629 324" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M452 181 L629 324" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M754 248 L629 324" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="556" cy="281" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="577" cy="305" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="486" cy="426" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="108" cy="287" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="369" cy="233" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="211" cy="602" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="452" cy="181" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="754" cy="248" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="629" cy="324" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="556" cy="281" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="556" cy="281" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="556" cy="281" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="556" cy="281" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="556" cy="281" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1576446470246-499c738d1c8e?auto=format&fit=crop&w=1000&q=72" alt="Telecamera integrata" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Telecamera integrata</figcaption></figure><figure class="gi rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="799" cy="557" r="275" fill="#C2A36B" opacity=".10"/><circle cx="268" cy="374" r="410" fill="#C2A36B" opacity=".10"/><circle cx="491" cy="75" r="397" fill="#C2A36B" opacity=".10"/><path d="M206 611 L271 651" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M206 611 L417 623" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M206 611 L115 568" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M271 651 L417 623" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M271 651 L115 568" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M773 573 L785 513" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M377 78 L243 139" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M377 78 L316 248" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M617 291 L785 513" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M617 291 L719 263" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M617 291 L316 248" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M243 139 L316 248" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M785 513 L719 263" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="206" cy="611" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="271" cy="651" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="773" cy="573" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="417" cy="623" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="115" cy="568" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="377" cy="78" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="617" cy="291" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="243" cy="139" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="785" cy="513" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="719" cy="263" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="316" cy="248" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="206" cy="611" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="206" cy="611" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="206" cy="611" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="206" cy="611" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="206" cy="611" r="13" fill="#C2A36B"/></svg><img src="https://images.pexels.com/photos/32998547/pexels-photo-32998547.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Diffusore a soffitto" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Diffusore a soffitto</figcaption></figure><figure class="gi rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#171C23"/><circle cx="776" cy="413" r="368" fill="#C2A36B" opacity=".10"/><circle cx="653" cy="575" r="329" fill="#C2A36B" opacity=".10"/><path d="M304 540 L207 529" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M304 540 L486 654" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M769 61 L850 306" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M207 529 L486 654" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M207 529 L82 317" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M689 418 L671 401" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M689 418 L850 306" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M689 418 L677 434" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M256 66 L82 317" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M256 66 L128 108" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M486 654 L677 434" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M82 317 L128 108" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M671 401 L850 306" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M671 401 L677 434" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><path d="M850 306 L677 434" stroke="#8A6A32" stroke-width="1.3" opacity=".45"/><circle cx="304" cy="540" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="769" cy="61" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="207" cy="529" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="689" cy="418" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="256" cy="66" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="486" cy="654" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="82" cy="317" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="128" cy="108" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="671" cy="401" r="4" fill="#C2A36B" opacity="0.75"/><circle cx="850" cy="306" r="6" fill="#C2A36B" opacity="0.85"/><circle cx="677" cy="434" r="9" fill="#C2A36B" opacity="1.00"/><circle cx="304" cy="540" r="63" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.42"/><circle cx="304" cy="540" r="126" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.21"/><circle cx="304" cy="540" r="189" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.14"/><circle cx="304" cy="540" r="252" fill="none" stroke="#C2A36B" stroke-width="1.6" opacity="0.10"/><circle cx="304" cy="540" r="13" fill="#C2A36B"/></svg><img src="https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?auto=format&fit=crop&w=1000&q=72" alt="Consegna e configurazione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Consegna e configurazione</figcaption></figure></div>
+<p class="note rv">Foto di repertorio, scelte per il vostro mestiere: al loro posto andranno le foto reali dei vostri lavori.</p>
+</div></section>
+<section class="sec" id="zone"><div class="wrap"><div class="zone">
+<div class="zmap rv"><svg viewBox="0 0 300 280" aria-hidden="true">
+<defs><radialGradient id="pl"><stop offset="0" stop-color="#C2A36B" stop-opacity=".5"/>
+<stop offset="1" stop-color="#C2A36B" stop-opacity="0"/></radialGradient>
+<linearGradient id="lnn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C2A36B" stop-opacity=".65"/>
+<stop offset="1" stop-color="#8A6A32" stop-opacity=".08"/></linearGradient></defs>
+<g stroke="rgba(255,255,255,.13)" stroke-width="1" opacity=".55">
+<path d="M0 40h300M0 90h300M0 140h300M0 190h300M0 240h300"/>
+<path d="M40 0v280M90 0v280M140 0v280M190 0v280M240 0v280"/></g>
+<circle cx="150" cy="132" r="86" fill="url(#pl)"/>
+<circle cx="150" cy="132" r="86" fill="none" stroke="#C2A36B" stroke-opacity=".28" stroke-dasharray="4 6"/>
+<circle cx="150" cy="132" r="120" fill="none" stroke="#C2A36B" stroke-opacity=".13" stroke-dasharray="2 8"/>
+<g stroke="url(#lnn)" stroke-width="1.2" fill="none">
+<path d="M150 132 84 96M150 132 96 178M150 132 214 104M150 132 208 186M150 132 150 54M150 132 62 140M150 132 236 148"/></g>
+<g fill="#C2A36B"><circle class="zn" cx="84" cy="96" r="3.6"/><circle class="zn" cx="96" cy="178" r="3.6"/><circle class="zn" cx="214" cy="104" r="3.6"/><circle class="zn" cx="208" cy="186" r="3.6"/><circle class="zn" cx="150" cy="54" r="3.6"/><circle class="zn" cx="62" cy="140" r="3.6"/><circle class="zn" cx="236" cy="148" r="3.6"/></g>
+<circle cx="150" cy="132" r="9" fill="#C2A36B"/>
+<circle cx="150" cy="132" r="9" fill="none" stroke="#C2A36B" opacity=".5">
+<animate attributeName="r" values="9;30" dur="2.8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".5;0" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="150" y="158" text-anchor="middle" fill="#EDF1F5" font-family="Space Grotesk,sans-serif"
+ font-size="13" font-weight="600">Conegliano</text></svg></div>
+<div class="rv d1"><h2>Da Conegliano a tutta la provincia.</h2>
+<p class="lead" style="margin-top:18px">Base a Conegliano, interventi in provincia di Treviso e nei comuni
+limitrofi. Se il vostro paese non è in elenco, chiedete comunque: quasi sempre si arriva.</p>
+<div class="zones"><a href="mailto:info@eversivo.com?subject=Richiesta%20informazioni&amp;body=Buongiorno%2C%0Ascrivo%20da%20Conegliano.%0A%0A" class="hi">Conegliano</a>
+<a href="#contatti">Treviso</a><a href="#contatti">Comuni limitrofi</a></div>
+<p class="note">Qui va l'elenco dei comuni serviti davvero: mandateceli e li inseriamo.</p>
+</div></div></div></section>
+<section class="sec" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Le parole dei clienti valgono più delle nostre.</h2></div>
+<div class="revs"><div class="rev rv d1"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d2"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d3"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div></div>
+<p class="note rv">Sezione pronta: appena arrivano le prime recensioni Google le inseriamo qui. Nessun testo inventato.</p>
+</div></section>
+<section class="sec" id="faq"><div class="wrap"><div class="faq">
+<div class="sv-head rv" style="margin-bottom:26px"><h2>Quello che ci chiedono più spesso.</h2></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Serve rifare tutto l&#x27;impianto?</span><i></i></button><div class="q-a"><p>Non sempre. Su impianti recenti si può partire da luci e clima e ampliare in seguito.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Funziona se salta internet?</span><i></i></button><div class="q-a"><p>Le funzioni principali restano in locale. Da remoto no, ma in casa continua a rispondere.</p></div></div><div class="q rv d3"><button class="q-h" aria-expanded="false">
+<span>È complicato da usare?</span><i></i></button><div class="q-a"><p>Deve poterlo usare chiunque, anche gli ospiti. Se serve un manuale, il progetto è sbagliato.</p></div></div><div class="q rv d4"><button class="q-h" aria-expanded="false">
+<span>Il sopralluogo è gratuito?</span><i></i></button><div class="q-a"><p>Sì, sopralluogo e preventivo sono gratuiti e senza impegno.</p></div></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Si può ampliare dopo?</span><i></i></button><div class="q-a"><p>Sì, per questo il preventivo è diviso per funzioni.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Che assistenza date dopo?</span><i></i></button><div class="q-a"><p>Restiamo raggiungibili per modifiche e supporto, spesso risolvibile da remoto.</p></div></div></div></div></section>
+<section class="sec" id="contatti" style="padding-top:0"><div class="wrap">
+<div class="cta rv"><div class="cta-in"><div>
+<span class="eyebrow">Contatti</span>
+<h2>Raccontateci il lavoro.<br>Il preventivo è gratis.</h2>
+<p class="lead" style="margin-top:16px">Due righe bastano per partire. Se avete una foto della situazione,
+allegatela: si capisce subito di cosa c'è bisogno.</p>
+<div class="cta-btns"><a href="mailto:info@eversivo.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Conegliano%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> info@eversivo.com</a>
+<a data-wa="Ciao Eversivo di Yuri Nardi, vorrei un preventivo gratuito." href="#" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a></div>
+</div><div class="info">
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+<div><b>Eversivo di Yuri Nardi</b><span>Conegliano (TV) — indirizzo da confermare</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div><div><b>Email</b><span>info@eversivo.com</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+<div><b>Orari</b><span>Da confermare · Si risponde anche fuori orario</span></div></div>
+</div></div></div></div></section>
+<footer><div class="wrap"><div class="f-top"><div><a href="#top" class="logo" aria-label="Eversivo"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg60903" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#C2A36B"/><stop offset="1" stop-color="#8A6A32"/></linearGradient></defs><path d="M24 2 45 9v16c0 11-9 18-21 21C12 43 3 36 3 25V9z" fill="none" stroke="url(#mg60903)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg60903)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">E</text></svg><span class="logo-w"><span class="logo-t">Eversivo</span><span class="logo-s">Domotica e impianti tecnologici</span></span></a>
+<p>Domotica e impianti tecnologici a Conegliano e in provincia di Treviso.</p></div>
+<div class="f-col"><h4>Servizi</h4><a href="#servizi">Scenari</a><a href="#servizi">Luci e tapparelle</a><a href="#servizi">Clima per zone</a><a href="#servizi">Videocitofono</a><a href="#servizi">Videosorveglianza</a><a href="#servizi">Diffusione sonora</a></div>
+<div class="f-col"><h4>Contatti</h4><a href="mailto:info@eversivo.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Conegliano%0AGrazie.">info@eversivo.com</a>
+<span>Conegliano (TV)</span><span>Orari da confermare</span></div></div>
+<div class="f-bot"><span>© <span id="yy">2026</span> Eversivo di Yuri Nardi — Conegliano (TV)</span>
+<span>Bozza realizzata da <a href="#top">Umbra</a></span></div></div></footer>
+<a class="fab" id="fab" href="mailto:info@eversivo.com?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Conegliano%0AGrazie." aria-label="Scrivici una mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+<div class="lb" id="lb"><button class="lb-x" aria-label="Chiudi">×</button>
+<figure><div class="lb-art"></div><figcaption></figcaption></figure></div>
+<script>
+(function(){
+  var RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* header + progress + fab */
+  var hd=document.getElementById('hd'), prg=document.getElementById('prg'),
+      fab=document.getElementById('fab'), tick=false;
+  function onScroll(){
+    var y=scrollY, h=document.body.scrollHeight-innerHeight;
+    hd.classList.toggle('on', y>24);
+    prg.style.width=(h>0? (y/h*100):0)+'%';
+    if(fab) fab.classList.toggle('on', y>620);
+    tick=false;
+  }
+  addEventListener('scroll',function(){ if(!tick){requestAnimationFrame(onScroll);tick=true;} },{passive:true});
+  onScroll();
+
+  /* drawer */
+  var bg=document.getElementById('bg'), dw=document.getElementById('dw');
+  if(bg) bg.onclick=function(){ dw.classList.toggle('open'); document.body.style.overflow=dw.classList.contains('open')?'hidden':''; };
+  if(dw) dw.querySelectorAll('a').forEach(function(a){ a.onclick=function(){ dw.classList.remove('open'); document.body.style.overflow=''; }; });
+
+  /* reveal */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.14, rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+  /* hero parallax legato allo scroll */
+  var art=document.querySelector('.hero-art');
+  if(art && !RM){
+    addEventListener('scroll',function(){
+      var y=scrollY;
+      if(y<innerHeight*1.2){
+        art.style.transform='translate3d(0,'+(y*.22)+'px,0) scale('+(1+y/innerHeight*.09)+')';
+        art.style.opacity=Math.max(0,1-y/innerHeight*.75);
+      }
+    },{passive:true});
+  }
+
+  /* contatori */
+  var co=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      co.unobserve(e.target);
+      var el=e.target, to=parseFloat(el.dataset.count)||0, sfx=el.dataset.suffix||'', t0=null, D=1500;
+      if(RM){ el.textContent=to+sfx; return; }
+      requestAnimationFrame(function step(t){
+        if(!t0)t0=t;
+        var p=Math.min(1,(t-t0)/D), e2=1-Math.pow(1-p,3);
+        el.textContent=Math.round(to*e2)+sfx;
+        if(p<1) requestAnimationFrame(step);
+      });
+    });
+  },{threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(function(el){ co.observe(el); });
+
+  /* faq */
+  document.querySelectorAll('.q-h').forEach(function(b){
+    b.onclick=function(){
+      var q=b.parentElement, a=q.querySelector('.q-a'), open=q.classList.contains('open');
+      document.querySelectorAll('.q.open').forEach(function(o){
+        o.classList.remove('open'); o.querySelector('.q-a').style.maxHeight=null;
+        o.querySelector('.q-h').setAttribute('aria-expanded','false');
+      });
+      if(!open){ q.classList.add('open'); a.style.maxHeight=a.scrollHeight+'px';
+        b.setAttribute('aria-expanded','true'); }
+    };
+  });
+
+  /* prima/dopo */
+  var ba=document.querySelector('.ba');
+  if(ba){
+    var top=ba.querySelector('.ba-top'), hnd=ba.querySelector('.ba-h'), drag=false, played=false;
+    function set(p){ p=Math.max(2,Math.min(98,p));
+      top.style.clipPath='inset(0 '+(100-p)+'% 0 0)'; hnd.style.left=p+'%'; }
+    function fromEvt(e){ var r=ba.getBoundingClientRect(),
+      x=(e.touches?e.touches[0].clientX:e.clientX)-r.left; set(x/r.width*100); }
+    ba.addEventListener('pointerdown',function(e){drag=true;ba.setPointerCapture(e.pointerId);fromEvt(e);});
+    ba.addEventListener('pointermove',function(e){ if(drag) fromEvt(e); });
+    ba.addEventListener('pointerup',function(){drag=false;});
+    ba.addEventListener('pointercancel',function(){drag=false;});
+    new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting||played||RM) return; played=true;
+        var t0=null;
+        requestAnimationFrame(function s(t){ if(!t0)t0=t;
+          var p=Math.min(1,(t-t0)/1900), e2=1-Math.pow(1-p,3);
+          set(50+Math.sin(e2*Math.PI*1.5)*40);
+          if(p<1) requestAnimationFrame(s); else set(50);
+        });
+      });
+    },{threshold:.45}).observe(ba);
+  }
+
+  /* lightbox */
+  var lb=document.getElementById('lb');
+  if(lb){
+    var lba=lb.querySelector('.lb-art'), lbc=lb.querySelector('figcaption');
+    document.querySelectorAll('.gi').forEach(function(g){
+      g.onclick=function(){
+        lba.innerHTML=g.querySelector('.ph').outerHTML;
+        lbc.textContent=g.querySelector('figcaption').textContent;
+        lb.classList.add('on'); document.body.style.overflow='hidden';
+      };
+    });
+    function close(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+    lb.onclick=close;
+    addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  }
+
+  /* foto gia' in cache: onload puo' non scattare, le sblocco a mano */
+  document.querySelectorAll('.ph.q>img').forEach(function(i){
+    if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+  });
+  addEventListener('load', function(){
+    document.querySelectorAll('.ph.q>img').forEach(function(i){
+      if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+    });
+  });
+
+  /* anno */
+  var yy=document.getElementById('yy'); if(yy) yy.textContent=new Date().getFullYear();
+
+  /* WhatsApp: i bottoni compaiono solo se WA e' valorizzato in testa al file */
+  if(!window.WA_NUM){
+    document.querySelectorAll('[data-wa]').forEach(function(el){ el.remove(); });
+  } else {
+    document.querySelectorAll('[data-wa]').forEach(function(el){
+      el.href='https://wa.me/'+window.WA_NUM+'?text='+encodeURIComponent(el.dataset.wa);
+    });
+  }
+})();
+</script>
+</body>
+</html>
