@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  BOZZA UMBRA — Wish Tech Solution srl
+  Desio (MB) · amministrazione@wishtechsolution.it
+  Stile: Officina · Mestiere: Idraulica · Accento #0E7C66 / #0A4A3D
+  ============================================================================
+  PER ATTIVARE I BOTTONI WHATSAPP: mettere il numero (39 + cellulare, senza spazi)
+  nella riga  window.WA_NUM = "";  qui sotto nel <head>. Se resta vuota, i bottoni
+  WhatsApp spariscono da soli e restano solo quelli email.
+
+  FOTO: sono di repertorio (Pexels / Unsplash, libere per uso commerciale),
+  scelte per il mestiere. Dietro ogni foto c'e' una grafica vettoriale generata
+  nei colori del sito: se una URL smette di rispondere il riquadro resta pieno.
+  Per sostituirle con le foto vere del cliente: cercare images.pexels.com /
+  images.unsplash.com e cambiare la src.
+
+  DA CONFERMARE COL CLIENTE PRIMA DI CONSIDERARLA DEFINITIVA:
+  indirizzo, orari, elenco dei comuni serviti, servizi realmente offerti,
+  numeri della sezione contatori, foto reali dei lavori, recensioni Google.
+  ============================================================================
+-->
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wish Tech Solution srl — Idraulico a Desio (MB)</title>
+<meta name="description" content="Wish Tech Solution srl: impianti idraulici e sanitari a Desio e in provincia di Monza e Brianza. Preventivo gratuito, sopralluogo senza impegno.">
+<meta name="theme-color" content="#0D1014">
+<meta property="og:title" content="Wish Tech Solution srl — Idraulico a Desio (MB)">
+<meta property="og:description" content="Wish Tech Solution srl: impianti idraulici e sanitari a Desio e in provincia di Monza e Brianza. Preventivo gratuito, sopralluogo senza impegno.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22mg25334%22%20x1%3D%224%22%20y1%3D%224%22%20x2%3D%2244%22%20y2%3D%2244%22%3E%3Cstop%20stop-color%3D%22%230E7C66%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230A4A3D%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20x%3D%221.5%22%20y%3D%221.5%22%20width%3D%2245%22%20height%3D%2245%22%20rx%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22url%28%23mg25334%29%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2224%22%20y%3D%2224%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20fill%3D%22url%28%23mg25334%29%22%20font-family%3D%22inherit%22%20font-size%3D%2217%22%20font-weight%3D%22700%22%20letter-spacing%3D%22-.5%22%3EWT%3C/text%3E%3C/svg%3E">
+<script>window.WA_NUM = "";</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font-family:var(--bdy);font-weight:400;
+  line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  font-size:16.5px;letter-spacing:-.005em}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:2px}
+::selection{background:var(--acc);color:var(--onacc)}
+
+:root{
+  --bg:#0D1014; --bg2:#12161C; --surface:#171C23; --surface2:#1D232B;
+  --line:rgba(255,255,255,.085); --line2:rgba(255,255,255,.05);
+  --txt:#EDF1F5; --muted:#97A2AF; --muted2:#69737F;
+  --acc:#0E7C66; --acc2:#0A4A3D; --onacc:#0A0D11;
+  --wa:#25D366;
+  --r:16px; --rs:11px; --rb:100px;
+  --dsp:'Space Grotesk', sans-serif; --bdy:'Inter', system-ui, sans-serif;
+  --max:1180px; --ease:cubic-bezier(.22,1,.36,1);
+  --pad:clamp(18px,5vw,34px);
+}
+
+h1,h2,h3,h4,.dsp{font-family:var(--dsp);font-weight:600;letter-spacing:-.035em;line-height:1.03}
+h1{font-size:clamp(2.5rem,8.4vw,4.8rem)}
+h2{font-size:clamp(1.85rem,5.2vw,3.05rem);line-height:1.06}
+h3{font-size:1.14rem;font-family:var(--bdy);font-weight:600;letter-spacing:-.015em;line-height:1.3}
+p{max-width:66ch}
+.lead{font-size:clamp(1.02rem,2.5vw,1.16rem);color:var(--muted);line-height:1.72}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.sec{padding:clamp(70px,11vw,140px) 0;position:relative}
+.eyebrow{display:inline-block;font-family:var(--bdy);font-size:.79rem;font-weight:600;
+  color:var(--acc);margin-bottom:14px;letter-spacing:.01em}
+
+/* ---------- progress ---------- */
+.prg{position:fixed;top:0;left:0;height:2px;width:0;z-index:120;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .1s linear}
+
+/* ---------- header ---------- */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:.4s var(--ease);
+  border-bottom:1px solid transparent}
+header.on{background:color-mix(in srgb,var(--bg) 86%, transparent);
+  backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);
+  border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;gap:20px;height:70px}
+.logo{display:flex;align-items:center;gap:11px;flex:none}
+.logo svg{width:36px;height:36px}
+.logo-w{display:flex;flex-direction:column;line-height:1.05}
+.logo-t{font-family:var(--dsp);font-size:1.16rem;font-weight:600;letter-spacing:-.02em}
+.logo-s{font-size:.68rem;color:var(--muted2);letter-spacing:.02em}
+.menu{display:flex;gap:26px;margin-left:auto;font-size:.9rem;color:var(--muted)}
+.menu a{position:relative;padding:4px 0;transition:color .25s}
+.menu a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;
+  background:var(--acc);transition:right .35s var(--ease)}
+.menu a:hover{color:var(--txt)}
+.menu a:hover::after{right:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:12px 20px;border-radius:var(--rb);font-size:.9rem;font-weight:600;
+  font-family:var(--bdy);border:1px solid transparent;cursor:pointer;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .25s,color .25s;
+  white-space:nowrap;letter-spacing:-.01em}
+.btn svg{width:17px;height:17px;flex:none}
+.btn-p{background:var(--acc);color:var(--onacc)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--acc)}
+.btn-g{border-color:var(--line);color:var(--txt);background:var(--surface)}
+.btn-g:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#04240F}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--wa)}
+.btn-lg{padding:15px 26px;font-size:.97rem}
+.nav .btn{padding:10px 17px;font-size:.85rem}
+.burger{display:none;margin-left:auto;width:42px;height:42px;border:1px solid var(--line);
+  border-radius:var(--rb);background:var(--surface);align-items:center;justify-content:center}
+.burger span{display:block;width:17px;height:1.5px;background:var(--txt);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:17px;
+  height:1.5px;background:var(--txt);transition:.3s var(--ease)}
+.burger span::before{top:-5.5px}.burger span::after{top:5.5px}
+.drawer{position:fixed;inset:0;background:var(--bg);z-index:99;display:flex;
+  flex-direction:column;justify-content:center;gap:6px;padding:0 var(--pad);
+  transform:translateY(-100%);transition:transform .5s var(--ease);visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
+.drawer a:not(.btn){font-family:var(--dsp);font-size:2rem;padding:11px 0;
+  border-bottom:1px solid var(--line2)}
+.drawer .btn{margin-top:22px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;
+  padding-top:100px;padding-bottom:70px;overflow:hidden}
+.hero-art{position:absolute;inset:0;z-index:0}
+.hero-art svg{width:100%;height:100%;object-fit:cover}
+
+/* --- foto: la grafica generativa resta sotto come fondo, la foto ci va sopra.
+   Se una URL non risponde l'immagine si toglie da sola e resta il fondo. --- */
+.ph{position:relative;overflow:hidden;background:var(--surface2);isolation:isolate}
+.ph>svg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph>img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;
+  filter:saturate(.95) contrast(1.04) brightness(1);
+  transition:transform .9s var(--ease),opacity .8s var(--ease)}
+.ph::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(150deg,#0A4A3D 0%,transparent 55%),linear-gradient(0deg,#0D1014 0%,transparent 65%);mix-blend-mode:soft-light;opacity:.4}
+.ph.q>img{opacity:0}
+.ph.q.on>img{opacity:1}
+.hero-veil{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,color-mix(in srgb,#0D1014 55%,transparent) 0%,color-mix(in srgb,#0D1014 78%,transparent) 52%,#0D1014 100%)}
+.hero-veil::after{content:"";position:absolute;inset:0;background:linear-gradient(96deg,color-mix(in srgb,#0D1014 72%,transparent) 0%,color-mix(in srgb,#0D1014 34%,transparent) 58%,transparent 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.badge{display:inline-flex;align-items:center;gap:9px;padding:8px 15px;
+  border:1px solid var(--line);border-radius:100px;font-size:.8rem;color:var(--muted);
+  background:color-mix(in srgb,var(--surface) 70%,transparent);backdrop-filter:blur(8px);
+  margin-bottom:22px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--acc);position:relative}
+.dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;
+  border:1px solid var(--acc);animation:pulse 2.4s var(--ease) infinite}
+@keyframes pulse{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.7);opacity:0}}
+.hero .lead{margin:22px 0 30px;max-width:56ch}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.hero-mini{display:flex;gap:9px;flex-wrap:wrap;margin-top:30px}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:.81rem;color:var(--muted);
+  padding:7px 13px;border:1px solid var(--line2);border-radius:100px}
+.chip svg{width:13px;height:13px;color:var(--acc)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,64px);align-items:center}
+.hero-card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:var(--surface);box-shadow:0 40px 90px -50px rgba(0,0,0,.6)}
+.hero-card .ph{width:100%;aspect-ratio:4/3}
+.hero-card-b{padding:20px 22px 22px}
+.hero-card-b strong{display:block;font-family:var(--dsp);font-size:1.1rem;margin-bottom:6px}
+.hero-card-b span{font-size:.87rem;color:var(--muted);display:block}
+.hcrow{display:flex;justify-content:space-between;gap:16px;margin-top:18px;
+  padding-top:16px;border-top:1px solid var(--line2)}
+.hcrow .k{font-family:var(--dsp);font-size:1.45rem;color:var(--acc);line-height:1}
+.hcrow .l{font-size:.72rem;color:var(--muted2);margin-top:4px}
+.hero-strip{margin-top:clamp(34px,5vw,56px);border:1px solid var(--line);
+  border-radius:var(--r);overflow:hidden;height:clamp(180px,30vw,330px)}
+.hero-strip .ph{width:100%;height:100%}
+.scrollcue{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);z-index:3;
+  display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.7rem;
+  color:var(--muted2);letter-spacing:.06em}
+.scrollcue i{display:block;width:1px;height:34px;background:linear-gradient(var(--acc),transparent);
+  animation:cue 2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}
+  46%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- marquee ---------- */
+.mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:17px 0;overflow:hidden;background:var(--bg2)}
+.mq-in{display:flex;gap:44px;width:max-content;animation:mq 34s linear infinite}
+.mq:hover .mq-in{animation-play-state:paused}
+.mq span{font-family:var(--dsp);font-size:1.02rem;color:var(--muted);
+  display:flex;align-items:center;gap:44px;white-space:nowrap}
+.mq span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--acc);flex:none}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- servizi ---------- */
+.sv-head{max-width:640px;margin-bottom:clamp(34px,5vw,58px)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.6vw,18px)}
+.card{grid-column:span 2;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);overflow:hidden;position:relative;
+  transition:transform .5s var(--ease),border-color .4s,box-shadow .5s var(--ease)}
+.card:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line));
+  box-shadow:0 30px 60px -40px rgba(0,0,0,.55)}
+.card .ph{width:100%;aspect-ratio:16/10}
+.card-b{padding:20px 21px 23px}
+.card .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:13px;
+  background:var(--surface2)}
+.card .ib svg{width:19px;height:19px}
+.card p{font-size:.9rem;color:var(--muted);margin-top:7px;line-height:1.6}
+.card.wide{grid-column:span 4}
+.card.wide .ph{aspect-ratio:21/7}
+
+.rows{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:20px;align-items:start;
+  padding:26px 0;border-bottom:1px solid var(--line);transition:padding .4s var(--ease)}
+.row:hover{padding-left:10px}
+.row .ib{width:44px;height:44px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);background:var(--surface2)}
+.row .ib svg{width:21px;height:21px}
+.row p{font-size:.92rem;color:var(--muted);margin-top:5px}
+.row .thumb{width:120px;height:78px;border-radius:var(--rs);overflow:hidden;
+  border:1px solid var(--line2);flex:none}
+.row .thumb .ph{width:100%;height:100%}
+
+.bands{display:flex;flex-direction:column;gap:clamp(12px,1.6vw,16px)}
+.band{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;
+  border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.band:nth-child(even) .band-art{order:-1}
+.band-art{min-height:190px}
+.band-art .ph{width:100%;height:100%}
+.band-b{padding:clamp(22px,3vw,34px)}
+.band-b .ib{width:38px;height:38px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;border:1px solid var(--line);color:var(--acc);margin-bottom:14px}
+.band-b .ib svg{width:19px;height:19px}
+.band-b p{font-size:.92rem;color:var(--muted);margin-top:8px}
+
+/* ---------- urgenze ---------- */
+.urg{margin-top:clamp(20px,3vw,30px);border:1px solid color-mix(in srgb,var(--acc) 40%,var(--line));
+  border-radius:var(--r);background:linear-gradient(105deg,
+    color-mix(in srgb,var(--acc) 13%,var(--surface)),var(--surface));
+  padding:clamp(22px,3vw,30px);display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.urg .ib{width:46px;height:46px;border-radius:var(--rs);display:flex;align-items:center;
+  justify-content:center;background:var(--acc);color:var(--onacc);flex:none}
+.urg .ib svg{width:23px;height:23px}
+.urg div.t{flex:1;min-width:240px}
+.urg strong{font-family:var(--dsp);font-size:1.15rem;display:block;margin-bottom:4px}
+.urg p{font-size:.9rem;color:var(--muted)}
+
+/* ---------- metodo ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(16px,2.4vw,28px);position:relative}
+.steps::before{content:"";position:absolute;top:19px;left:8%;right:8%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--line),var(--line),transparent)}
+.step{position:relative}
+.step .n{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  background:var(--bg);display:flex;align-items:center;justify-content:center;
+  font-family:var(--dsp);font-size:.95rem;color:var(--acc);margin-bottom:15px;position:relative;z-index:1}
+.step h3{margin-bottom:5px}
+.step p{font-size:.89rem;color:var(--muted)}
+
+/* ---------- numeri ---------- */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,22px)}
+.num{padding:clamp(20px,2.6vw,28px);border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface)}
+.num .v{font-family:var(--dsp);font-size:clamp(2rem,4.6vw,2.9rem);line-height:1;
+  color:var(--acc);letter-spacing:-.04em}
+.num .l{font-size:.81rem;color:var(--muted);margin-top:10px}
+
+/* ---------- prima/dopo ---------- */
+.ba{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);
+  aspect-ratio:16/9;cursor:ew-resize;user-select:none;touch-action:pan-y}
+.ba .ph{position:absolute;inset:0;width:100%;height:100%}
+/* Prima/Dopo credibile: stessa identica inquadratura, due stati.
+   Sotto lo scatto "prima" (spento, ingiallito, contrasto piatto),
+   sopra quello "dopo" (pulito). Cambia solo il trattamento, non la scena. */
+.ba .prima>img{filter:saturate(.28) contrast(.84) brightness(.68) sepia(.32) blur(.4px)}
+.ba .prima::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
+  background:radial-gradient(120% 100% at 50% 40%,transparent 30%,rgba(28,20,10,.55) 100%)}
+.ba .dopo>img{filter:saturate(1.06) contrast(1.08) brightness(1.04)}
+.ba-lb b{font-weight:600}
+.ba-top{position:absolute;inset:0;clip-path:inset(0 50% 0 0);will-change:clip-path}
+.ba-h{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--acc);z-index:3;
+  will-change:left}
+.ba-h::after{content:"";position:absolute;top:50%;left:50%;width:42px;height:42px;
+  transform:translate(-50%,-50%);border-radius:50%;background:var(--acc);
+  box-shadow:0 6px 22px -6px rgba(0,0,0,.6)}
+.ba-lb{position:absolute;bottom:14px;padding:6px 12px;border-radius:100px;font-size:.75rem;
+  background:color-mix(in srgb,var(--bg) 75%,transparent);backdrop-filter:blur(8px);
+  border:1px solid var(--line);z-index:4}
+.ba-lb.l{left:14px}.ba-lb.r{right:14px}
+
+/* ---------- galleria ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.4vw,15px)}
+.gi{position:relative;border-radius:var(--rs);overflow:hidden;border:1px solid var(--line2);
+  cursor:zoom-in;background:var(--surface)}
+.gi .ph{width:100%;height:100%;aspect-ratio:4/3}
+.gi:hover .ph>img{transform:scale(1.06)}
+.gi.w2{grid-column:span 2}
+.gi.h2{grid-row:span 2}
+.gi.h2 .ph{aspect-ratio:4/6}
+.gi figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;
+  font-size:.79rem;color:#fff;
+  background:linear-gradient(transparent,rgba(0,0,0,.78));opacity:0;transition:opacity .4s}
+.gi:hover figcaption{opacity:1}
+.rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-bottom:12px;-webkit-overflow-scrolling:touch}
+.rail::-webkit-scrollbar{height:4px}
+.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.rail .gi{flex:0 0 clamp(240px,38vw,380px);scroll-snap-align:start}
+.note{font-size:.79rem;color:var(--muted2);margin-top:16px}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;background:color-mix(in srgb,var(--bg) 94%,#000);z-index:200;
+  display:none;align-items:center;justify-content:center;padding:22px}
+.lb.on{display:flex}
+.lb figure{max-width:960px;width:100%}
+.lb .ph{width:100%;border-radius:var(--r);aspect-ratio:4/3}
+.lb figcaption{text-align:center;font-size:.87rem;color:var(--muted);margin-top:14px}
+.lb-x{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line);background:var(--surface);color:var(--txt);
+  display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer}
+
+/* ---------- zone ---------- */
+.zone{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,5vw,60px);align-items:center}
+.zmap{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);
+  padding:16px;overflow:hidden}
+.zmap svg{width:100%;height:auto}
+.zn{animation:zn 3.4s var(--ease) infinite}
+.zn:nth-child(2){animation-delay:.4s}.zn:nth-child(3){animation-delay:.8s}
+.zn:nth-child(4){animation-delay:1.2s}.zn:nth-child(5){animation-delay:1.6s}
+.zn:nth-child(6){animation-delay:2s}.zn:nth-child(7){animation-delay:2.4s}
+@keyframes zn{0%,100%{opacity:.35}50%{opacity:1}}
+.zones{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.zones a{padding:9px 15px;border-radius:100px;font-size:.83rem;color:var(--muted);
+  border:1px solid var(--line);transition:.3s var(--ease)}
+.zones a:hover{color:var(--txt);border-color:var(--acc);transform:translateY(-2px)}
+.zones a.hi{background:var(--acc);color:var(--onacc);border-color:var(--acc);font-weight:600}
+
+/* ---------- recensioni ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,20px)}
+.rev{border:1px dashed var(--line);border-radius:var(--r);padding:clamp(20px,2.6vw,26px);
+  background:var(--surface2)}
+.stars{display:flex;gap:3px;margin-bottom:13px;color:var(--muted2)}
+.stars svg{width:15px;height:15px}
+.rev p{font-size:.9rem;color:var(--muted2);font-style:italic}
+.rev .who{display:flex;align-items:center;gap:11px;margin-top:16px;padding-top:14px;
+  border-top:1px solid var(--line2)}
+.rev .av{width:34px;height:34px;border-radius:50%;border:1px dashed var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--muted2);font-size:.9rem}
+.rev .who b{font-size:.86rem;display:block}
+.rev .who span{font-size:.76rem;color:var(--muted2)}
+
+/* ---------- faq ---------- */
+.faq{max-width:820px;margin:0 auto}
+.q{border-bottom:1px solid var(--line)}
+.q-h{width:100%;display:flex;align-items:center;gap:16px;padding:21px 0;background:none;
+  border:0;color:inherit;font-family:var(--bdy);font-size:1.02rem;font-weight:500;
+  text-align:left;cursor:pointer;letter-spacing:-.01em}
+.q-h i{margin-left:auto;width:20px;height:20px;position:relative;flex:none}
+.q-h i::before,.q-h i::after{content:"";position:absolute;top:9.5px;left:2px;width:16px;
+  height:1.5px;background:var(--acc);transition:transform .4s var(--ease)}
+.q-h i::after{transform:rotate(90deg)}
+.q.open .q-h i::after{transform:rotate(0)}
+.q-a{max-height:0;overflow:hidden;transition:max-height .5s var(--ease)}
+.q-a p{padding-bottom:22px;font-size:.94rem;color:var(--muted)}
+
+/* ---------- cta ---------- */
+.cta{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--acc) 12%,var(--surface)),var(--surface) 62%)}
+.cta-in{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,4vw,52px);
+  padding:clamp(30px,5vw,62px)}
+.cta-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.info{display:flex;flex-direction:column;gap:18px;justify-content:center}
+.irow{display:flex;gap:14px;align-items:flex-start}
+.irow .ii{width:38px;height:38px;border-radius:var(--rs);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;color:var(--acc);flex:none}
+.irow .ii svg{width:18px;height:18px}
+.irow b{display:block;font-size:.92rem;margin-bottom:2px}
+.irow span{font-size:.86rem;color:var(--muted);word-break:break-word}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:clamp(46px,6vw,72px) 0 30px;background:var(--bg2)}
+.f-top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:clamp(26px,4vw,52px);
+  padding-bottom:36px;border-bottom:1px solid var(--line2)}
+.f-top p{font-size:.88rem;color:var(--muted);margin-top:14px;max-width:44ch}
+.f-col h4{font-family:var(--bdy);font-size:.8rem;font-weight:600;color:var(--muted2);
+  margin-bottom:14px}
+.f-col a,.f-col span{display:block;font-size:.88rem;color:var(--muted);padding:4px 0}
+.f-col a:hover{color:var(--acc)}
+.f-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding-top:22px;font-size:.79rem;color:var(--muted2)}
+.f-bot a{color:var(--acc)}
+
+/* ---------- fab ---------- */
+.fab{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;
+  background:var(--acc);color:var(--onacc);display:flex;align-items:center;justify-content:center;
+  z-index:90;box-shadow:0 14px 34px -12px rgba(0,0,0,.6);
+  opacity:0;visibility:hidden;transform:translateY(16px) scale(.9);
+  transition:.45s var(--ease)}
+.fab.on{opacity:1;visibility:visible;transform:none}
+.fab svg{width:26px;height:26px}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--acc);
+  animation:pulse 2.6s var(--ease) infinite}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transition:opacity .9s var(--ease),transform .9s var(--ease),
+  filter .9s var(--ease),clip-path 1s var(--ease)}
+body.rev-rise .rv{transform:translateY(28px)}
+body.rev-blur .rv{filter:blur(9px);transform:scale(.985)}
+body.rev-wipe .rv{clip-path:inset(0 0 100% 0);opacity:1}
+body.rev-slab .rv{transform:translateY(14px) scaleY(.97);transform-origin:bottom}
+.rv.rv.in{opacity:1;transform:none;filter:none;clip-path:inset(0 0 0 0)}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+.d4{transition-delay:.32s}.d5{transition-delay:.4s}.d6{transition-delay:.48s}
+.d7{transition-delay:.56s}.d8{transition-delay:.64s}
+
+/* ---------- responsive ---------- */
+@media (max-width:1000px){
+  .hero-grid,.zone,.cta-in{grid-template-columns:1fr}
+  .hero-card{max-width:520px}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .card.wide{grid-column:span 2}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .steps::before{display:none}
+  .nums{grid-template-columns:repeat(2,1fr)}
+  .revs{grid-template-columns:1fr}
+  .f-top{grid-template-columns:1fr 1fr}
+  .band{grid-template-columns:1fr}
+  .band:nth-child(even) .band-art{order:0}
+}
+@media (max-width:900px){
+  .menu,.nav .btn-txt{display:none}
+  .burger{display:flex}
+  .nav .btn{padding:10px 14px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .nav{height:62px}
+  .hero{padding-top:88px;min-height:96svh}
+  .grid{grid-template-columns:1fr}
+  .card,.card.wide{grid-column:span 1}
+  .gal{grid-template-columns:repeat(2,1fr)}
+  .gi.h2{grid-row:span 1}
+  .gi.h2 .ph{aspect-ratio:4/3}
+  .row{grid-template-columns:44px 1fr;gap:14px}
+  .row .thumb{display:none}
+  .f-top{grid-template-columns:1fr}
+  .lead{max-width:none}
+  .scrollcue{display:none}
+  .ba{aspect-ratio:4/3}
+}
+@media (hover:none){
+  .gi figcaption{opacity:1;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;scroll-behavior:auto !important}
+  .rv{opacity:1 !important;transform:none !important;filter:none !important;clip-path:none !important}
+}
+</style>
+</head>
+<body class="rev-rise">
+<div class="prg" id="prg"></div>
+<header id="hd"><div class="wrap nav"><a href="#top" class="logo" aria-label="Wish Tech Solution"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg25334" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#0E7C66"/><stop offset="1" stop-color="#0A4A3D"/></linearGradient></defs><rect x="1.5" y="1.5" width="45" height="45" rx="10" fill="none" stroke="url(#mg25334)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg25334)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">WT</text></svg><span class="logo-w"><span class="logo-t">Wish Tech Solution</span><span class="logo-s">Impianti idraulici e sanitari</span></span></a>
+<nav class="menu"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a></nav>
+<a href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Desio%0AGrazie." class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span class="btn-txt">Scrivici</span></a>
+<a data-wa="Ciao Wish Tech Solution srl, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a>
+<button class="burger" id="bg" aria-label="Apri il menu"><span></span></button>
+</div></header>
+<div class="drawer" id="dw"><a href="#servizi">Servizi</a><a href="#metodo">Come lavoriamo</a><a href="#lavori">Lavori</a><a href="#zone">Zone</a><a href="#faq">Domande</a>
+<a href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Desio%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici una mail</a></div>
+<section class="hero" id="top">
+<div class="hero-art"><div class="ph q "><svg class="art" viewBox="0 0 1400 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1400" height="900" fill="#0A4A3D" opacity=".55"/><rect width="1400" height="900" fill="#171C23" opacity=".82"/><path d="M310 267 L310 472 L310 736 L310 498 L310 401 L534 401 L684 401" stroke="#0E7C66" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="310" cy="736" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.95"/><circle cx="310" cy="498" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.95"/><circle cx="310" cy="401" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.95"/><circle cx="534" cy="401" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.95"/><path d="M-165 718 L62 718 L393 718 L393 467 L723 467 L1038 467 L1410 467 L1653 467" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="62" cy="718" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="393" cy="467" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="723" cy="467" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="1038" cy="467" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M-16 701 L-16 906 L230 906 L512 906 L512 1115" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="230" cy="906" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><circle cx="512" cy="906" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><path d="M305 426 L305 246 L562 246 L562 57 L831 57" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M589 822 L1005 822 L1432 822 L1637 822" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="1005" cy="822" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="1432" cy="822" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M94 166 L94 31 L374 31 L374 -219 L555 -219" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M254 581 L254 710 L477 710 L646 710 L1064 710 L1365 710 L1365 961" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="254" cy="710" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="477" cy="710" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="646" cy="710" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="213" cy="205" r="97" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M116 205 H310 M213 108 V302" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="602" cy="80" r="133" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M469 80 H735 M602 -53 V213" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/35016079/pexels-photo-35016079.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Lavoro di idraulico a Desio" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div><div class="hero-veil"></div>
+<div class="wrap"><div class="hero-grid"><div><div class="badge rv d1"><span class="dot"></span> Desio e provincia · Preventivo gratuito</div><h1 class="rv d2">Acqua che scorre<br><em>dove deve, come deve.</em></h1><p class="lead rv d3">Wish Tech Solution srl lavora su impianti idrico-sanitari a Desio e dintorni: rifacimenti completi, riparazioni, sostituzione sanitari e ricerca perdite. Preventivo scritto prima di iniziare, cantiere lasciato pulito.</p><div class="hero-btns rv d4"><a href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Desio%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Chiedi un preventivo</a><a data-wa="Ciao Wish Tech Solution srl, vorrei un preventivo gratuito." href="#contatti" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a><a href="#lavori" class="btn btn-g btn-lg">Guarda i lavori</a></div><div class="hero-mini rv d5"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Sopralluogo senza impegno</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Preventivo scritto</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cantiere lasciato pulito</span></div></div><div class="hero-card rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="675" fill="#0A4A3D" opacity=".55"/><rect width="900" height="675" fill="#171C23" opacity=".82"/><path d="M119 542 L360 542 L481 542 L678 542 L678 426 L795 426" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M28 251 L142 251 L142 360 L395 360 L672 360 L672 166 L672 9" stroke="#0E7C66" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="672" cy="166" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.60"/><path d="M125 557 L320 557 L320 428 L593 428 L881 428 L1081 428" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="320" cy="557" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><circle cx="320" cy="428" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><path d="M153 208 L426 208 L426 320 L426 196 L426 14" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="426" cy="208" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="426" cy="320" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M138 432 L338 432 L338 555 L338 662 L521 662 L819 662 L1117 662" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="819" cy="662" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M48 403 L238 403 L544 403 L674 403 L816 403" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="792" cy="197" r="84" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M708 197 H876 M792 113 V281" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="244" cy="146" r="76" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M168 146 H320 M244 70 V222" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="319" cy="20" r="106" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M213 20 H425 M319 -86 V126" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="708" cy="137" r="89" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M619 137 H797 M708 48 V226" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/4494655/pexels-photo-4494655.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Collettore ispezionabile a impianto finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="hero-card-b"><strong>Collettore ispezionabile a impianto finito</strong>
+<span>Demolizione, nuovi scarichi, sanitari e rubinetteria. Un solo interlocutore dall&#x27;inizio alla fine.</span>
+<div class="hcrow"><div><div class="k" data-count="24" data-suffix="h">0</div>
+<div class="l">Tempo medio di risposta</div></div>
+<div style="text-align:right"><div class="k">0€</div>
+<div class="l">Costo del sopralluogo</div></div></div></div></div></div></div>
+<div class="scrollcue"><span>Scorri</span><i></i></div></section>
+<div class="mq"><div class="mq-in"><span>Rifacimento bagni</span><span>Ricerca perdite</span><span>Sostituzione sanitari</span><span>Scarichi e colonne</span><span>Autoclave e pressione</span><span>Addolcitori</span><span>Rubinetteria</span><span>Allacci e contatori</span><span>Rifacimento bagni</span><span>Ricerca perdite</span><span>Sostituzione sanitari</span><span>Scarichi e colonne</span><span>Autoclave e pressione</span><span>Addolcitori</span><span>Rubinetteria</span><span>Allacci e contatori</span></div></div>
+<section class="sec" id="servizi"><div class="wrap"><div class="sv-head rv"><span class="eyebrow">Servizi</span>
+<h2>Cosa facciamo, detto senza giri di parole.</h2></div><div class="grid"><article class="card rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M-46 478 L-46 415 L-46 570 L99 570 L99 686 L329 686 L329 835" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="-46" cy="415" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><circle cx="-46" cy="570" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><circle cx="99" cy="570" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><path d="M235 213 L383 213 L512 213 L720 213 L983 213 L983 126" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M283 426 L283 263 L283 98 L283 -60 L497 -60 L660 -60 L800 -60" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="283" cy="263" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><circle cx="283" cy="98" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><circle cx="283" cy="-60" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><circle cx="497" cy="-60" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><circle cx="660" cy="-60" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><path d="M70 46 L364 46 L571 46 L775 46 L877 46" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="775" cy="46" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M-98 370 L-98 525 L-98 384 L-98 321 L67 321" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M40 81 L40 213 L40 307 L40 425 L316 425 L316 266 L428 266 L720 266" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="316" cy="425" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="633" cy="6" r="53" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M580 6 H686 M633 -47 V59" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="359" cy="118" r="68" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M291 118 H427 M359 50 V186" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="517" cy="108" r="87" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M430 108 H604 M517 21 V195" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="817" cy="77" r="87" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M730 77 H904 M817 -10 V164" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Rifacimento completo del bagno" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM7 13V6a2 2 0 0 1 4 0M9 6h2"/></svg></div><h3>Rifacimento completo del bagno</h3><p>Demolizione, nuovi scarichi, sanitari e rubinetteria. Un solo interlocutore dall&#x27;inizio alla fine.</p></div></article><article class="card rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M77 284 L77 210 L259 210 L494 210 L608 210 L817 210 L1111 210" stroke="#0E7C66" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="259" cy="210" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.95"/><circle cx="817" cy="210" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.95"/><path d="M-18 515 L-18 594 L-18 429 L227 429 L227 302 L227 377" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="227" cy="429" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="227" cy="302" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M58 425 L58 292 L58 351 L58 216 L58 315" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="58" cy="216" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><path d="M394 310 L571 310 L847 310 L847 435 L1045 435" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="571" cy="310" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="847" cy="310" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="847" cy="435" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M278 157 L476 157 L476 64 L757 64 L1043 64" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="476" cy="64" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M441 330 L543 330 L543 199 L825 199 L1054 199" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="543" cy="330" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="276" cy="92" r="51" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M225 92 H327 M276 41 V143" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="261" cy="186" r="88" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M173 186 H349 M261 98 V274" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="303" cy="118" r="77" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M226 118 H380 M303 41 V195" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/35493890/pexels-photo-35493890.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Ricerca perdite" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5S6 10 6 14a6 6 0 0 0 12 0c0-4-6-10.5-6-10.5zM9.5 15a2.5 2.5 0 0 0 2.5 2.5"/></svg></div><h3>Ricerca perdite</h3><p>Individuazione del punto esatto prima di rompere, con videoispezione dove serve.</p></div></article><article class="card rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M197 428 L411 428 L411 504 L411 446 L411 539 L578 539 L832 539" stroke="#0E7C66" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="411" cy="539" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.95"/><path d="M206 61 L206 -62 L206 -210 L352 -210 L352 -60 L352 -143" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="352" cy="-210" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><path d="M136 438 L387 438 L387 324 L591 324 L883 324 L883 464 L1134 464" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="387" cy="324" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><circle cx="883" cy="324" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><path d="M434 36 L659 36 L760 36 L760 -37 L865 -37 L956 -37 L956 -184" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="865" cy="-37" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M234 286 L234 160 L234 73 L234 -63 L339 -63 L339 -211" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="234" cy="-63" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="462" cy="292" r="41" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M421 292 H503 M462 251 V333" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="615" cy="363" r="40" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M575 363 H655 M615 323 V403" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="875" cy="238" r="82" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M793 238 H957 M875 156 V320" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="191" cy="364" r="55" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M136 364 H246 M191 309 V419" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/12119354/pexels-photo-12119354.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Sostituzione sanitari" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h10M8 4v5a4 4 0 0 0 8 0V4M12 13v7M9 20h6"/></svg></div><h3>Sostituzione sanitari</h3><p>WC, lavabi, piatti doccia e cassette: sostituzione in giornata quando l&#x27;impianto lo permette.</p></div></article><article class="card wide rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M129 510 L129 452 L291 452 L291 338 L391 338 L534 338" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="291" cy="452" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M-56 120 L-56 200 L-56 268 L109 268 L109 170 L226 170" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-56" cy="200" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="-56" cy="268" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="109" cy="268" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="109" cy="170" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M-59 75 L192 75 L430 75 L430 -47 L592 -47 L709 -47" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M233 374 L324 374 L324 296 L490 296 L725 296 L725 234 L946 234 L946 322" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="324" cy="296" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M140 87 L140 149 L387 149 L610 149 L820 149 L820 54 L820 -80" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="140" cy="149" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="387" cy="149" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="820" cy="149" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M-9 234 L293 234 L293 105 L587 105 L587 267 L821 267" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="293" cy="234" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="587" cy="105" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M310 146 L310 282 L438 282 L681 282 L947 282 L947 372 L1180 372" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="947" cy="372" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="540" cy="556" r="69" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M471 556 H609 M540 487 V625" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="516" cy="125" r="41" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M475 125 H557 M516 84 V166" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="584" cy="56" r="77" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M507 56 H661 M584 -21 V133" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/12778827/pexels-photo-12778827.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Scarichi e colonne di scarico" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14M8 5v5a4 4 0 0 0 8 0M12 14v6M9.5 17.5 12 20l2.5-2.5"/></svg></div><h3>Scarichi e colonne di scarico</h3><p>Rifacimento tratti ammalorati, sifoni, pozzetti e collegamenti alla fognatura.</p></div></article><article class="card rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M116 370 L333 370 L333 447 L563 447 L563 538 L833 538" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="563" cy="447" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M-34 124 L205 124 L323 124 L323 261 L323 160 L323 309 L323 216 L500 216" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="323" cy="160" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="323" cy="309" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="323" cy="216" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M381 160 L381 -8 L582 -8 L582 52 L787 52 L787 212" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="381" cy="-8" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><circle cx="582" cy="-8" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><path d="M237 66 L237 -71 L237 71 L237 210 L387 210" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="237" cy="-71" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="237" cy="71" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="237" cy="210" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M352 224 L564 224 L564 101 L694 101 L694 30" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M-35 87 L-35 -5 L73 -5 L73 -118 L73 22 L73 -52" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="73" cy="-5" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="264" cy="249" r="52" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M212 249 H316 M264 197 V301" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="260" cy="269" r="88" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M172 269 H348 M260 181 V357" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="99" cy="458" r="71" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M28 458 H170 M99 387 V529" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="1" cy="316" r="53" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M-52 316 H54 M1 263 V369" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6920613/pexels-photo-6920613.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Impianto idrico nuovo" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18M3 15h18M7 9V4M12 9V4M17 9V4M7 15v5M12 15v5M17 15v5"/></svg></div><h3>Impianto idrico nuovo</h3><p>Distribuzione in multistrato o pex, collettori ispezionabili, collaudo a pressione.</p></div></article><article class="card rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M123 171 L123 266 L369 266 L609 266 L609 185" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M412 427 L533 427 L838 427 L838 330 L838 433 L838 507 L1065 507" stroke="#0E7C66" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="533" cy="427" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.60"/><circle cx="838" cy="433" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.60"/><path d="M-72 339 L-72 438 L-72 349 L-72 477 L120 477 L277 477 L504 477" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-72" cy="438" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><path d="M-10 426 L194 426 L479 426 L479 499 L628 499 L746 499" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="194" cy="426" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="479" cy="426" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="628" cy="499" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M68 397 L278 397 L416 397 L692 397 L948 397" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="416" cy="397" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="438" cy="96" r="54" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M384 96 H492 M438 42 V150" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="254" cy="106" r="88" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M166 106 H342 M254 18 V194" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="376" cy="392" r="56" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M320 392 H432 M376 336 V448" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/8488035/pexels-photo-8488035.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Autoclave e pressione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 7v2l1.8 1M4 20h16M7 14v6M17 14v6"/></svg></div><h3>Autoclave e pressione</h3><p>Pompe, vasi di espansione e riduttori per case dove l&#x27;acqua arriva debole.</p></div></article><article class="card rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M19 472 L19 633 L194 633 L194 780 L292 780 L498 780 L798 780 L899 780" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="194" cy="780" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="292" cy="780" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="498" cy="780" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M284 76 L284 213 L284 79 L443 79 L633 79 L748 79 L748 -26 L993 -26" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="284" cy="213" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="284" cy="79" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="443" cy="79" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="633" cy="79" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M187 413 L281 413 L281 545 L484 545 L484 392 L589 392 L844 392 L844 291" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="281" cy="413" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><path d="M439 451 L599 451 L824 451 L824 585 L824 453 L824 593 L824 467 L824 616" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="824" cy="453" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="824" cy="467" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M312 314 L459 314 L713 314 L713 254 L713 160 L713 221 L823 221" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="459" cy="314" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="713" cy="221" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M214 469 L515 469 L515 575 L670 575 L786 575 L786 425 L786 565" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="515" cy="469" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="670" cy="575" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="786" cy="575" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M272 379 L530 379 L689 379 L689 309 L890 309" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="530" cy="379" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="689" cy="309" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="17" cy="112" r="65" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M-48 112 H82 M17 47 V177" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="416" cy="34" r="55" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M361 34 H471 M416 -21 V89" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/36777927/pexels-photo-36777927.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Addolcitori e filtri" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16l-6 7v6l-4 2v-8z"/></svg></div><h3>Addolcitori e filtri</h3><p>Trattamento acqua contro il calcare, con manutenzione programmata.</p></div></article><article class="card rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="560" fill="#0A4A3D" opacity=".55"/><rect width="900" height="560" fill="#171C23" opacity=".82"/><path d="M67 424 L262 424 L411 424 L538 424 L538 290 L538 386 L631 386 L840 386" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="411" cy="424" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="538" cy="424" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="538" cy="290" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="538" cy="386" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M246 496 L246 646 L246 790 L493 790 L747 790 L747 908" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="246" cy="646" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><circle cx="246" cy="790" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><circle cx="493" cy="790" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><circle cx="747" cy="790" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><path d="M397 156 L397 246 L692 246 L692 395 L917 395" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="397" cy="246" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><circle cx="692" cy="246" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.60"/><path d="M274 505 L364 505 L624 505 L900 505 L1141 505" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M203 391 L203 329 L203 388 L203 332 L339 332" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="203" cy="388" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M82 347 L184 347 L184 244 L316 244 L316 98" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="184" cy="347" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="184" cy="244" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="579" cy="488" r="64" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M515 488 H643 M579 424 V552" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="451" cy="515" r="72" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M379 515 H523 M451 443 V587" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="685" cy="100" r="77" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M608 100 H762 M685 23 V177" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="54" cy="193" r="46" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M8 193 H100 M54 147 V239" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7937300/pexels-photo-7937300.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Piccole riparazioni" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="card-b"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4a4.5 4.5 0 1 0 4.2 6.1L21 12.4l-2.1 2.1-1.4-1.4-1.4 1.4 1.4 1.4-2 2-1.4-1.4-1.4 1.4 1.4 1.4L11 21.4 4.6 15l6-6A4.5 4.5 0 0 1 14.5 4z"/></svg></div><h3>Piccole riparazioni</h3><p>Rubinetti che gocciolano, cassette che perdono, sifoni intasati: interventi rapidi.</p></div></article></div><div class="urg rv"><div class="ib"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20zM12 9v5M12 17h.01"/></svg></div>
+<div class="t"><strong>Perdita in corso?</strong><p>Chiudete il rubinetto generale e scriveteci subito: una foto del punto bagnato ci fa capire in trenta secondi cosa serve portare.</p></div>
+<a href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20di%20intervento&amp;body=Buongiorno%2C%0Aavrei%20bisogno%20di%20un%20intervento.%0ASituazione%3A%0A%0A%0AZona%3A%20Desio" class="btn btn-p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Scrivici ora</a>
+<a data-wa="Ciao Wish Tech Solution srl, avrei bisogno di un intervento." href="#contatti" class="btn btn-wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> WhatsApp</a></div></div></section>
+<section class="sec" id="metodo" style="background:var(--bg2)">
+<div class="wrap"><div class="sv-head rv"><h2>Quattro passaggi, nessuna sorpresa.</h2></div>
+<div class="steps"><div class="step rv d1"><div class="n">1</div>
+<h3>Ci scrivete</h3><p>Due righe e una foto. Vi rispondiamo con le domande giuste.</p></div><div class="step rv d2"><div class="n">2</div>
+<h3>Sopralluogo</h3><p>Veniamo a vedere. Gratuito e senza impegno.</p></div><div class="step rv d3"><div class="n">3</div>
+<h3>Preventivo scritto</h3><p>Voci separate, tempi indicati. Nessuna sorpresa dopo.</p></div><div class="step rv d4"><div class="n">4</div>
+<h3>Lavoro e collaudo</h3><p>Prova in pressione, pulizia del cantiere, garanzia sull&#x27;intervento.</p></div></div></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap"><div class="nums"><div class="num rv d1"><div class="v"><span data-count="0" data-suffix="€">0</span></div><div class="l">Costo del sopralluogo</div></div><div class="num rv d2"><div class="v"><span data-count="24" data-suffix="h">0</span></div><div class="l">Tempo medio di risposta</div></div><div class="num rv d3"><div class="v"><span data-count="10" data-suffix="+">0</span></div><div class="l">Anni sui cantieri</div></div><div class="num rv d4"><div class="v"><span data-count="100" data-suffix="%">0</span></div><div class="l">Preventivi messi per iscritto</div></div></div><p class="note rv">Numeri indicativi da confermare con il cliente prima della pubblicazione definitiva.</p></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap">
+<div class="sv-head rv"><h2>La differenza si vede a lavoro finito.</h2></div>
+<div class="ba rv"><div class="ph q prima"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#0A4A3D" opacity=".55"/><rect width="1200" height="675" fill="#171C23" opacity=".82"/><path d="M168 92 L340 92 L546 92 L546 -54 L799 -54 L982 -54 L982 147 L982 72" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="799" cy="-54" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="982" cy="-54" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="982" cy="147" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M64 436 L322 436 L322 503 L607 503 L607 428" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="322" cy="503" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><path d="M592 459 L592 650 L592 844 L783 844 L783 712" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="592" cy="650" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><circle cx="592" cy="844" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><path d="M61 219 L61 328 L61 416 L61 272 L402 272 L402 123 L583 123 L583 213" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="61" cy="416" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="402" cy="272" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="583" cy="123" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M345 267 L345 423 L490 423 L490 247 L698 247 L698 126 L698 218" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M333 526 L333 687 L668 687 L864 687 L1175 687 L1175 541 L1316 541 L1316 378" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="668" cy="687" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="1175" cy="687" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="1175" cy="541" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M493 471 L493 397 L695 397 L695 511 L1001 511" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="493" cy="397" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="422" cy="169" r="105" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M317 169 H527 M422 64 V274" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="579" cy="647" r="49" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M530 647 H628 M579 598 V696" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="148" cy="137" r="63" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M85 137 H211 M148 74 V200" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/32588560/pexels-photo-32588560.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Situazione prima dell&#x27;intervento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<div class="ba-top"><div class="ph q dopo"><svg class="art" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1200" height="675" fill="#0A4A3D" opacity=".55"/><rect width="1200" height="675" fill="#171C23" opacity=".82"/><path d="M168 92 L340 92 L546 92 L546 -54 L799 -54 L982 -54 L982 147 L982 72" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="799" cy="-54" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="982" cy="-54" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="982" cy="147" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M64 436 L322 436 L322 503 L607 503 L607 428" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="322" cy="503" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><path d="M592 459 L592 650 L592 844 L783 844 L783 712" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="592" cy="650" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><circle cx="592" cy="844" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.60"/><path d="M61 219 L61 328 L61 416 L61 272 L402 272 L402 123 L583 123 L583 213" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="61" cy="416" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="402" cy="272" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="583" cy="123" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M345 267 L345 423 L490 423 L490 247 L698 247 L698 126 L698 218" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M333 526 L333 687 L668 687 L864 687 L1175 687 L1175 541 L1316 541 L1316 378" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="668" cy="687" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="1175" cy="687" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="1175" cy="541" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M493 471 L493 397 L695 397 L695 511 L1001 511" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="493" cy="397" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="422" cy="169" r="105" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M317 169 H527 M422 64 V274" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="579" cy="647" r="49" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M530 647 H628 M579 598 V696" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="148" cy="137" r="63" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M85 137 H211 M148 74 V200" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/32588560/pexels-photo-32588560.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Lo stesso punto a lavoro finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div></div>
+<div class="ba-h"></div>
+<span class="ba-lb l"><b>Dopo</b></span><span class="ba-lb r"><b>Prima</b></span></div>
+<p class="note rv">Dimostrativo: è la stessa immagine in due stati, per far vedere come funziona il cursore.
+Al suo posto andranno due foto vere dello stesso punto, prima e dopo il vostro lavoro.</p>
+</div></section>
+<section class="sec" id="lavori" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Un'idea di come lavoriamo.</h2></div>
+<div class="gal"><figure class="gi w2 rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M74 527 L74 632 L291 632 L291 465 L508 465 L508 325" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="74" cy="632" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><circle cx="291" cy="632" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><circle cx="291" cy="465" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><circle cx="508" cy="465" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><path d="M292 561 L292 366 L489 366 L489 528 L666 528 L898 528" stroke="#0E7C66" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="292" cy="366" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.60"/><circle cx="489" cy="528" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.60"/><circle cx="666" cy="528" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.60"/><path d="M11 152 L275 152 L275 243 L539 243 L740 243 L740 403 L740 572 L740 680" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="740" cy="572" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><path d="M-74 383 L-74 209 L-74 9 L-74 -123 L138 -123 L138 -241" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="-74" cy="-123" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M-81 498 L-81 301 L-81 184 L-81 104 L-81 29" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><path d="M2 70 L2 157 L2 314 L2 390 L2 483 L2 357" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="2" cy="157" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="2" cy="390" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M123 284 L123 392 L123 256 L123 50 L123 -146" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="123" cy="50" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="681" cy="7" r="102" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M579 7 H783 M681 -95 V109" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="588" cy="522" r="73" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M515 522 H661 M588 449 V595" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="394" cy="389" r="111" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M283 389 H505 M394 278 V500" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="144" cy="25" r="82" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M62 25 H226 M144 -57 V107" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7587289/pexels-photo-7587289.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Collettore ispezionabile a impianto finito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Collettore ispezionabile a impianto finito</figcaption></figure><figure class="gi  rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M216 262 L216 96 L425 96 L597 96 L701 96 L849 96 L1078 96" stroke="#0E7C66" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="701" cy="96" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.95"/><path d="M-98 233 L58 233 L248 233 L248 342 L248 210 L248 345 L393 345 L393 261" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="58" cy="233" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="248" cy="233" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="393" cy="345" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M35 539 L35 382 L35 180 L35 310 L35 224" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M361 472 L521 472 L742 472 L1001 472 L1131 472" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="521" cy="472" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="1001" cy="472" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M44 541 L261 541 L261 639 L261 513 L261 382 L261 215 L363 215 L363 30" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="261" cy="639" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="261" cy="513" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="363" cy="215" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M16 636 L298 636 L298 537 L583 537 L583 644" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="298" cy="537" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M196 250 L196 166 L196 34 L388 34 L584 34 L584 197 L584 41" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="388" cy="34" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="377" cy="475" r="97" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M280 475 H474 M377 378 V572" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="66" cy="19" r="102" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M-36 19 H168 M66 -83 V121" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="314" cy="362" r="70" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M244 362 H384 M314 292 V432" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/4494653/pexels-photo-4494653.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Nuovo scarico prima della chiusura" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Nuovo scarico prima della chiusura</figcaption></figure><figure class="gi  rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M9 163 L9 237 L114 237 L114 431 L114 554" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="9" cy="237" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="114" cy="431" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M87 439 L87 274 L87 467 L337 467 L615 467" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="87" cy="467" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="337" cy="467" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M268 619 L268 707 L268 865 L513 865 L731 865" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="513" cy="865" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><path d="M431 313 L431 445 L431 327 L680 327 L680 166 L947 166 L947 4" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="431" cy="327" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="680" cy="327" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M-56 416 L37 416 L37 284 L322 284 L322 133 L322 215 L322 62 L505 62" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="37" cy="284" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="322" cy="284" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="175" cy="657" r="76" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M99 657 H251 M175 581 V733" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="866" cy="565" r="95" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M771 565 H961 M866 470 V660" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="92" cy="575" r="87" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M5 575 H179 M92 488 V662" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/7173665/pexels-photo-7173665.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Bagno completato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Bagno completato</figcaption></figure><figure class="gi h2 rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M377 471 L540 471 L734 471 L734 675 L734 499 L1038 499" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="540" cy="471" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="734" cy="675" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><circle cx="734" cy="499" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.95"/><path d="M358 380 L358 470 L492 470 L652 470 L652 665 L818 665 L818 746" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="652" cy="665" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M10 289 L10 198 L10 82 L141 82 L141 230 L141 321 L299 321 L457 321" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="141" cy="230" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><path d="M139 199 L278 199 L278 62 L278 191 L375 191 L375 114 L519 114 L519 -48" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="278" cy="199" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="278" cy="62" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="278" cy="191" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="519" cy="114" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M253 105 L393 105 L393 -45 L393 -181 L633 -181" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="393" cy="-45" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M3 454 L3 609 L136 609 L136 807 L136 667 L323 667 L509 667 L785 667" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="136" cy="609" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="136" cy="807" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="323" cy="667" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="509" cy="667" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M175 521 L448 521 L448 637 L692 637 L692 752" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="692" cy="637" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="898" cy="341" r="66" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M832 341 H964 M898 275 V407" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="562" cy="454" r="86" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M476 454 H648 M562 368 V540" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="732" cy="98" r="51" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M681 98 H783 M732 47 V149" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6585753/pexels-photo-6585753.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Prova di tenuta in pressione" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Prova di tenuta in pressione</figcaption></figure><figure class="gi  rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M16 94 L152 94 L427 94 L427 187 L427 0 L427 -204 L427 -376" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="427" cy="94" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><circle cx="427" cy="0" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.95"/><path d="M-42 44 L-42 -113 L-42 -215 L137 -215 L137 -13 L398 -13 L398 -156 L541 -156" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-42" cy="-113" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><circle cx="-42" cy="-215" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><circle cx="137" cy="-215" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><path d="M88 514 L88 394 L88 233 L277 233 L449 233 L449 134" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M56 398 L357 398 L357 541 L357 423 L450 423 L450 261 L626 261 L765 261" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="357" cy="398" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="357" cy="541" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="450" cy="423" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="450" cy="261" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M234 542 L234 751 L234 823 L511 823 L511 1008" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="511" cy="823" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M248 229 L535 229 L535 312 L535 460 L801 460 L937 460" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="535" cy="229" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="535" cy="312" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="535" cy="460" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="239" cy="297" r="84" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M155 297 H323 M239 213 V381" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="724" cy="227" r="51" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M673 227 H775 M724 176 V278" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/4469187/pexels-photo-4469187.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Sostituzione miscelatore" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Sostituzione miscelatore</figcaption></figure><figure class="gi  rv d2"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M-47 561 L-47 453 L147 453 L445 453 L445 590 L445 671" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M55 52 L55 -30 L274 -30 L274 -212 L525 -212" stroke="#0E7C66" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><path d="M437 284 L655 284 L856 284 L959 284 L959 142 L1113 142" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="655" cy="284" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><circle cx="856" cy="284" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><path d="M-89 116 L76 116 L248 116 L408 116 L408 -29 L647 -29" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="248" cy="116" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M78 409 L78 318 L256 318 L516 318 L516 475 L763 475 L1049 475" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="256" cy="318" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="516" cy="475" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="763" cy="475" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><path d="M361 332 L586 332 L586 435 L683 435 L874 435 L1024 435" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="586" cy="435" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="874" cy="435" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="884" cy="659" r="110" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M774 659 H994 M884 549 V769" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="768" cy="472" r="70" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M698 472 H838 M768 402 V542" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/33388390/pexels-photo-33388390.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Distribuzione in multistrato" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Distribuzione in multistrato</figcaption></figure><figure class="gi  rv d3"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M49 118 L225 118 L225 -8 L481 -8 L756 -8 L1001 -8 L1001 68" stroke="#0E7C66" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><circle cx="481" cy="-8" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.95"/><circle cx="756" cy="-8" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.95"/><circle cx="1001" cy="-8" r="16" fill="none" stroke="#0E7C66" stroke-width="2.9" opacity="0.95"/><path d="M185 85 L185 178 L185 39 L185 -66 L185 57 L476 57" stroke="#0E7C66" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="185" cy="178" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.60"/><circle cx="185" cy="39" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.60"/><circle cx="185" cy="57" r="20" fill="none" stroke="#0E7C66" stroke-width="4.3" opacity="0.60"/><path d="M-104 526 L-104 734 L-104 622 L34 622 L34 722 L150 722 L388 722" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-104" cy="734" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><circle cx="34" cy="622" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.60"/><path d="M332 114 L332 -73 L497 -73 L701 -73 L701 129" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="497" cy="-73" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="701" cy="-73" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M247 498 L350 498 L621 498 L621 339 L839 339 L839 177 L839 349" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="621" cy="498" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="839" cy="177" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="556" cy="505" r="88" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M468 505 H644 M556 417 V593" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="397" cy="31" r="87" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M310 31 H484 M397 -56 V118" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="310" cy="167" r="89" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M221 167 H399 M310 78 V256" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/12142829/pexels-photo-12142829.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Piatto doccia filo pavimento" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Piatto doccia filo pavimento</figcaption></figure><figure class="gi  rv d4"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M-72 100 L182 100 L409 100 L694 100 L891 100 L891 -31" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M384 498 L646 498 L646 669 L905 669 L905 548 L905 408 L905 303" stroke="#0E7C66" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="646" cy="669" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><circle cx="905" cy="548" r="13" fill="none" stroke="#0E7C66" stroke-width="1.8" opacity="0.60"/><path d="M259 651 L562 651 L782 651 L782 525 L782 631 L782 532" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="782" cy="651" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><circle cx="782" cy="525" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><circle cx="782" cy="631" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><path d="M164 92 L351 92 L351 233 L351 322 L351 413 L351 293 L561 293 L779 293" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="351" cy="92" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><path d="M352 368 L554 368 L554 173 L669 173 L669 -26" stroke="#0A4A3D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="554" cy="368" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><circle cx="554" cy="173" r="13" fill="none" stroke="#0A4A3D" stroke-width="1.8" opacity="0.30"/><path d="M416 282 L416 386 L603 386 L840 386 L1054 386" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="840" cy="386" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M-57 575 L-57 737 L239 737 L377 737 L630 737 L860 737" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="-57" cy="737" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="630" cy="737" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.30"/><circle cx="845" cy="42" r="62" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M783 42 H907 M845 -20 V104" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="862" cy="185" r="94" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M768 185 H956 M862 91 V279" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="741" cy="331" r="57" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M684 331 H798 M741 274 V388" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="803" cy="270" r="102" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M701 270 H905 M803 168 V372" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/6444245/pexels-photo-6444245.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Punto acqua per lavatrice" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Punto acqua per lavatrice</figcaption></figure><figure class="gi w2 rv d1"><div class="ph q "><svg class="art" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="900" height="700" fill="#0A4A3D" opacity=".55"/><rect width="900" height="700" fill="#171C23" opacity=".82"/><path d="M257 463 L536 463 L827 463 L1127 463" stroke="#0E7C66" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/><path d="M54 467 L323 467 L565 467 L565 660 L758 660 L1017 660" stroke="#0E7C66" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="323" cy="467" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><circle cx="758" cy="660" r="23" fill="none" stroke="#0E7C66" stroke-width="5.4" opacity="0.60"/><path d="M-77 305 L-77 431 L-77 347 L-77 196 L-77 390 L115 390" stroke="#0A4A3D" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.60"/><circle cx="-77" cy="347" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><circle cx="-77" cy="196" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><circle cx="-77" cy="390" r="16" fill="none" stroke="#0A4A3D" stroke-width="2.9" opacity="0.60"/><path d="M-97 64 L-97 -132 L-97 -256 L17 -256 L17 -128" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="-97" cy="-132" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="17" cy="-256" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M405 297 L405 481 L695 481 L892 481 L892 372 L892 178 L892 273" stroke="#0A4A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="695" cy="481" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="892" cy="372" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><circle cx="892" cy="178" r="20" fill="none" stroke="#0A4A3D" stroke-width="4.3" opacity="0.30"/><path d="M300 625 L570 625 L771 625 L771 464 L771 344 L771 481" stroke="#0A4A3D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.30"/><circle cx="570" cy="625" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="771" cy="625" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="771" cy="464" r="23" fill="none" stroke="#0A4A3D" stroke-width="5.4" opacity="0.30"/><circle cx="96" cy="540" r="97" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M-1 540 H193 M96 443 V637" stroke="#0E7C66" stroke-width="5" opacity=".7"/><circle cx="144" cy="599" r="63" fill="none" stroke="#0E7C66" stroke-width="5" opacity=".7"/><path d="M81 599 H207 M144 536 V662" stroke="#0E7C66" stroke-width="5" opacity=".7"/></svg><img src="https://images.pexels.com/photos/19666087/pexels-photo-19666087.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Cantiere lasciato pulito" loading="lazy" decoding="async" onload="this.parentNode.classList.add('on')" onerror="this.remove()"></div>
+<figcaption>Cantiere lasciato pulito</figcaption></figure></div>
+<p class="note rv">Foto di repertorio, scelte per il vostro mestiere: al loro posto andranno le foto reali dei vostri lavori.</p>
+</div></section>
+<section class="sec" id="zone"><div class="wrap"><div class="zone">
+<div class="zmap rv"><svg viewBox="0 0 300 280" aria-hidden="true">
+<defs><radialGradient id="pl"><stop offset="0" stop-color="#0E7C66" stop-opacity=".5"/>
+<stop offset="1" stop-color="#0E7C66" stop-opacity="0"/></radialGradient>
+<linearGradient id="lnn" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E7C66" stop-opacity=".65"/>
+<stop offset="1" stop-color="#0A4A3D" stop-opacity=".08"/></linearGradient></defs>
+<g stroke="rgba(255,255,255,.13)" stroke-width="1" opacity=".55">
+<path d="M0 40h300M0 90h300M0 140h300M0 190h300M0 240h300"/>
+<path d="M40 0v280M90 0v280M140 0v280M190 0v280M240 0v280"/></g>
+<circle cx="150" cy="132" r="86" fill="url(#pl)"/>
+<circle cx="150" cy="132" r="86" fill="none" stroke="#0E7C66" stroke-opacity=".28" stroke-dasharray="4 6"/>
+<circle cx="150" cy="132" r="120" fill="none" stroke="#0E7C66" stroke-opacity=".13" stroke-dasharray="2 8"/>
+<g stroke="url(#lnn)" stroke-width="1.2" fill="none">
+<path d="M150 132 84 96M150 132 96 178M150 132 214 104M150 132 208 186M150 132 150 54M150 132 62 140M150 132 236 148"/></g>
+<g fill="#0E7C66"><circle class="zn" cx="84" cy="96" r="3.6"/><circle class="zn" cx="96" cy="178" r="3.6"/><circle class="zn" cx="214" cy="104" r="3.6"/><circle class="zn" cx="208" cy="186" r="3.6"/><circle class="zn" cx="150" cy="54" r="3.6"/><circle class="zn" cx="62" cy="140" r="3.6"/><circle class="zn" cx="236" cy="148" r="3.6"/></g>
+<circle cx="150" cy="132" r="9" fill="#0E7C66"/>
+<circle cx="150" cy="132" r="9" fill="none" stroke="#0E7C66" opacity=".5">
+<animate attributeName="r" values="9;30" dur="2.8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".5;0" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="150" y="158" text-anchor="middle" fill="#EDF1F5" font-family="Space Grotesk,sans-serif"
+ font-size="13" font-weight="600">Desio</text></svg></div>
+<div class="rv d1"><h2>Da Desio a tutta la provincia.</h2>
+<p class="lead" style="margin-top:18px">Base a Desio, interventi in provincia di Monza e Brianza e nei comuni
+limitrofi. Se il vostro paese non è in elenco, chiedete comunque: quasi sempre si arriva.</p>
+<div class="zones"><a href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20informazioni&amp;body=Buongiorno%2C%0Ascrivo%20da%20Desio.%0A%0A" class="hi">Desio</a>
+<a href="#contatti">Monza</a><a href="#contatti">Comuni limitrofi</a></div>
+<p class="note">Qui va l'elenco dei comuni serviti davvero: mandateceli e li inseriamo.</p>
+</div></div></div></section>
+<section class="sec" style="background:var(--bg2)"><div class="wrap">
+<div class="sv-head rv"><h2>Le parole dei clienti valgono più delle nostre.</h2></div>
+<div class="revs"><div class="rev rv d1"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d2"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div><div class="rev rv d3"><div class="stars"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></div>
+<p>Spazio pronto per la recensione.</p>
+<div class="who"><div class="av">—</div><div><b>Nome cliente</b><span>Recensione da inserire</span></div></div></div></div>
+<p class="note rv">Sezione pronta: appena arrivano le prime recensioni Google le inseriamo qui. Nessun testo inventato.</p>
+</div></section>
+<section class="sec" id="faq"><div class="wrap"><div class="faq">
+<div class="sv-head rv" style="margin-bottom:26px"><h2>Quello che ci chiedono più spesso.</h2></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Quanto costa rifare un bagno?</span><i></i></button><div class="q-a"><p>Dipende da metratura, scarichi esistenti e finiture scelte. Dopo il sopralluogo vi diamo un preventivo scritto con le voci separate, così vedete dove si può risparmiare.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Fate interventi urgenti?</span><i></i></button><div class="q-a"><p>Sì, per perdite e allagamenti cerchiamo di arrivare in giornata. Scriveteci indicando zona e cosa sta succedendo.</p></div></div><div class="q rv d3"><button class="q-h" aria-expanded="false">
+<span>Il sopralluogo è gratuito?</span><i></i></button><div class="q-a"><p>Sì, sopralluogo e preventivo sono gratuiti e senza impegno.</p></div></div><div class="q rv d4"><button class="q-h" aria-expanded="false">
+<span>Quanto dura il cantiere di un bagno?</span><i></i></button><div class="q-a"><p>In genere una o due settimane, a seconda di demolizioni e tempi di posa delle piastrelle. Ve lo indichiamo nel preventivo.</p></div></div><div class="q rv d1"><button class="q-h" aria-expanded="false">
+<span>Rilasciate documentazione?</span><i></i></button><div class="q-a"><p>Sì, a fine lavori consegniamo la dichiarazione di conformità dove prevista, insieme alle schede dei materiali.</p></div></div><div class="q rv d2"><button class="q-h" aria-expanded="false">
+<span>Lavorate anche su condomini?</span><i></i></button><div class="q-a"><p>Sì, comprese colonne di scarico e interventi su parti comuni, coordinandoci con l&#x27;amministratore.</p></div></div></div></div></section>
+<section class="sec" id="contatti" style="padding-top:0"><div class="wrap">
+<div class="cta rv"><div class="cta-in"><div>
+<span class="eyebrow">Contatti</span>
+<h2>Raccontateci il lavoro.<br>Il preventivo è gratis.</h2>
+<p class="lead" style="margin-top:16px">Due righe bastano per partire. Se avete una foto della situazione,
+allegatela: si capisce subito di cosa c'è bisogno.</p>
+<div class="cta-btns"><a href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Desio%0AGrazie." class="btn btn-p btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> amministrazione@wishtechsolution.it</a>
+<a data-wa="Ciao Wish Tech Solution srl, vorrei un preventivo gratuito." href="#" class="btn btn-wa btn-lg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4A3.6 3.6 0 0 0 5.8 9c0 1.6 1.2 3.1 1.3 3.3.2.2 2.3 3.5 5.6 4.9 3.2 1.3 3.2.9 3.8.8.6 0 1.9-.7 2.1-1.5.3-.8.3-1.4.2-1.6l-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg> Scrivi su WhatsApp</a></div>
+</div><div class="info">
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+<div><b>Wish Tech Solution srl</b><span>Desio (MB) — indirizzo da confermare</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div><div><b>Email</b><span>amministrazione@wishtechsolution.it</span></div></div>
+<div class="irow"><div class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+<div><b>Orari</b><span>Da confermare · Si risponde anche fuori orario</span></div></div>
+</div></div></div></div></section>
+<footer><div class="wrap"><div class="f-top"><div><a href="#top" class="logo" aria-label="Wish Tech Solution"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><defs><linearGradient id="mg25334" x1="4" y1="4" x2="44" y2="44"><stop stop-color="#0E7C66"/><stop offset="1" stop-color="#0A4A3D"/></linearGradient></defs><rect x="1.5" y="1.5" width="45" height="45" rx="10" fill="none" stroke="url(#mg25334)" stroke-width="2"/><text x="24" y="24" text-anchor="middle" dominant-baseline="central" fill="url(#mg25334)" font-family="inherit" font-size="17" font-weight="700" letter-spacing="-.5">WT</text></svg><span class="logo-w"><span class="logo-t">Wish Tech Solution</span><span class="logo-s">Impianti idraulici e sanitari</span></span></a>
+<p>Impianti idraulici e sanitari a Desio e in provincia di Monza e Brianza.</p></div>
+<div class="f-col"><h4>Servizi</h4><a href="#servizi">Rifacimento completo del bagno</a><a href="#servizi">Ricerca perdite</a><a href="#servizi">Sostituzione sanitari</a><a href="#servizi">Scarichi e colonne di scarico</a><a href="#servizi">Impianto idrico nuovo</a><a href="#servizi">Autoclave e pressione</a></div>
+<div class="f-col"><h4>Contatti</h4><a href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Desio%0AGrazie.">amministrazione@wishtechsolution.it</a>
+<span>Desio (MB)</span><span>Orari da confermare</span></div></div>
+<div class="f-bot"><span>© <span id="yy">2026</span> Wish Tech Solution srl — Desio (MB)</span>
+<span>Bozza realizzata da <a href="#top">Umbra</a></span></div></div></footer>
+<a class="fab" id="fab" href="mailto:amministrazione@wishtechsolution.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%0Avorrei%20un%20preventivo%20per%3A%0A%0A%0AZona%3A%20Desio%0AGrazie." aria-label="Scrivici una mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+<div class="lb" id="lb"><button class="lb-x" aria-label="Chiudi">×</button>
+<figure><div class="lb-art"></div><figcaption></figcaption></figure></div>
+<script>
+(function(){
+  var RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* header + progress + fab */
+  var hd=document.getElementById('hd'), prg=document.getElementById('prg'),
+      fab=document.getElementById('fab'), tick=false;
+  function onScroll(){
+    var y=scrollY, h=document.body.scrollHeight-innerHeight;
+    hd.classList.toggle('on', y>24);
+    prg.style.width=(h>0? (y/h*100):0)+'%';
+    if(fab) fab.classList.toggle('on', y>620);
+    tick=false;
+  }
+  addEventListener('scroll',function(){ if(!tick){requestAnimationFrame(onScroll);tick=true;} },{passive:true});
+  onScroll();
+
+  /* drawer */
+  var bg=document.getElementById('bg'), dw=document.getElementById('dw');
+  if(bg) bg.onclick=function(){ dw.classList.toggle('open'); document.body.style.overflow=dw.classList.contains('open')?'hidden':''; };
+  if(dw) dw.querySelectorAll('a').forEach(function(a){ a.onclick=function(){ dw.classList.remove('open'); document.body.style.overflow=''; }; });
+
+  /* reveal */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.14, rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+  /* hero parallax legato allo scroll */
+  var art=document.querySelector('.hero-art');
+  if(art && !RM){
+    addEventListener('scroll',function(){
+      var y=scrollY;
+      if(y<innerHeight*1.2){
+        art.style.transform='translate3d(0,'+(y*.22)+'px,0) scale('+(1+y/innerHeight*.09)+')';
+        art.style.opacity=Math.max(0,1-y/innerHeight*.75);
+      }
+    },{passive:true});
+  }
+
+  /* contatori */
+  var co=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      co.unobserve(e.target);
+      var el=e.target, to=parseFloat(el.dataset.count)||0, sfx=el.dataset.suffix||'', t0=null, D=1500;
+      if(RM){ el.textContent=to+sfx; return; }
+      requestAnimationFrame(function step(t){
+        if(!t0)t0=t;
+        var p=Math.min(1,(t-t0)/D), e2=1-Math.pow(1-p,3);
+        el.textContent=Math.round(to*e2)+sfx;
+        if(p<1) requestAnimationFrame(step);
+      });
+    });
+  },{threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(function(el){ co.observe(el); });
+
+  /* faq */
+  document.querySelectorAll('.q-h').forEach(function(b){
+    b.onclick=function(){
+      var q=b.parentElement, a=q.querySelector('.q-a'), open=q.classList.contains('open');
+      document.querySelectorAll('.q.open').forEach(function(o){
+        o.classList.remove('open'); o.querySelector('.q-a').style.maxHeight=null;
+        o.querySelector('.q-h').setAttribute('aria-expanded','false');
+      });
+      if(!open){ q.classList.add('open'); a.style.maxHeight=a.scrollHeight+'px';
+        b.setAttribute('aria-expanded','true'); }
+    };
+  });
+
+  /* prima/dopo */
+  var ba=document.querySelector('.ba');
+  if(ba){
+    var top=ba.querySelector('.ba-top'), hnd=ba.querySelector('.ba-h'), drag=false, played=false;
+    function set(p){ p=Math.max(2,Math.min(98,p));
+      top.style.clipPath='inset(0 '+(100-p)+'% 0 0)'; hnd.style.left=p+'%'; }
+    function fromEvt(e){ var r=ba.getBoundingClientRect(),
+      x=(e.touches?e.touches[0].clientX:e.clientX)-r.left; set(x/r.width*100); }
+    ba.addEventListener('pointerdown',function(e){drag=true;ba.setPointerCapture(e.pointerId);fromEvt(e);});
+    ba.addEventListener('pointermove',function(e){ if(drag) fromEvt(e); });
+    ba.addEventListener('pointerup',function(){drag=false;});
+    ba.addEventListener('pointercancel',function(){drag=false;});
+    new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting||played||RM) return; played=true;
+        var t0=null;
+        requestAnimationFrame(function s(t){ if(!t0)t0=t;
+          var p=Math.min(1,(t-t0)/1900), e2=1-Math.pow(1-p,3);
+          set(50+Math.sin(e2*Math.PI*1.5)*40);
+          if(p<1) requestAnimationFrame(s); else set(50);
+        });
+      });
+    },{threshold:.45}).observe(ba);
+  }
+
+  /* lightbox */
+  var lb=document.getElementById('lb');
+  if(lb){
+    var lba=lb.querySelector('.lb-art'), lbc=lb.querySelector('figcaption');
+    document.querySelectorAll('.gi').forEach(function(g){
+      g.onclick=function(){
+        lba.innerHTML=g.querySelector('.ph').outerHTML;
+        lbc.textContent=g.querySelector('figcaption').textContent;
+        lb.classList.add('on'); document.body.style.overflow='hidden';
+      };
+    });
+    function close(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+    lb.onclick=close;
+    addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  }
+
+  /* foto gia' in cache: onload puo' non scattare, le sblocco a mano */
+  document.querySelectorAll('.ph.q>img').forEach(function(i){
+    if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+  });
+  addEventListener('load', function(){
+    document.querySelectorAll('.ph.q>img').forEach(function(i){
+      if(i.complete && i.naturalWidth > 0) i.parentNode.classList.add('on');
+    });
+  });
+
+  /* anno */
+  var yy=document.getElementById('yy'); if(yy) yy.textContent=new Date().getFullYear();
+
+  /* WhatsApp: i bottoni compaiono solo se WA e' valorizzato in testa al file */
+  if(!window.WA_NUM){
+    document.querySelectorAll('[data-wa]').forEach(function(el){ el.remove(); });
+  } else {
+    document.querySelectorAll('[data-wa]').forEach(function(el){
+      el.href='https://wa.me/'+window.WA_NUM+'?text='+encodeURIComponent(el.dataset.wa);
+    });
+  }
+})();
+</script>
+</body>
+</html>
